@@ -1,0 +1,259 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Histórico} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Histórico
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Histórico
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Histórico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A recuperação está no cerne da produção de petróleo de reservatórios subterrâneo
+s.
+ Se a média mundial do fator de recuperação de reservatórios de hidrocarbonetos
+ pode ser aumentado além dos limites atuais, isto irá aliviar uma série
+ de questões relacionadas ao suprimento global de energia.
+ Atualmente, a produção diária de petróleo vem de campos de petróleo maduros
+ ou em maturação e a reposição de reservas não está acompanhando a crescente
+ demanda por energia.
+ O fator de recuperação médio mundial de reservatórios de hidrocarbonetos
+ está estagnado na faixa de 30%.
+ Esse desafio se torna uma oportunidade para tecnologias avançadas de recuperaçã
+o de óleo secundária e avançada (EOR) que podem mitigar o equilíbrio entre
+ demanda e oferta.
+ 
+\end_layout
+
+\begin_layout Standard
+A implementação do EOR está intimamente ligada ao preço do petróleo e economia
+ geral.
+ A EOR é intensiva em capital e recursos, e caro, principalmente devido
+ aos altos custos de injeção.
+ O momento da EOR também é importante: um caso é feito em que tecnologias
+ de recuperação secundária são uma primeira opção melhor antes da implantação
+ em campo total da EOR.
+ A realização do potencial EOR só pode ser alcançada por meio de compromissos
+ de longo prazo, tanto em capital quanto em recursos humanos, uma visão
+ de se esforçar para a recuperação final do petróleo em vez de recuperação
+ imediata de óleo, pesquisa e desenvolvimento, e  disposição para assumir
+ riscos.
+ Enquanto as tecnologias EOR cresceram ao longo dos anos, desafios significativo
+s permanecem.
+ Alguns dos habilitadores para EOR também são discutidos neste artigo.
+\end_layout
+
+\begin_layout Section
+Produção Mundial
+\end_layout
+
+\begin_layout Standard
+A produção mundial total de petróleo da EOR manteve-se relativamente nivelada
+ ao longo dos anos, contribuindo com cerca de 3 milhões de barris de petróleo
+ por dia (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Taxas-de-produção"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), em comparação com ~ 85 milhões de barris de produção diária, ou cerca
+ de 3,5 por cento da produção diária.
+ A maior parte dessa produção é proveniente de métodos térmicos, contribuindo
+ com cerca de 2 milhões de barris de petróleo por dia.
+ Isso inclui o petróleo pesado canadense (Alberta), Califórnia (Bakersfield),
+ Venezuela, Indonésia, Omã, China e outros.
+ CO2- EOR, que tem aumentado recentemente, contribui com cerca de um terço
+ de um milhão de barris de petróleo por dia, principalmente da Bacia do
+ Permian nos EUA e do campo de Weyburn no Canadá.
+ A injeção de gás hidrocarboneto contribui com outro terço de um milhão
+ de barris por dia de projetos na Venezuela,os EUA (principalmente Alasca),
+ Canadá e Líbia.
+ A injeção de gás hidrocarboneto é principalmente implementada onde o fornecimen
+to de gás não pode ser monetizado.
+ A produção do EOR químico é praticamente toda da China, com a produção
+ mundial total de outro terço de um milhão de barris por dia.
+ Outros métodos mais esotéricos, como o microbiano, só foram testados em
+ campo, sem que nenhuma quantidade significativa fosse produzida em escala
+ comercial.
+ Esses números foram retirados da literatura da SPE, Oil and Gas Journal3
+ e outras fontes, e provavelmente são um pouco conservadores porque alguns
+ dos projetos não são relatados, especialmente os novos.
+ Uma estimativa melhor da produção total da EOR será cerca de 10-20 por
+ cento mais alta do que os 3 milhões por dia citados acima.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/1- produção_mundial.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Taxas de produção EOR mundiais (Oil & Gas Journal, SPE)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Taxas-de-produção"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

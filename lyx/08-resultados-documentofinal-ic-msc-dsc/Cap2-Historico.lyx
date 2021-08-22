@@ -1,0 +1,675 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Histórico} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Histórico
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Histórico
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Histórico"
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+texto tirado do artigo - EOR-_Challenges_and_opportunities_PAPER_1-with-cover-pa
+ge-v2.en.pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A recuperação está no cerne da produção de petróleo de reservatórios subterrâneo
+s.
+ Se a média mundial do fator de recuperação de reservatórios de hidrocarbonetos
+ pode ser aumentado além dos limites atuais, isto irá aliviar uma série
+ de questões relacionadas ao suprimento global de energia.
+ Atualmente, a produção diária de petróleo vem de campos de petróleo maduros
+ ou em maturação e a reposição de reservas não está acompanhando a crescente
+ demanda por energia.
+ O fator de recuperação médio mundial de reservatórios de hidrocarbonetos
+ está estagnado na faixa de 30%.
+ Esse desafio se torna uma oportunidade para tecnologias avançadas de recuperaçã
+o de óleo secundária e avançada (EOR) que podem mitigar o equilíbrio entre
+ demanda e oferta.
+ 
+\end_layout
+
+\begin_layout Standard
+A implementação do EOR está intimamente ligada ao preço do petróleo e economia
+ geral.
+ A EOR é intensiva em capital e recursos, e caro, principalmente devido
+ aos altos custos de injeção.
+ O momento da EOR também é importante: um caso é feito em que tecnologias
+ de recuperação secundária são uma primeira opção melhor antes da implantação
+ em campo total da EOR.
+ A realização do potencial EOR só pode ser alcançada por meio de compromissos
+ de longo prazo, tanto em capital quanto em recursos humanos, uma visão
+ de se esforçar para a recuperação final do petróleo em vez de recuperação
+ imediata de óleo, pesquisa e desenvolvimento, e  disposição para assumir
+ riscos.
+ Enquanto as tecnologias EOR cresceram ao longo dos anos, desafios significativo
+s permanecem.
+ Alguns dos habilitadores para EOR também são discutidos neste artigo.
+\end_layout
+
+\begin_layout Section
+Produção Mundial
+\end_layout
+
+\begin_layout Standard
+A produção mundial total de petróleo da EOR manteve-se relativamente nivelada
+ ao longo dos anos, contribuindo com cerca de 3 milhões de barris de petróleo
+ por dia (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Taxas-de-produção"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), em comparação com ~ 85 milhões de barris de produção diária, ou cerca
+ de 3,5 por cento da produção diária.
+ A maior parte dessa produção é proveniente de métodos térmicos, contribuindo
+ com cerca de 2 milhões de barris de petróleo por dia.
+ Isso inclui o petróleo pesado canadense (Alberta), Califórnia (Bakersfield),
+ Venezuela, Indonésia, Omã, China e outros.
+ CO2- EOR, que tem aumentado recentemente, contribui com cerca de um terço
+ de um milhão de barris de petróleo por dia, principalmente da Bacia do
+ Permian nos EUA e do campo de Weyburn no Canadá.
+ A injeção de gás hidrocarboneto contribui com outro terço de um milhão
+ de barris por dia de projetos na Venezuela,os EUA (principalmente Alasca),
+ Canadá e Líbia.
+ A injeção de gás hidrocarboneto é principalmente implementada onde o fornecimen
+to de gás não pode ser monetizado.
+ A produção do EOR químico é praticamente toda da China, com a produção
+ mundial total de outro terço de um milhão de barris por dia.
+ Outros métodos mais esotéricos, como o microbiano, só foram testados em
+ campo, sem que nenhuma quantidade significativa fosse produzida em escala
+ comercial.
+ Esses números foram retirados da literatura da SPE, Oil and Gas Journal
+ e outras fontes, e provavelmente são um pouco conservadores porque alguns
+ dos projetos não são relatados, especialmente os novos.
+ Uma estimativa melhor da produção total da EOR será cerca de 10-20 por
+ cento mais alta do que os 3 milhões por dia citados acima.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/1- produção_mundial.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Taxas de produção EOR mundiais (Oil & Gas Journal, SPE)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Taxas-de-produção"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Status atual do EOR
+\end_layout
+
+\begin_layout Standard
+A média global ou fator de recuperação agregado do petróleo reservatórios
+ é cerca de um terço.
+ Isso é considerado baixo e deixa uma quantidade substancial de petróleo
+ no subsolo.
+ Um esforço global já está em andamento há algum tempo para aumentar esse
+ número e uma das razões para o seu fracasso é a relação entre o preço do
+ petróleo e disponibilidade de recursos.
+ A figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Preço-do-petróleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, da International Energy Agency, mostra a ligação entre custo de produção
+ e petróleo recursos e o custo de convertê-los em reservas.
+\end_layout
+
+\begin_layout Standard
+O injetante mais barato para a produção de óleo é a água.
+ Enquanto as empresas puderem produzir óleo injetando água, vão continuar
+ fazendor isso.
+ Outros ~ 2 trilhões de barris de petróleo podem ser produzidos com o preço
+ do petróleo abaixo de US $ 40 (2008 $) por barril.
+ Muitas das tecnologias EOR entram em ação quando o preço do petróleo estava
+ entre US $ 20-80 por barril.
+ No início dos anos 1980, houve uma tremenda interesse gerado no EOR devido
+ à escalada do preço do petróleo.
+ O número de projetos EOR e investimento em P&D atingiu o pico em 1986.
+ O interesse diminuiu na década de 1990 e no início de 2000 com um colapso
+ do preço do petróleo.
+ Um interesse renovado e crescente tem se firmado nos últimos 5 anos, já
+ que o preço do petróleo aumentou novamente.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Projetos-EOR-e"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra esta relação entre projetos de EOR e preço do petróleo.
+ Existe uma defasagem entre o preço do petróleo e Projetos EOR.
+ Na última escalada de preços, o interesse estava principalmente em os EUA,
+ mas desta vez o interesse em projetos EOR é global.
+ 
+\end_layout
+
+\begin_layout Standard
+Além da ligação da EOR com o preço do petróleo, os projetos são geralmente
+ complexo, de alta tecnologia e requer capital considerável riscos de investimen
+to e financeiros.
+ Os riscos são agravados com as flutuações do preço do petróleo.
+ Os custos unitários do óleo EOR são substancialmente mais elevados do que
+ os secundários ou convencionais óleo.
+ Outro desafio para projetos EOR é o longo tempo de espera necessários para
+ tais projetos.
+ Normalmente, pode demorar vários décadas desde o início do laboratório
+ de geração de conceito dados e realização de estudos de simulação - para
+ o primeiro piloto e finalmente, a comercialização plena.
+ Dois exemplos são dados aqui, um cada um para projetos térmicos (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Período-da-EOR:"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) e injeção de gás miscível (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Período-da-EOR:-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Embora tenha havido alguma discussão na literatura de aplicar ou implantar
+ EOR em um estágio inicial de um reservatório vida, isso geralmente é difícil,
+ e não necessariamente a melhor opção, devido aos riscos envolvidos e à
+ falta de disponibilidade de dados, isso pode facilmente obtido durante
+ o estágio secundário de recuperação.
+\end_layout
+
+\begin_layout Standard
+Os dois métodos EOR mais populares, conforme discutido abaixo, são injeção
+ térmica (vapor) e miscível de gás, que são tecnologias maduras
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+O QUE SÃO TECNOLOGIAS MADURAS
+\end_layout
+
+\end_inset
+
+.
+ Na EOR química, a injeção de polímero está atingindo o status comercial
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maturidade-e-implantação"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ A injeção de gás ácido, a combustão in-situ (incluindo a mais nova injeção
+ de ar de alta pressão (HPAI)) e a combinação de inundação química ainda
+ estão em estágio de desenvolvimento de tecnologia.
+ Tecnologias microbianas, híbridas e outras tecnologias inovadoras estão
+ em fase de P&D.
+ Isso complica e restringe a aplicação de EOR para um determinado campo.
+ Se os métodos de injeção térmica e miscível de gás forem aplicáveis a um
+ determinado reservatório, a decisão de seguir em frente será um pouco mais
+ fácil.
+ Caso contrário, a decisão é mais difícil e depende da disponibilidade do
+ injetável, da economia e de outros fatores discutidos anteriormente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/2-Custo_de_producao.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Preço do petróleo e disponibilidade de recursos
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Preço-do-petróleo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/3-projetos_custo.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Projetos EOR e correlação do preço do petróleo 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Projetos-EOR-e"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/4-timing_EOR.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Período da EOR: Cold Lake - Canadá
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Período-da-EOR:"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/5-weyburn.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Período da EOR: projeto Weyburn no Canadá
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Período-da-EOR:-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/6-Maturity.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maturidade e implantação de IOR / EOR 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maturidade-e-implantação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+EOR térmico 
+\end_layout
+
+\begin_layout Standard
+Os métodos EOR térmicos são geralmente aplicáveis a pesados, viscosos e
+ envolvem a introdução de energia térmica ou calor no reservatório para
+ aumentar a temperatura do óleo e reduzir sua viscosidade.
+ Injeção de vapor (ou água quente) e a combustão in situ são os métodos
+ populares de recuperação térmica.
+ Três métodos comuns envolvendo injeção de vapor são cíclicos estimulação
+ de vapor (huff e puff), inundação de vapor e vapor drenagem por gravidade
+ assistida (SAGD).
+ A combustão in situ envolve a injeção de ar, onde o óleo é inflamado, gera
+ calor internamente e também produz gases de combustão, que melhorar a recuperaç
+ão.
+\end_layout
+
+\begin_layout Standard
+A injeção de vapor tem sido mais popular em óleo pesado reservatórios de
+ areia com projetos em andamento em Alberta (Canadá), Venezuela, Califórnia,
+ Indonésia, a ex-União Soviética e Oman.
+ Menores (pequenos testes comerciais ou de campo) foram relatado no Brasil,
+ China, Trinidad e Tobago e outros países.
+ SAGD tem sido mais popular nas areias betuminosas e crudes extrapesados
+ de Alberta, e testados na Venezuela com sucesso limitado.
+ Várias versões híbridas do SAGD têm foram relatados, mas permanecem apenas
+ nos níveis de teste de campo.
+ 
+\end_layout
+
+\begin_layout Standard
+Projetos de combustão in-situ, não tão populares como o injeção de vapor,
+ foram relatadas no Canadá, Índia, Romênia e os EUA.
+ Tem sido aplicado principalmente a arenito de óleo pesado reservatórios.
+ Uma nova versão, HPAI, para crudes leves foi ganhando popularidade nos
+ últimos 10 anos e programas potencial, especialmente em óleos leves e carbonato
+ de baixa permeabilidade reservatórios.
+ Vários projetos têm se concentrado no noroeste dos EUA e México também
+ estão considerando HPAI para um de seus campos.
+ O futuro dos métodos térmicos é talvez o mais brilhante para os recursos
+ mais difíceis de petróleo pesado e areias betuminosas.
+ Atualmente, o SAGD está sendo aplicado principalmente em Alberta e em vários
+ híbridos tecnologias (por exemplo, injeção de solvente com vapor) estão
+ sendo testado.
+ Esta tecnologia está pronta para ser aplicada em outras partes do mundo.
+ A injeção de ar, se controlada e compreendida, também pode têm aplicações
+ em reservatórios de óleo leve como o fornecimento de injetantes é abundante.
+ A inundação de vapor também foi testada com sucesso em reservatórios de
+ óleo leve que satisfaçam certos critérios de profundidade <3.000 pés, produto
+ de porosidade de saturação de óleo> 0,1).
+\end_layout
+
+\end_body
+\end_document

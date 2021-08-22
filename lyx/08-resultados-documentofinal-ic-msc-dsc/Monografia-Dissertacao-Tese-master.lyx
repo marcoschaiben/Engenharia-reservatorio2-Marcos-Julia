@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -44,6 +44,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -86,6 +88,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Índice
 \shortcut idx
 \color #008000
@@ -100,7 +103,10 @@
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -331,7 +337,7 @@ filename "Cap-Nomenclatura.lyx"
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap-ResumoAbstract.lyx"
+filename "Cap2-Historico.lyx"
 
 \end_inset
 
@@ -363,7 +369,7 @@ qual o escopo do problema e os objetivos.
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap2-RevisaoBibliografica.lyx"
+filename "Cap2-Historico.lyx"
 
 \end_inset
 
@@ -503,6 +509,7 @@ rhead{}
 \noindent
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
+btprint "btPrintCited"
 bibfiles "bibliografia"
 options "plain"
 
@@ -602,6 +609,8 @@ Some aí um bom documento de apresentação, com apresentação bem ensaiada,
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"
+name "Índice"
+literal "true"
 
 \end_inset
 

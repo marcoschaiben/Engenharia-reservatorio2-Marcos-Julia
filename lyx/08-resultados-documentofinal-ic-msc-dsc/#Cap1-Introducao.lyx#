@@ -1,0 +1,318 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introdução
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Introdução
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+rhead{}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+introdução tirada ARQUIVO TCC_DanielGomes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No início da produção, muitos campos de petróleo possuem certa quantidade
+ de energia suficiente para que os fluidos contidos sejam produzidos.
+ Essa energia é denominada de energia natural, e está relacionada com os
+ mecanismos de produção original tais como: gás em solução, influxo de água
+ e capa de gás.
+ Esta energia sofre um processo de depletação natural, devido à retirada
+ e descompressão dos fluidos contidos no reservatório, e pelas resistências
+ associadas às forças viscosas e tensões interfaciais durante o escoamento
+ no meio poroso.
+ Isso será refletido basicamente em dois aspectos: decréscimo de pressão
+ e redução de produtividade (Musse e Quintella, 2009).
+\end_layout
+
+\begin_layout Standard
+Os reservatórios, cujos mecanismos são pouco eficientes e que por consequência
+ retêm grandes quantidades de hidrocarbonetos após a exaustão da sua energia
+ natural, são fortes candidatos ao emprego de uma série de processos que
+ visam à obtenção de uma recuperação adicional (Thomas, 2004, p.
+ 200) com o intuito de minimizar os efeitos da dissipação de energia do
+ reservatório e de uma maneira geral interferir nas características do reservató
+rio que favoreceram a retenção exagerada de óleo.
+ Esses processos são chamados de Métodos de Recuperação, que podem atuar
+ em duas linhas gerais: suplementar a energia através da injeção de fluidos
+ em determinados poços; reduzir as resistências viscosas e/ou capilares
+ por métodos especiais.
+ Esses métodos de recuperação foram desenvolvidos para se obter uma produção
+ maior do que aquela que se obteria, caso apenas a energia natural do reservatór
+io fosse utilizada (Musse e Quintella, 2009; Thomas, 2004).
+\end_layout
+
+\begin_layout Standard
+Pode-se dizer que um método de recuperação avançada, “enhanced oil recovery”
+ (EOR) em inglês, é empregado para atuar nos pontos onde o processo convencional
+ falhou, ou falharia caso fosse empregado.
+ As baixas recuperações resultantes de um processo convencional de injeção
+ de fluidos podem ser creditadas basicamente a dois aspectos principais:
+ alta viscosidade do óleo do reservatório e elevadas tensões interfaciais
+ entre o fluido injetado e o óleo (Thomas, 2004, p.
+ 205).
+ 
+\end_layout
+
+\begin_layout Standard
+Quando a viscosidade do fluido injetado é muito menor que a do fluido a
+ ser deslocado, o primeiro se move muito mais facilmente no meio poroso,
+ encontrando caminhos preferenciais e se dirigindo rapidamente para os poços
+ de produção.
+ O óleo fica retido porque o fluido injetado não se propaga adequadamente
+ no reservatório, ficando grandes volumes de rocha nos quais o deslocamento
+ não se processou.
+ No caso de altas tensões interfaciais, a capacidade do fluido injetado
+ de desalojar o óleo do reservatório para fora dos poros é bastante reduzida,
+ deixando saturações residuais elevadas de óleo nas regiões já contactadas
+ pelo fluido injetado (Thomas, 2004, p.
+ 205).
+ 
+\end_layout
+
+\begin_layout Standard
+As duas situações acima definem a forma de atuação dos métodos de recuperação
+ avançada e com base na literatura são o ponto de partida para a sua distribuiçã
+o em três grandes grupos: Métodos Térmicos, Métodos Miscíveis e Métodos
+ Químicos, de acordo com a natureza geral dos processos e o ponto principal
+ a ser atacado.
+ Esta classificação não é única e existem alguns processos que poderiam
+ estar incluídos em uma ou outra categoria (Thomas, 2004, p.
+ 205).
+\end_layout
+
+\begin_layout Standard
+A escolha do método depende de fatores como as características do reservatório,
+ natureza do óleo, quantidade de óleo “in place”, evolução do campo de acordo
+ com a produção passada.
+ Essas diversidades, levam ao desenvolvimento de diferentes processos de
+ recuperação avançada, que devem ser considerados para implementação.
+ Embora alguns métodos de recuperação avançada tenham sido aplicados com
+ sucesso em campos de petróleo (van Poolen, 1980), a sua aplicabilidade
+ tem sido pesadamente penalizada pelos altos custos de investimentos com
+ produtos químicos injetados e equipamentos.
+ A redução desses custos é uma das principais metas para a ampla aplicação
+ dessa tecnologia.
+\end_layout
+
+\begin_layout Standard
+Em reservatórios cujos óleos são muito viscosos, a utilização de um processo
+ convencional de recuperação fatalmente resulta em insucesso.
+ A alta viscosidade do óleo dificulta o seu movimento dentro do meio poroso,
+ enquanto que o fluido injetado, água ou gás, tem uma mobilidade muito maior,
+ resultando em baixas eficiências de varrido e por consequência uma recuperação
+ normalmente muito baixa (Thomas, 2004, p.
+ 205).
+ 
+\end_layout
+
+\begin_layout Standard
+A constatação de que, ao ser aquecido, o óleo tem a sua viscosidade substancialm
+ente reduzida foi o ponto de partida para o desenvolvimento dos métodos
+ térmicos, que será o objeto de estudo para este trabalho.
+ O desenvolvimento inicial dos métodos térmicos buscava a redução da viscosidade
+ do óleo através do seu aquecimento para aumentar a recuperação de petróleo.
+ Á medida que outros efeitos igualmente benéficos foram aparecendo, os processos
+ foram se modificando, resultando nos diversos tipos de métodos que se tem
+ atualmente (Thomas, 2004, p.
+ 205).
+\end_layout
+
+\begin_layout Standard
+Há dois tipos de métodos térmicos que diferem na maneira como é feito o
+ aquecimento do fluido do reservatório.
+ Em um deles o calor é gerado na superfície e em seguida transportado para
+ o interior da formação, utilizando-se de um fluido.
+ É chamado de Injeção de Fluidos Aquecidos.
+ No outro grupo o calor é gerado no interior do próprio reservatório a partir
+ da combustão de parte do óleo ali existente.
+ Este segundo processo é chamado Combustão 
+\begin_inset Quotes eld
+\end_inset
+
+in situ
+\begin_inset Quotes erd
+\end_inset
+
+ (Thomas, 2004, p.
+ 206).
+\end_layout
+
+\begin_layout Standard
+Na injeção de fluidos aquecidos utiliza-se a água como meio para transportar
+ o calor da superfície até o reservatório.
+ A água é normalmente injetada na forma de vapor, mas pode também ser injetada
+ a uma temperatura elevada, porém ainda no estado líquido.
+ Temos, portanto, dois tipos de processos, a Injeção de Vapor e a Injeção
+ de Água Quente (Thomas, 2004, p.
+ 206).
+ 
+\end_layout
+
+\begin_layout Standard
+Na combustão in situ, se inicia por meio de uma injeção de ar aquecido,
+ um processo de oxidação do óleo que vai gerando calor, que por sua vez
+ intensifica a oxidação num processo crescente até se chegar a uma temperatura
+ chamada “ponto de ignição”, a partir do qual está estabelecida a combustão.
+ A partir daí, continuando-se a injetar ar frio, o processo tem continuidade.
+ O calor gerado desencadeia processos que resultam no aumento do fator de
+ recuperação (Thomas, 2004, p.
+ 206).
+\end_layout
+
+\end_body
+\end_document
