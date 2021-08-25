@@ -280,7 +280,15 @@ Há dois tipos de métodos térmicos que diferem na maneira como é feito o
  É chamado de Injeção de Fluidos Aquecidos.
  No outro grupo o calor é gerado no interior do próprio reservatório a partir
  da combustão de parte do óleo ali existente.
- Este segundo processo é chamado Combustão in situ (Thomas, 2004, p.
+ Este segundo processo é chamado Combustão 
+\begin_inset Quotes eld
+\end_inset
+
+in situ
+\begin_inset Quotes erd
+\end_inset
+
+ (Thomas, 2004, p.
  206).
 \end_layout
 
@@ -304,10 +312,6 @@ Na combustão in situ, se inicia por meio de uma injeção de ar aquecido,
  O calor gerado desencadeia processos que resultam no aumento do fator de
  recuperação (Thomas, 2004, p.
  206).
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
