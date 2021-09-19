@@ -1,0 +1,167 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{luainputenc}
+\usepackage{amsmath}
+\usepackage{stackrel}
+\usepackage{babel}
+\begin{document}
+
+\part*{Equação da Conservação de Energia}
+
+A equação da conservação de energia adiciona à formulação uma variável
+dependente a mais, a temperatura. A definição para a equação de balanço
+de energia se dá por:
+
+\begin{equation}
+\left\{ \text{Taxa de acúmulo de energia em V}\right\} =\left\{ \text{Tava de energia que entra em V}\right\} +\left\{ \text{Taxa de energia gerada em V}\right\} 
+\end{equation}
+
+onde V é um volume arbitrário. 
+
+Matematicamente, a Equação do balanço de energia pode ser reescrita
+na forma da primeira lei da termodinâmica para sistemas abertos:
+
+\begin{equation}
+\underset{V}{\int}\left[\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}\right]dV=\dot{W}\label{eq:balnco_de_energia}
+\end{equation}
+
+sendo $\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}=$termo
+que representa a energia cinética por unidade de volume total, $\rho U$=
+concentração de energia, $\overrightarrow{E}$= fluxo e $\dot{W}=$termo
+fonte e $\rho=\acute{e}$ a massa específica global.
+\begin{itemize}
+\item \textbf{Fonte ($\dot{W}$)}
+\end{itemize}
+Este desenvolvimento é restrito a casos com ausência de fontes de
+aquecimento externas, logo, o termo $\dot{W}$é formado apenas por
+componentes de trabalho. Assim, serão consideradas apenas a taxa de
+trabalho realizada contra um campo de pressão $\dot{W_{pv}}$ e contra
+um campo gravitacional $\dot{W_{G}}.$Portanto, a taxa de trabalho
+realizada em um fluido em um volume arbitrário V é definida por:
+
+\begin{equation}
+\dot{W}=\dot{W_{pv}}+\dot{W_{G}}
+\end{equation}
+
+Por definição, trabalho ($W)$ é uma medida de energia transferida
+pela aplicação de uma força $(F)$ ao longo de um deslocamento ($d)$:
+
+\begin{equation}
+W=\overrightarrow{F}\text{ x }d
+\end{equation}
+
+\begin{equation}
+\Delta W=F\text{ x }u\label{eq:variacao_trabalho}
+\end{equation}
+
+\begin{equation}
+P=\frac{F}{A}\label{eq:pressa_sobarea}
+\end{equation}
+
+sendo v= a velocidade do deslocamento, P= pressão exercida sob uma
+área A a partir de uma força F. 
+
+Isto posto, considerando um campo de fluxo multifásico e multicomponente
+atravensando $\Delta A$, a partir da Equação \ref{eq:pressa_sobarea}
+na Equação \ref{eq:variacao_trabalho}:
+
+\begin{equation}
+\Delta W_{pv}=-\stackrel[j-1]{N_{p}}{\sum}P_{j}\Delta A\overrightarrow{n}.\overrightarrow{u_{j}}\label{eq:trabalho-pressao}
+\end{equation}
+
+Por conseguinte, pode-se concluir que $P_{j}\Delta A\overrightarrow{n}$
+é a força exercida na superfície $\Delta A$ pela pressão na fase
+j. Além disso, o sinal negativo é adotado por convenção termodinâmica,
+visto que o trabalho realizado $(\dot{\Delta W_{pv}})$ em um elemento
+que passa pelo volume V deve ser positivo..
+
+O trabalho pressão-volume total é dado pela soma da Equação \ref{eq:trabalho-pressao}
+sobre todos os componentes da superfície, entretanto, pelo Teorema
+da Divergência, pode ser escrito como:
+
+\begin{equation}
+W_{pv}=-\underset{V}{\int}\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})dV\label{eq:trabalho_pressao_volume}
+\end{equation}
+
+Já o trabalho contra a gravidade é calculado a partir do produto escalar
+entre a velocidade e o vetor de gravidade $\overset{\rightarrow}{g}$,
+logo, surge um sinal positivo na equação, uma vez que uma fase está
+fluindo contra a gravidade$(\overrightarrow{u_{j}}\overset{\rightarrow}{g}<0)$:
+
+\begin{equation}
+W_{G}=\underset{V}{\int}\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})dV\label{eq:trabalho_gravidade}
+\end{equation}
+
+Substituindo as Equações \ref{eq:trabalho_gravidade} e \ref{eq:trabalho_pressao_volume}
+na Equação \ref{eq:balnco_de_energia}:
+
+\begin{equation}
+\underset{V}{\int}\left[\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})\right]dV=0\label{eq:balnco_de_energia-1}
+\end{equation}
+
+Como o volume V é um volume arbitrário:
+
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:balnco_de_energia-1-1}
+\end{equation}
+
+\begin{itemize}
+\item \textbf{Fluxo de Energia}
+\end{itemize}
+O termo do fluxo de energia é composto pelas contribuições convectivas,
+condutividade térmica e radiação:
+
+\begin{equation}
+\overrightarrow{E}=\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[U_{j}+\frac{1}{2}|u_{j}|^{2}\right]+\overset{\rightarrow}{q_{c}}+\overset{\rightarrow}{q_{r}}\label{eq:flux_energia}
+\end{equation}
+
+Nesse momento, será desprezados o termo referente a radiação e para
+o fluxo multifásico, o fluxo condutivo de calor será definido pela
+Lei de Fourier:
+
+\begin{equation}
+\overset{\rightarrow}{q_{c}}=-k_{T_{t}}\overset{\rightarrow}{\nabla}T\label{eq:conducao}
+\end{equation}
+
+onde $k_{T_{t}}$é a condutividade térmica total e T a temperatura.
+
+Substituindo as Equações \ref{eq:flux_energia} e \ref{eq:conducao}
+na Equação \ref{eq:balnco_de_energia-1-1}:
+
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[U_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:eq_14}
+\end{equation}
+
+Somando o primeiro termo do fluxo por convecção e o primeiro termo
+do trabalho, a Equação \ref{eq:eq_14} será reduzida a:
+
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:eq_15}
+\end{equation}
+
+sendo $H_{j}=U_{j}+p_{j}/\rho_{j}$a entalpia da fase j por unidade
+de massa j. 
+
+Substituindo o vetor gravitacional: $\overrightarrow{g}=-gD_{z}$na
+Equação \ref{eq:eq_15}:
+
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)+gD_{z}\overrightarrow{\nabla}\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\overrightarrow{u_{j}})=0\label{eq:eq_16}
+\end{equation}
+
+Lembrando a Equação da Difusividade:
+
+\begin{equation}
+\frac{\partial(\phi\rho)}{\partial t}=\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\overrightarrow{u_{j}})\label{eq:difusividade}
+\end{equation}
+
+Substituindo a Equação \ref{eq:difusividade} na Equação \ref{eq:eq_16},
+conclui-se a Equação da Conservação de Energia:
+
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
+\end{equation}
+
+\end{document}

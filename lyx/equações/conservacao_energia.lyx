@@ -1,0 +1,658 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+Equação da Conservação de Energia
+\end_layout
+
+\begin_layout Standard
+A equação da conservação de energia adiciona à formulação uma variável dependent
+e a mais, a temperatura.
+ A definição para a equação de balanço de energia se dá por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de acúmulo de energia em V}\right\} =\left\{ \text{Tava de energia que entra em V}\right\} +\left\{ \text{Taxa de energia gerada em V}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde V é um volume arbitrário.
+ 
+\end_layout
+
+\begin_layout Standard
+Matematicamente, a Equação do balanço de energia pode ser reescrita na forma
+ da primeira lei da termodinâmica para sistemas abertos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{V}{\int}\left[\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}\right]dV=\dot{W}\label{eq:balnco_de_energia}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sendo 
+\begin_inset Formula $\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}=$
+\end_inset
+
+termo que representa a energia cinética por unidade de volume total, 
+\begin_inset Formula $\rho U$
+\end_inset
+
+= concentração de energia, 
+\begin_inset Formula $\overrightarrow{E}$
+\end_inset
+
+= fluxo e 
+\begin_inset Formula $\dot{W}=$
+\end_inset
+
+termo fonte e 
+\begin_inset Formula $\rho=é$
+\end_inset
+
+ a massa específica global.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fonte (
+\begin_inset Formula $\dot{W}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Este desenvolvimento é restrito a casos com ausência de fontes de aquecimento
+ externas, logo, o termo 
+\begin_inset Formula $\dot{W}$
+\end_inset
+
+é formado apenas por componentes de trabalho.
+ Assim, serão consideradas apenas a taxa de trabalho realizada contra um
+ campo de pressão 
+\begin_inset Formula $\dot{W_{pv}}$
+\end_inset
+
+ e contra um campo gravitacional 
+\begin_inset Formula $\dot{W_{G}}.$
+\end_inset
+
+Portanto, a taxa de trabalho realizada em um fluido em um volume arbitrário
+ V é definida por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\dot{W}=\dot{W_{pv}}+\dot{W_{G}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por definição, trabalho (
+\begin_inset Formula $W)$
+\end_inset
+
+ é uma medida de energia transferida pela aplicação de uma força 
+\begin_inset Formula $(F)$
+\end_inset
+
+ ao longo de um deslocamento (
+\begin_inset Formula $d)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+W=\overrightarrow{F}\text{ x }d
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta W=F\text{ x }u\label{eq:variacao_trabalho}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+P=\frac{F}{A}\label{eq:pressa_sobarea}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sendo v= a velocidade do deslocamento, P= pressão exercida sob uma área
+ A a partir de uma força F.
+ 
+\end_layout
+
+\begin_layout Standard
+Isto posto, considerando um campo de fluxo multifásico e multicomponente
+ atravensando 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+, a partir da Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pressa_sobarea"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:variacao_trabalho"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta W_{pv}=-\stackrel[j-1]{N_{p}}{\sum}P_{j}\Delta A\overrightarrow{n}.\overrightarrow{u_{j}}\label{eq:trabalho-pressao}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por conseguinte, pode-se concluir que 
+\begin_inset Formula $P_{j}\Delta A\overrightarrow{n}$
+\end_inset
+
+ é a força exercida na superfície 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+ pela pressão na fase j.
+ Além disso, o sinal negativo é adotado por convenção termodinâmica, visto
+ que o trabalho realizado 
+\begin_inset Formula $(\dot{∆W_{pv}})$
+\end_inset
+
+ em um elemento que passa pelo volume V deve ser positivo.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não entendi, marcos kkk explica aí
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O trabalho pressão-volume total é dado pela soma da Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:trabalho-pressao"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ sobre todos os componentes da superfície, entretanto, pelo Teorema da Divergênc
+ia, pode ser escrito como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+W_{pv}=-\underset{V}{\int}\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})dV\label{eq:trabalho_pressao_volume}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Já o trabalho contra a gravidade é calculado a partir do produto escalar
+ entre a velocidade e o vetor de gravidade 
+\begin_inset Formula $\overset{\rightarrow}{g}$
+\end_inset
+
+, logo, surge um sinal positivo na equação, uma vez que uma fase está fluindo
+ contra a gravidade
+\begin_inset Formula $(\overrightarrow{u_{j}}\overset{\rightarrow}{g}<0)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+W_{G}=\underset{V}{\int}\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})dV\label{eq:trabalho_gravidade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:trabalho_gravidade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:trabalho_pressao_volume"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:balnco_de_energia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{V}{\int}\left[\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})\right]dV=0\label{eq:balnco_de_energia-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como o volume V é um volume arbitrário:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\overrightarrow{E}+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:balnco_de_energia-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fluxo de Energia
+\end_layout
+
+\begin_layout Standard
+O termo do fluxo de energia é composto pelas contribuições convectivas,
+ condutividade térmica e radiação:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{E}=\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[U_{j}+\frac{1}{2}|u_{j}|^{2}\right]+\overset{\rightarrow}{q_{c}}+\overset{\rightarrow}{q_{r}}\label{eq:flux_energia}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+O que são cada termo?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nesse momento, será desprezados o termo referente a radiação e para o fluxo
+ multifásico, o fluxo condutivo de calor será definido pela Lei de Fourier:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overset{\rightarrow}{q_{c}}=-k_{T_{t}}\overset{\rightarrow}{\nabla}T\label{eq:conducao}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $k_{T_{t}}$
+\end_inset
+
+é a condutividade térmica total e T a temperatura.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+temperatura transferida? kk
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux_energia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:conducao"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:balnco_de_energia-1-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[U_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)+\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}})-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:eq_14}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Somando o primeiro termo do fluxo por convecção e o primeiro termo do trabalho,
+ a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:eq_14"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ será reduzida a:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)-\stackrel[j=1]{N_{p}}{\sum}\overrightarrow{\nabla}(\rho_{j}\overrightarrow{u_{j}}\overset{\rightarrow}{g})=0\label{eq:eq_15}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sendo 
+\begin_inset Formula $H_{j}=U_{j}+p_{j}/\rho_{j}$
+\end_inset
+
+a entalpia da fase j por unidade de massa j.
+ 
+\end_layout
+
+\begin_layout Standard
+Substituindo o vetor gravitacional: 
+\begin_inset Formula $\overrightarrow{g}=-gD_{z}$
+\end_inset
+
+na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:eq_15"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)+gD_{z}\overrightarrow{\nabla}\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\overrightarrow{u_{j}})=0\label{eq:eq_16}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lembrando a Equação da Difusividade:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial(\phi\rho)}{\partial t}=\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\overrightarrow{u_{j}})\label{eq:difusividade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:difusividade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:eq_16"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, conclui-se a Equação da Conservação de Energia:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

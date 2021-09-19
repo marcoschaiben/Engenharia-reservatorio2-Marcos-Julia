@@ -753,7 +753,7 @@ Uma nova versão, HPAI, para óleos leves, foi ganhando popularidade nos último
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -785,7 +785,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -802,6 +802,43 @@ status open
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-09-02 at 13.43.35.jpeg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Campos brasileiros já submetidos à injeção de vapor ( adaptado da Petrobras).
 \end_layout
 
 \end_inset

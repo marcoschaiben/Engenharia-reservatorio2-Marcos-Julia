@@ -1,0 +1,981 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang brazilian
+Para estudo do fluxo, vamos tomar um elemento de volume representativo do
+ sistema, de comprimento 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ e seção reta A, conforme a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Elemento do Meio poroso"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, seguindo as seguintes premissas:
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazilian
+Fluxo 1D, horizontal, Isotérmico;
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazilian
+Meio Poroso Homogêneo e incompressível (porosidade e permeabilidade constantes);
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazilian
+Fases imiscíveis, incompressíveis e viscosidade constante;
+\end_layout
+
+\begin_layout Itemize
+
+\lang brazilian
+Sem reações químicas e adsorção;
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset Graphics
+	filename Elementodomeioporoso1.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset CommandInset label
+LatexCommand label
+name "Elemento do Meio poroso"
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Elemento do Meio Poroso(Autor)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Como o fluxo é unidirecional na direção x:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial(\rho_{j}S_{j}\phi)}{\partial t}+\frac{\partial\left(\rho_{j}u_{jx}\right)}{\partial x}=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\rho_{j}\phi\frac{\partial(S_{j})}{\partial t}+\rho_{j}\frac{\partial(u_{jx})}{\partial x}=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial(S_{j})}{\partial t}+\frac{\partial(u_{jx})}{\partial x}=0\label{eq:Equação de Buckey Leveret}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+onde 
+\begin_inset Formula $\rho_{j}=$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+massa
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ específica da fase, 
+\begin_inset Formula $S_{j}=$
+\end_inset
+
+Saturação da fase , 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\rho_{s}=$
+\end_inset
+
+massa específica da fase sólida e 
+\begin_inset Formula $u_{jx}$
+\end_inset
+
+= velocidade de Darcy na fase j e na direção x.
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Pela Equação de Transporte de Darcy:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{\pi}=-k\frac{k_{r\pi}}{\mu_{\pi}}\left(\frac{\partial P_{\pi}}{\partial x}-\rho_{\pi}gsen\alpha\right)\label{eq:Lei de Darcy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+sendo 
+\begin_inset Formula $\pi=fase$
+\end_inset
+
+ óleo,o e água , w e 
+\begin_inset Formula $\alpha=ângulo$
+\end_inset
+
+de inclinação do meio poroso;
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{o}=-k\frac{k_{ro}}{\mu_{o}}\left(\frac{\partial P_{o}}{\partial x}-\rho_{o}gsen\alpha\right)\label{eq:velocidade do oleo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=-k\frac{k_{rw}}{\mu_{w}}\left(\frac{\partial P_{w}}{\partial x}-\rho_{w}gsen\alpha\right)\label{eq:velocidade da água}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Como a velocidade total é dada por 
+\begin_inset Formula $u_{t}=u_{o}+u_{w},$
+\end_inset
+
+podemos somar as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:velocidade da água"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:velocidade do oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ , obtemos :
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{t}=-k\frac{k_{rw}}{\mu_{w}}\left(\frac{\partial P_{w}}{\partial x}-\rho_{w}gsen\alpha\right)-k\frac{k_{ro}}{\mu_{o}}\left(\frac{\partial P_{o}}{\partial x}-\rho_{o}gsen\alpha\right)\label{Velocidade total}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Considerando o sistema molhável a água, como mostra na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Distribuição de fluidos preferencialmente pela agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, podemos definir a pressão capilar como:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset Graphics
+	filename Distribuição de fluidos em um sistema molhado preferencialmente pela agua.png
+	lyxscale 50
+	width 15cm
+	height 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset CommandInset label
+LatexCommand label
+name "Distribuição de fluidos preferencialmente pela agua"
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang brazilian
+Distribuição de fluidos em um sistema molhado preferencialmente pela água
+ (Rosa et al, 2016 )
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+P_{c}=P_{o}-P_{w}\label{eq:Pressão capilar}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Definindo a mobilidade como:
+\begin_inset Formula 
+\begin{equation}
+\lambda_{\pi}=k\frac{k_{r\pi}}{\mu_{\pi}}\label{eq:Mobilidade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Para duas faes(o,w):
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\lambda_{o}=k\frac{k_{ro}}{\mu_{o}}\label{eq:Mobilidade-oleo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\lambda_{w}=k\frac{k_{rw}}{\mu_{w}}\label{eq:Mobilidade-agua}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Lembrando que:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\lambda_{t}=\lambda_{o}+\lambda_{w}\label{eq:Mobilidade Total}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+sendo 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda_{t}$
+\end_inset
+
+= mobilidade total , k= permeabilidade , 
+\begin_inset Formula $k_{rw}=$
+\end_inset
+
+permeabilidade relativa da água , 
+\begin_inset Formula $k_{ro}=$
+\end_inset
+
+permeabilidade relativa do óleo , 
+\begin_inset Formula $\mu_{o}=$
+\end_inset
+
+viscosidade do óleo , 
+\begin_inset Formula $\mu_{w}=$
+\end_inset
+
+viscosidade da água, 
+\begin_inset Formula $P_{c}$
+\end_inset
+
+= pressão capilar, 
+\begin_inset Formula $P_{o}=$
+\end_inset
+
+pressão no óleo e 
+\begin_inset Formula $P_{w}=$
+\end_inset
+
+pressão na água.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Somando as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Mobilidade-oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Mobilidade-agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e substituindo na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Velocidade total"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{t}=-\lambda_{w}\left(\frac{\partial P_{w}}{\partial x}-\rho_{w}gsen\alpha\right)-\lambda_{o}\left(\frac{\partial P_{o}}{\partial x}-\rho_{o}gsen\alpha\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Substituindo a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Pressão capilar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{t}=\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial(P_{c}+P_{w})}{\partial x}-\lambda_{w}\frac{\partial P_{w}}{\partial x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{t}=\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}-\lambda_{o}\frac{\partial P_{w}}{\partial x}-\lambda_{w}\frac{\partial P_{w}}{\partial x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{t}=-\lambda_{t}\frac{\partial P_{w}}{\partial x}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Isolando 
+\begin_inset Formula $\frac{\partial P_{w}}{\partial x}:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\lambda_{t}\frac{\partial P_{w}}{\partial x}+u_{t}=+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial P_{w}}{\partial x}=\frac{1}{\lambda_{t}}\left(-u_{t}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Somando
+\begin_inset Formula $-\rho_{w}gsen\alpha$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial P_{w}}{\partial x}-\rho_{w}gsen\alpha=\frac{1}{\lambda_{t}}\left(-u_{t}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)-\rho_{w}gsen\alpha
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Multiplicando por -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda_{w}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+-\lambda_{w}\left(\frac{\partial P_{w}}{\partial x}-\rho_{w}gsen\alpha\right)=\frac{-\lambda_{w}}{\lambda_{t}}\left(\left(-u_{t}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)-\lambda_{t}\rho_{w}gsen\alpha\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+Lembrando a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:velocidade da água"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{-\lambda_{w}}{\lambda_{t}}\left(-u_{t}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}-\lambda_{t}\rho_{w}gsen\alpha\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{-\lambda_{w}}{\lambda_{t}}\left(-u_{t}+\left(\lambda_{w}\rho_{w}+\lambda_{o}\rho_{o}-\lambda_{t}\rho_{w}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{-\lambda_{w}}{\lambda_{t}}\left(-u_{t}+\left(\cancel{\lambda_{w}\rho_{w}}+\lambda_{o}\rho_{o}-\lambda_{o}\rho_{w}\cancel{-\lambda_{w}\rho_{w}}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{-\lambda_{w}}{\lambda_{t}}\left(-u_{t}+\left(\lambda_{o}\rho_{o}-\lambda_{o}\rho_{w}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{-\lambda_{w}}{\lambda_{t}}\left(-u_{t}+\lambda_{o}\left(\rho_{o}-\rho_{w}\right)gsen\alpha-\lambda_{o}\frac{\partial P_{c}}{\partial x}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\frac{\lambda_{w}}{\lambda_{t}}u_{t}+\frac{\lambda_{w}\lambda_{o}}{\lambda_{t}}gsen\alpha\left(\rho_{w}-\rho_{o}\right)+\frac{\lambda_{w}\lambda_{o}}{\lambda_{t}}\frac{\partial P_{c}}{\partial x}\label{eq:Funcao fluxo- velocid da agua}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\[
+u_{w}=\frac{k_{rw}}{k_{rw}+\mu_{w}\frac{k_{ro}}{\mu_{o}}}u_{t}+\frac{k\frac{k_{rw}}{\mu_{w}}\frac{k_{ro}}{\mu_{0}}}{\frac{k_{rw}}{\mu_{w}}+\frac{k_{ro}}{\mu_{o}}}\left(gsen\alpha\left(\rho_{w}-\rho_{o}\right)+\frac{\partial P_{c}}{\partial x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\[
+u_{w}=\frac{k_{rw}}{k_{rw}+\mu_{w}\frac{k_{ro}}{\mu_{o}}}u_{t}+\frac{k_{rw}\frac{k_{ro}}{\mu_{0}}}{k_{rw}+\mu_{w}\frac{k_{ro}}{\mu_{o}}}\left(gsen\alpha\left(\rho_{w}-\rho_{o}\right)+\frac{\partial P_{c}}{\partial x}\right)k\mu_{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Formula 
+\begin{equation}
+u_{w}=\left(\frac{(k_{rw})_{s_{orw}}\left(\frac{S_{w}-S_{wi}}{1-S_{wi}-S_{orw}}\right)^{ew}}{(k_{rw})_{s_{orw}}\left(\frac{S_{w}-S_{wi}}{1-S_{wi}-S_{orw}}\right)^{ew}+\mu_{w}(k_{ro})_{s_{wi}}\left(\frac{S_{w}-S_{orw}}{1-S_{wi}-S_{orw}}\right)^{eow}}\right)u_{t}+\frac{(k_{rw})_{s_{orw}}(k_{ro})_{s_{wi}}\left(\frac{S_{w}-S_{wi}}{1-S_{wi}-S_{orw}}\right)^{ew}\left(\frac{S_{w}-S_{orw}}{1-S_{wi}-S_{orw}}\right)^{eow}}{(k_{rw})_{s_{orw}}\left(\frac{S_{w}-S_{wi}}{1-S_{wi}-S_{orw}}\right)^{ew}+\frac{\mu_{w}}{\mu_{o}}(k_{ro})_{s_{wi}}\left(\frac{S_{w}-S_{orw}}{1-S_{wi}-S_{orw}}\right)^{eow}}\left(gsen\alpha\left(\rho_{w}-\rho_{o}\right)+\frac{\partial P_{c}}{\partial x}\right)\frac{k\mu_{w}}{\mu_{0}}\label{eq:Equação da uw}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

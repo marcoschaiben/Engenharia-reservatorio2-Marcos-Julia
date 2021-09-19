@@ -132,187 +132,78 @@ name "cha:Introdução"
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lhead{
-\backslash
-thechapter
-\backslash
-space - Introdução}
-\backslash
-rhead{}
-\backslash
-pagenumbering{arabic}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-introdução tirada ARQUIVO TCC_DanielGomes
-\end_layout
-
-\end_inset
-
-
+Do petróleo existente nos reservatórios é possível recuperar, na prática,
+ apenas uma fração.
+ A maior parte permanece dentro da jazida devido à complexidade dos reservatório
+s e aos mecanismos ainda pouco eficientes de recuperação do petróleo, aliados
+ a fatores econômicos.
+ Entretanto, é inegável que o Brasil pode ir além, investindo em novas tecnologi
+as e na ampliação dos métodos de recuperação, visto que 1% a mais no fator
+ de recuperação do Brasil gera potencialmente US$ 18 bilhões em novos investimen
+tos e US$ 11 bilhões em royalties, resultando num aumento de 2,2 bilhões
+ de barris de óleo equivalente (PETERSOHN, 2018).
 \end_layout
 
 \begin_layout Standard
-No início da produção, muitos campos de petróleo possuem certa quantidade
- de energia suficiente para que os fluidos contidos sejam produzidos.
- Essa energia é denominada de energia natural, e está relacionada com os
- mecanismos de produção original tais como: gás em solução, influxo de água
- e capa de gás.
- Esta energia sofre um processo de depletação natural, devido à retirada
- e descompressão dos fluidos contidos no reservatório, e pelas resistências
- associadas às forças viscosas e tensões interfaciais durante o escoamento
- no meio poroso.
- Isso será refletido basicamente em dois aspectos: decréscimo de pressão
- e redução de produtividade (Musse e Quintella, 2009).
+Entre os métodos de recuperação avançada de petróleo (EOR), o método miscível
+ com CO2 tem ganhado destaque, em parte devido à possibilidade de sequestro,
+ diminuindo assim o teor dos gases de efeito estufa na atmosfera.
+ Embora o CO2 apresente uma versatilidade frente a uma ampla gama de reservatóri
+os, sendo aplicável a óleos leves e médios leves (> 30 ° API) em reservatórios
+ rasos e em baixas temperaturas, quando se trata de óleos pesados, os métodos
+ térmicos são os ideias e os mais utilizados.
 \end_layout
 
 \begin_layout Standard
-Os reservatórios, cujos mecanismos são pouco eficientes e que por consequência
- retêm grandes quantidades de hidrocarbonetos após a exaustão da sua energia
- natural, são fortes candidatos ao emprego de uma série de processos que
- visam à obtenção de uma recuperação adicional (Thomas, 2004, p.
- 200) com o intuito de minimizar os efeitos da dissipação de energia do
- reservatório e de uma maneira geral interferir nas características do reservató
-rio que favoreceram a retenção exagerada de óleo.
- Esses processos são chamados de Métodos de Recuperação, que podem atuar
- em duas linhas gerais: suplementar a energia através da injeção de fluidos
- em determinados poços; reduzir as resistências viscosas e/ou capilares
- por métodos especiais.
- Esses métodos de recuperação foram desenvolvidos para se obter uma produção
- maior do que aquela que se obteria, caso apenas a energia natural do reservatór
-io fosse utilizada (Musse e Quintella, 2009; Thomas, 2004).
-\end_layout
-
-\begin_layout Standard
-No mundo, as reservas conhecidas de óleos pesado e extrapesados são de cerca
- de 3,396 trilhões de barris in situ, Opec (2012).
- Os métodos térmicos de recuperação avançada vêm sendo utilizados desde
- meados do século XX, sendo os métodos mais desenvolvidos dentre os métodos
- avançados de recuperação e preferencialmente aplicados para óleos pesados
- e areias betuminosas.
- Eles fornecem calor ao reservatório, onde o princípio está baseado na diminuiçã
-o da viscosidade e consequente aumento da mobilidade do óleo (THOMAS, 2008).
-\end_layout
-
-\begin_layout Standard
-Para se ter uma ideia, 1% a mais no FR do Brasil gera potencialmente US$
- 18 bilhões em novos investimentos e US$ 11 bilhões em royalties.
- Isso equivale a reservas adicionais de 2,2 bilhões de barris de óleo equivalent
-e (PETERSOHN, 2018).
- Isto posto, é inegável que os números mostram que o Brasil pode ir além,
- investindo em novas tecnologias e ampliação dos métodos de recuperação
- para aumentar a fração a ser recuperada nos campos maduros e marginais.
- Frente a esse cenário, a maioria das empresas petrolíferas concentram seus
- esforços em maximizar o fator de recuperação (FR) de seus campos de petróleo.
- (MUGGERIDGE et al.,2013)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status collapsed
-
-\begin_layout Plain Layout
-Pode-se dizer que um método de recuperação avançada, “enhanced oil recovery”
- (EOR) em inglês, é empregado para atuar nos pontos onde o processo convencional
- falhou, ou falharia caso fosse empregado.
- As baixas recuperações resultantes de um processo convencional de injeção
- de fluidos podem ser creditadas basicamente a dois aspectos principais:
- alta viscosidade do óleo do reservatório e elevadas tensões interfaciais
- entre o fluido injetado e o óleo (Thomas, 2004, p.
- 205).
-\end_layout
-
-\end_inset
-
+Atualmente, grande parte da produção mundial de petróleo provém de campos
+ maduros.
+ Além disso, a taxa de substituição das reservas produzidas por novas descoberta
+s tem diminuído constantemente nas últimas décadas.
+ Portanto, o aumento dos fatores de recuperação (FR) de campos maduros sob
+ produção primária e secundária será crítica para atender à crescente demanda
+ de energia nos próximos anos (VLADMIR; MANRIQUE, 2010).
  
 \end_layout
 
 \begin_layout Standard
-Quando a viscosidade do fluido injetado é muito menor que a do fluido a
- ser deslocado, o primeiro se move muito mais facilmente no meio poroso,
- encontrando caminhos preferenciais e se dirigindo rapidamente para os poços
- de produção.
- O óleo fica retido porque o fluido injetado não se propaga adequadamente
- no reservatório, ficando grandes volumes de rocha nos quais o deslocamento
- não se processou.
- No caso de altas tensões interfaciais, a capacidade do fluido injetado
- de desalojar o óleo do reservatório para fora dos poros é bastante reduzida,
- deixando saturações residuais elevadas de óleo nas regiões já contactadas
- pelo fluido injetado (Thomas, 2004, p.
- 205).
- 
+As reservas totais de petróleo bruto conhecidas são de aproximadamente 9-11
+ trilhões de barris (bbls) no mundo, entre os quais mais de 2/3 são de petróleo
+ pesado e betume.
+ O desenvolvimento efetivo desses recursos de petróleo pesado e betume terão
+ uma influência importante no suprimento mundial de energia (DONGA et al.,
+ 2019).
+ O que mostra a grande importância dos métodos térmicos para recuperação
+ avançada.
 \end_layout
 
 \begin_layout Standard
-As duas situações acima definem a forma de atuação dos métodos de recuperação
- avançada e com base na literatura são o ponto de partida para a sua distribuiçã
-o em três grandes grupos: Métodos Térmicos, Métodos Miscíveis e Métodos
- Químicos, de acordo com a natureza geral dos processos e o ponto principal
- a ser atacado.
- Esta classificação não é única e existem alguns processos que poderiam
- estar incluídos em uma ou outra categoria (Thomas, 2004, p.
- 205).
+Para recuperar o petróleo pesado de forma eficaz, reduzir sua viscosidade
+ (
+\begin_inset Formula $\mu_{o}$
+\end_inset
+
+) e melhorar sua mobilidade (
+\begin_inset Formula $k_{o}/\mu_{o}$
+\end_inset
+
+) são as principais prioridades.
+ Considerando a sensibilidade do petróleo à temperatura, os metodos térmicos
+ vêm sendo utilizadas desde meados do século XX, mais precisamente, em 1966
+ com um pequeno projeto piloto nas operações de Trintopec, no campo de Palo
+ Seco em Trindade e Tobago.
+ Esse projeto se mostrou eficiente com 55% da produção nas terras de Trintopec
+ com o uso da injeção de vapor .
+ Os resultados foram tão encorajadores que estimularam um crescimento sem
+ precedentes neste mecanismo de recuperação (KHAN et al.,1992).
+ Até agora, ainda é o principal método de exploração de petróleo pesado
+ em todo o mundo (DONGA et al., 2019).
 \end_layout
 
 \begin_layout Standard
-A escolha do método depende de fatores como as características do reservatório,
- natureza do óleo, quantidade de óleo “in place”, evolução do campo de acordo
- com a produção passada.
- Essas diversidades, levam ao desenvolvimento de diferentes processos de
- recuperação avançada, que devem ser considerados para implementação.
- Embora alguns métodos de recuperação avançada tenham sido aplicados com
- sucesso em campos de petróleo (van Poolen, 1980), a sua aplicabilidade
- tem sido pesadamente penalizada pelos altos custos de investimentos com
- produtos químicos injetados e equipamentos.
- A redução desses custos é uma das principais metas para a ampla aplicação
- dessa tecnologia.
-\end_layout
-
-\begin_layout Standard
-Em reservatórios cujos óleos são muito viscosos, a utilização de um processo
- convencional de recuperação fatalmente resulta em insucesso.
- A alta viscosidade do óleo dificulta o seu movimento dentro do meio poroso,
- enquanto que o fluido injetado, água ou gás, tem uma mobilidade muito maior,
- resultando em baixas eficiências de varrido e por consequência uma recuperação
- normalmente muito baixa (Thomas, 2004, p.
- 205).
- 
-\end_layout
-
-\begin_layout Standard
-A constatação de que, ao ser aquecido, o óleo tem a sua viscosidade substancialm
-ente reduzida foi o ponto de partida para o desenvolvimento dos métodos
- térmicos, que será o objeto de estudo para este trabalho.
- O desenvolvimento inicial dos métodos térmicos buscava a redução da viscosidade
- do óleo através do seu aquecimento para aumentar a recuperação de petróleo.
- Á medida que outros efeitos igualmente benéficos foram aparecendo, os processos
- foram se modificando, resultando nos diversos tipos de métodos que se tem
- atualmente (Thomas, 2004, p.
- 205).
-\end_layout
-
-\begin_layout Standard
-Há dois tipos de métodos térmicos que diferem na maneira como é feito o
- aquecimento do fluido do reservatório.
- Em um deles o calor é gerado na superfície e em seguida transportado para
- o interior da formação, utilizando-se de um fluido.
- É chamado de Injeção de Fluidos Aquecidos.
- No outro grupo o calor é gerado no interior do próprio reservatório a partir
- da combustão de parte do óleo ali existente.
- Este segundo processo é chamado Combustão 
+Tecnologias sofisticadas foram necessárias para desenvolver economicamente
+ os complexos e variados campos de petróleo.
+ Várias tecnologias existentes, como injeção de água quente, injeção de
+ vapor, vaporização cíclica (CSS) e processos de combustão 
 \begin_inset Quotes eld
 \end_inset
 
@@ -320,30 +211,21 @@ in situ
 \begin_inset Quotes erd
 \end_inset
 
- (Thomas, 2004, p.
- 206).
+, foram aplicadas com sucesso na Venezuela e na Califórnia, onde detém mais
+ de 90% do óleo pesado e do betume (areias betuminosas) do mundo.
+ Mais recentemente, os avanços feitos nas tecnologias de perfuração direcional
+ e medição durante a perfuração (MWD) facilitaram o desenvolvimento de novas
+ tecnologias, como drenagem por gravidade assistida por vapor (SAGD), expansão
+ de SAGD de solvente (ES-SAGD) e extração de vapor de solvente (VAPEX) que
+ melhoraram significativamente o contato com o reservatório do poço, as
+ eficiências de varredura, as taxas de óleo produzido e reduziram os custos
+ de produção (NARS, 2005).
 \end_layout
 
 \begin_layout Standard
-Na injeção de fluidos aquecidos utiliza-se a água como meio para transportar
- o calor da superfície até o reservatório.
- A água é normalmente injetada na forma de vapor, mas pode também ser injetada
- a uma temperatura elevada, porém ainda no estado líquido.
- Temos, portanto, dois tipos de processos, a Injeção de Vapor e a Injeção
- de Água Quente (Thomas, 2004, p.
- 206).
- 
-\end_layout
-
-\begin_layout Standard
-Na combustão in situ, se inicia por meio de uma injeção de ar aquecido,
- um processo de oxidação do óleo que vai gerando calor, que por sua vez
- intensifica a oxidação num processo crescente até se chegar a uma temperatura
- chamada “ponto de ignição”, a partir do qual está estabelecida a combustão.
- A partir daí, continuando-se a injetar ar frio, o processo tem continuidade.
- O calor gerado desencadeia processos que resultam no aumento do fator de
- recuperação (Thomas, 2004, p.
- 206).
+Nesse sentido, o objetivo do trabalho é apresentar o método térmico de EOR,
+ suas diferentes tecnologias e formas de serem aplicados, bem como suas
+ formulações matemáticas (...).
 \end_layout
 
 \end_body

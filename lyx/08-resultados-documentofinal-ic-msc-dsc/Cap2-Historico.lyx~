@@ -127,7 +127,7 @@ Histórico
 
 \begin_inset CommandInset label
 LatexCommand label
-name "cha:Histórico"
+name "chap:historico"
 
 \end_inset
 
@@ -285,7 +285,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Taxas de produção EOR mundiais (Oil & Gas Journal, SPE)
+
+\series bold
+Taxas de produção EOR mundiais em 2010 (Oil & Gas Journal, SPE)
+\series default
+
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Taxas-de-produção"
@@ -510,7 +514,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Projetos EOR e correlação do preço do petróleo 
+
+\series bold
+Correlação do preço do petróleo com projetos EOR
+\series default
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Projetos-EOR-e"
@@ -554,11 +562,11 @@ status open
 \begin_inset Quotes eld
 \end_inset
 
-timing
+Timing
 \begin_inset Quotes erd
 \end_inset
 
- da EOR: Cold Lake - Canadá (Projetos Termicos)
+ da EOR: Cold Lake - Canadá (Projetos Térmicos)
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Período-da-EOR:"
@@ -739,6 +747,111 @@ Uma nova versão, HPAI, para óleos leves, foi ganhando popularidade nos último
  leve que satisfaçam certos critérios, como profundidade <3.000 pés e 
 \series bold
 (depth < 3,000 ft, oil saturation-porosity product > 0.1).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-08-24 at 14.18.29.jpeg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-08-24 at 14.19.02.jpeg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-09-02 at 13.43.35.jpeg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Campos brasileiros já submetidos à injeção de vapor ( adaptado da Petrobras).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
