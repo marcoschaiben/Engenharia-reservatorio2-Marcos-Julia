@@ -132,8 +132,8 @@ name "cha:Introdução"
 \end_layout
 
 \begin_layout Standard
-Do petróleo existente nos reservatórios é possível recuperar, na prática,
- apenas uma fração.
+Durante a produção do petróleo existente nos reservatórios, é possível recuperar
+, na prática, apenas uma fração.
  A maior parte permanece dentro da jazida devido à complexidade dos reservatório
 s e aos mecanismos ainda pouco eficientes de recuperação do petróleo, aliados
  a fatores econômicos.
@@ -146,11 +146,19 @@ tos e US$ 11 bilhões em royalties, resultando num aumento de 2,2 bilhões
 
 \begin_layout Standard
 Entre os métodos de recuperação avançada de petróleo (EOR), o método miscível
- com CO2 tem ganhado destaque, em parte devido à possibilidade de sequestro,
- diminuindo assim o teor dos gases de efeito estufa na atmosfera.
- Embora o CO2 apresente uma versatilidade frente a uma ampla gama de reservatóri
-os, sendo aplicável a óleos leves e médios leves (> 30 ° API) em reservatórios
- rasos e em baixas temperaturas, quando se trata de óleos pesados, os métodos
+ com 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ tem ganhado destaque, em parte devido à possibilidade de sequestro, diminuindo
+ assim o teor dos gases de efeito estufa na atmosfera.
+ Embora o 
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ apresente uma versatilidade frente a uma ampla gama de reservatórios, sendo
+ aplicável a óleos leves e médios leves (> 30 ° API) em reservatórios rasos
+ e em baixas temperaturas, quando se trata de óleos pesados, os métodos
  térmicos são os ideias e os mais utilizados.
 \end_layout
 
@@ -169,9 +177,8 @@ s tem diminuído constantemente nas últimas décadas.
 As reservas totais de petróleo bruto conhecidas são de aproximadamente 9-11
  trilhões de barris (bbls) no mundo, entre os quais mais de 2/3 são de petróleo
  pesado e betume.
- O desenvolvimento efetivo desses recursos de petróleo pesado e betume terão
- uma influência importante no suprimento mundial de energia (DONGA et al.,
- 2019).
+ O desenvolvimento efetivo desses recursos terão uma influência importante
+ no suprimento mundial de energia (DONGA et al., 2019).
  O que mostra a grande importância dos métodos térmicos para recuperação
  avançada.
 \end_layout
@@ -187,11 +194,12 @@ Para recuperar o petróleo pesado de forma eficaz, reduzir sua viscosidade
 \end_inset
 
 ) são as principais prioridades.
- Considerando a sensibilidade do petróleo à temperatura, os metodos térmicos
- vêm sendo utilizadas desde meados do século XX, mais precisamente, em 1966
+ Considerando a sensibilidade do petróleo à temperatura, os métodos térmicos
+ vêm sendo utilizados desde meados do século XX, mais precisamente, em 1966
  com um pequeno projeto piloto nas operações de Trintopec, no campo de Palo
- Seco em Trindade e Tobago, que se mostrou eficiênte com 55% da produção
- nas terras de Trintopec com o uso da injeção de vapor .
+ Seco em Trindade e Tobago.
+ Esse projeto se mostrou eficiente com 55% da produção nas terras de Trintopec
+ com o uso da injeção de vapor .
  Os resultados foram tão encorajadores que estimularam um crescimento sem
  precedentes neste mecanismo de recuperação (KHAN et al.,1992).
  Até agora, ainda é o principal método de exploração de petróleo pesado
@@ -210,8 +218,8 @@ in situ
 \begin_inset Quotes erd
 \end_inset
 
-, foram aplicadas com sucesso na Venezuela e na Califórnia, onde detém mais
- de 90% do óleo pesado e do betume (areias betuminosas) do mundo.
+, foram aplicadas com sucesso em alguns países, como por exemplo, na Venezuela
+ e na Califórnia, onde detém mais de 90% do óleo pesado e do betume do mundo.
  Mais recentemente, os avanços feitos nas tecnologias de perfuração direcional
  e medição durante a perfuração (MWD) facilitaram o desenvolvimento de novas
  tecnologias, como drenagem por gravidade assistida por vapor (SAGD), expansão
@@ -223,8 +231,16 @@ in situ
 
 \begin_layout Standard
 Nesse sentido, o objetivo do trabalho é apresentar o método térmico de EOR,
- suas diferentes tecnologias e formas de serem aplicados, bem como suas
- formulações matemáticas (...).
+ o histórico de seu desenvolvimento, tecnologias e processos variados de
+ recuperação térmica, bem como suas formulações matemáticas - equação 
+\begin_inset Quotes eld
+\end_inset
+
+Steamfloding
+\begin_inset Quotes erd
+\end_inset
+
+ e  equação de injeção de água quente.
 \end_layout
 
 \end_body

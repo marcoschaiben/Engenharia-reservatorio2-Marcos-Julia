@@ -1,0 +1,2022 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Equação de Injeção de água quente 
+\end_layout
+
+\begin_layout Standard
+Premissas:
+\end_layout
+
+\begin_layout Enumerate
+Fluxo 1D;
+\end_layout
+
+\begin_layout Enumerate
+Meio Poroso homogêneo;
+\end_layout
+
+\begin_layout Enumerate
+Sistema Incompressível
+\end_layout
+
+\begin_layout Enumerate
+Sem Dispersão;
+\end_layout
+
+\begin_layout Enumerate
+Sem Adsorção;
+\end_layout
+
+\begin_layout Enumerate
+Sem efeitos gravitacionais;
+\end_layout
+
+\begin_layout Enumerate
+Sem efeitos capilares.
+\end_layout
+
+\begin_layout Enumerate
+Sem energia cinética e potencial;
+\end_layout
+
+\begin_layout Enumerate
+desconsiderando Trabalho;
+\end_layout
+
+\begin_layout Enumerate
+Sem Difusão Térmica.
+\end_layout
+
+\begin_layout Standard
+Dada a equação da conservação de massa:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial W_{i}}{\partial t}+\overrightarrow{\nabla}\cdotp\overrightarrow{N_{i}}-R_{i}=0\text{ },i=1,2,...,N_{c}\label{eq:equacao_conservacao_i_em_v}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula $\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}+\cancelto{0}{(1-\phi)\rho_{s}\omega_{is}}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}-\cancelto{0}{\phi\rho_{j}S_{j}\overset{\rightarrow}{\overrightarrow{K}}_{ij}\cdotp\overrightarrow{\nabla}\omega_{ij}}\right)=$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+\cancelto{0}{\phi\stackrel[j=1]{N_{p}}{\sum}S_{j}r_{ij}+(1-\phi)r_{is}},\text{ i=1,...,\ensuremath{N_{c}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Com isso a equação se torna : 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}\right)=0,\ \ \ \ \ \ \ \ \text{ i=1,...,\ensuremath{N_{c}}}\label{eq:conservacao_geral}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando um sistema de 2 fases, pode-se defini-lás como:
+\end_layout
+
+\begin_layout Itemize
+j= 1, aquosa;
+\end_layout
+
+\begin_layout Itemize
+j= 2, oleosa;.
+\end_layout
+
+\begin_layout Standard
+Há dois componentes presentes, que não reagem e não se misturam:
+\end_layout
+
+\begin_layout Itemize
+i = 1, água;
+\end_layout
+
+\begin_layout Itemize
+i= 2, óleo;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente água:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\omega_{11}+\phi\rho_{2}S_{2}\omega_{12}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\omega_{11}\overrightarrow{u_{1}}+\rho_{2}\omega_{12}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+como não há troca de massa:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\omega_{11}=1,\ \omega_{12}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+então, 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}\right)=0\label{eq:conservacao_geral-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando o fluxo unidimensional, temos: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial}{\partial t}\left(\rho_{1}S_{1}\right)+\frac{\partial}{\partial x}\left(\rho_{1}\overrightarrow{u_{1}}\right)=0\label{eq:componente agua}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente óleo:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\omega_{21}+\phi\rho_{2}S_{2}\omega_{22}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\omega_{21}\overrightarrow{u_{1}}+\rho_{2}\omega_{22}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+como não há troca de massa:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\omega_{21}=0,\ \omega_{22}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+então, 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando o fluxo unidimensional, temos: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\frac{\partial}{\partial x}\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:componente oleo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+onde, 
+\begin_inset Formula $\rho(T),\overrightarrow{u}=\frac{q}{A}=-\frac{kk_{r}}{\mu}\frac{dP}{dx}$
+\end_inset
+
+ e 
+\begin_inset Formula $\mu(T)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dada a equação da energia: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0,\label{eq:10}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+aplicando as premissa apresentadas no início da seção, a equação da energia
+ pode ser reescrita da seguinte forma:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}H_{j}\right)=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+Na conservação da energia não se faz equações por componentes, se faz a
+ consevação total.
+ Como ,
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+e como,
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\rho U=\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}U_{j}+(1-\phi)\rho_{s}U_{s}\label{eq:00}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+a equação da energia pode ser reescrita como:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+\frac{\partial}{\partial t}\left[\phi\left(\rho_{1}S_{1}U_{1}+\rho_{2}S_{2}U_{2}\right)+(1-\phi)\rho_{s}U_{s}\right]
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{multline}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)=0
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Negligenciando o trabalho de pressão/volume,as entalpias serão iguais às
+ energias internas (
+\begin_inset Formula $\hat{H}=\hat{U}+\frac{p}{\rho_{j}}$
+\end_inset
+
+) (uma boa suposição para líquidos e sólidos) e assumindo volume poroso
+ incompressível: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{multline*}
+\frac{\partial}{\partial t}\left[\phi\left(\rho_{1}S_{1}H_{1}+\rho_{2}S_{2}H_{2}\right)+(1-\phi)\rho_{s}H_{s}\right]
+\end{multline*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)=0\label{eq:8}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Derivando a Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, temos:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline}
+(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\left[\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}\right]+\left[\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})\right]+\left[\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]=0\label{eq:energia}
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reorganizando a equação e substituindo as equações de conservação de massa
+ para os componentes água e óleo (Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:componente agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:componente oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ) a equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:energia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ se torna:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
++\hat{H_{1}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}}\right]+\hat{H_{2}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})+\phi\frac{\partial(\rho_{2}S_{2})}{\partial t}}\right]=0
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+então,
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}=0
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+que considerando fluxo unidimensional,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ pode ser reecrita como:
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\frac{\partial\hat{H_{1}}}{\partial x}+\rho_{2}\overrightarrow{u_{2}}\cdotp\frac{\partial\hat{H_{2}}}{\partial x}=0
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assumimos que as entalpias são independentes da pressão, 
+\begin_inset Formula $dH_{j}=C_{pj}dT$
+\end_inset
+
+, onde 
+\begin_inset Formula $C_{pj}$
+\end_inset
+
+ é o calor específico da fase j.
+ Se o 
+\begin_inset Formula $C_{pj}$
+\end_inset
+
+ for constante, torna-se:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left[\phi\text{\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}}\right]\frac{\partial T}{\partial t}+(\rho_{1}C_{p1}\overrightarrow{u_{1}}+\rho_{2}C_{p2}\overrightarrow{u_{2}})\frac{\partial T}{\partial x}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fluxo Fracionário
+\end_layout
+
+\begin_layout Standard
+Definindo o fluxo fracionário como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{j}=\frac{u_{j}}{u_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $f_{j}$
+\end_inset
+
+é o fluxo fracionário, 
+\begin_inset Formula $u_{j}$
+\end_inset
+
+a velocidade da fase e 
+\begin_inset Formula $u$
+\end_inset
+
+=
+\begin_inset Formula $\stackrel[i]{Np}{\sum}u_{j}$
+\end_inset
+
+, podemos reescrever as equações básicas governantes em termos de fluxo
+ fracionário: - conservação de massa da água (Eq ????), conservação de massa
+ do óleo (Eq.
+ ????) e conservação de energia (Eq ?????).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nao entendi essa parte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{1})}{\partial x}=0\rightarrow\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{t}f_{1})}{\partial x}=0\label{eq:flux-frac-agua}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+sendo 
+\begin_inset Formula $\frac{\partial u}{\partial x}=0$
+\end_inset
+
+, pois 
+\begin_inset Formula $u$
+\end_inset
+
+ só varia com o tempo (
+\begin_inset Formula $u=u(t)$
+\end_inset
+
+), a equação ?? se torna:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{u}{\phi}\frac{\partial(\rho_{1}f_{1})}{\partial x}=0.\label{eq:flux-frac-oleo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para o componente óleo, temos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\phi\partial(\rho_{2}S_{2})}{\partial t}+\frac{\partial(\rho_{2}u_{t}f_{2})}{\partial x}=0.\label{eq:flux-frac-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Utilizando as equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac-agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac-oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ para eliminar alguns termos da equação da conservação da energia (Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:energia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) representada em termos de fluxo fracionário: 
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}f_{2})\right]\frac{\partial T}{\partial x}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ou ainda,
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left[M_{t_{1}}S_{1}+M_{t_{2}}S_{2}+\frac{(1-\phi)}{\phi}M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $M_{T_{j}}=\phi\rho_{j}C_{pj}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Com isso, concluem-se 3 equações:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+PELA EQ.
+ DA ENERGIA VERIFICAMOS QUE U É CONSTANTE, É SUFICIENTE ?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}uf_{1})}{\partial x}=0$
+\end_inset
+
+, conservação de massa do componente água;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{\phi\partial(\rho_{2}S_{2})}{\partial t}+\frac{\partial(\rho_{2}uf_{2})}{\partial x}=0$
+\end_inset
+
+, conservação de massa do componente óleo;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left[M_{t_{1}}S_{1}+M_{t_{2}}S_{2}+\frac{(1-\phi)}{\phi}M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0$
+\end_inset
+
+, conservação da energia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{1}(S_{1},T)=\frac{\frac{k_{r_{1}}(S_{1})}{u_{1}}}{\frac{k_{r_{1}}(S_{1})}{u_{1}(S_{1},T)}+\frac{k_{r_{2}}(S_{1})}{u_{2}(S_{1},T)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{1}(S_{1},T)=-k\frac{k_{r_{1}}(S_{1})}{\mu_{1}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{2}(S_{_{1}},T)=-k\frac{k_{r_{2}}(S_{_{1}})}{\mu_{2}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{w}+S_{o}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="20" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Saturação da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{1}=\frac{Volume\,fase1}{Volume\,vazios}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Saturação da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{2}=\frac{V_{olume\,fase2}}{Volume\,vazios}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permeabilidade relativa da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $k_{r_{1}}=\frac{permebeabilidade\,efetiva\,fase1}{permeabilidade}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permeabilidade relativa da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $k_{r_{2}}=\frac{permebeabilidade\,efetiva\,fase2}{permeabilidade}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permeabilidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Formula $5x10^{-8}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Porosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\phi=\frac{volume\,de\,vazios}{volume\,total}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacidade de Calor Volumétrico da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $M_{T_{1}}=\phi\rho_{1}C_{p1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacidade de Calor Volumétrico da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $M_{T_{2}}=\phi\rho_{2}C_{p2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calor específico da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{p1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4186 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Formula $J/kg.K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calor específico da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{p2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2135,268
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Formula $J/kg.K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Massa específica da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho_{1}=\frac{massa\,fase1}{Volume\,fase1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $kg/m^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Massa específica da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho_{2}=\frac{massa\,fase2}{Volume\,fase2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $750$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $kg/m^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Velocidade da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+u_{1}(S_{1},T)=-k\frac{k_{r_{1}}(S_{1})}{\mu_{1}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m/s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Velocidade da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+u_{2}(S_{_{1}},T)=-k\frac{k_{r_{2}}(S_{_{1}})}{\mu_{2}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m/s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fluxo Fracionário da fase aquosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $f_{1}=\frac{velocidade\,fase1}{velocidade\,total}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fluxo Fracionário da fase oleosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $f_{2}=\frac{velocidade\,fase2}{velocidade\,total}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pressão
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Pa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temperatura água injetada
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tº$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+423
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Viscosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\mu_{j}=Ae^{B/T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Pa.s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vazão
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m^{3}/dia$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/parametros.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

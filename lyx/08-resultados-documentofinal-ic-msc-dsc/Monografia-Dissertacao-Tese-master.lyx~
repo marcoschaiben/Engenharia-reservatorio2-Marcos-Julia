@@ -337,7 +337,7 @@ filename "Cap-Nomenclatura.lyx"
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap-ResumoAbstract.lyx"
+filename "Cap2-Historico.lyx"
 
 \end_inset
 
@@ -369,7 +369,7 @@ qual o escopo do problema e os objetivos.
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap2-RevisaoBibliografica.lyx"
+filename "Cap2-Historico.lyx"
 
 \end_inset
 

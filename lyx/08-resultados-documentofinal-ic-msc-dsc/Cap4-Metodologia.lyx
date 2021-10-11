@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass abnt
+\textclass extbook
 \begin_preamble
 \usepackage {graphicx}
 \usepackage {longtable}
@@ -136,27 +136,154 @@ thepage}
 \end_layout
 
 \begin_layout Standard
-Os métodos térmicos, particularmente 
-\begin_inset Quotes eld
+Os métodos de EOR surgem da necessidade de aumentar a vida útil de um reservatór
+io, aumentando assim o fator de recuperação e consequentemente o lucro do
+ processo.
+ Esses métodos são aplicados para extrair o petróleo residual em reservatórios
+ que podem ou não ter passado pelos métodos de recuperação primária e secundária.
+ A recuperação primária baseia-se na produção do óleo pelo diferencial de
+ pressão entre o poço de produtor e o reservatório.
+ Quando a pressão do reservatório diminui a ponto de o poço não ter mais
+ surgência, são aplicados métodos de recuperação secundária, que consistem
+ na injeção de fluido (água ou gás) para a elevação e manutenção da pressão
+ (SULZBACHER, 2018).
+ A necessidade de utilização de EOR ocorre devido ao pequeno percentual
+ de recuperação da maioria dos reservatórios de óleo e gás existentes.
+ As características do reservatório, do fluido e da rocha é que vão definir
+ o método que deve ser utilizado para o processo de EOR.
+ Os métodos de recuperação avançada podem ser divididos em diversas categorias,
+ conforme mostra a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: fluxograma_eor"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
-steam drive
-\begin_inset Quotes erd
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/fluxograma_metodos_eor.png
+	scale 50
+
 \end_inset
 
- e 
-\begin_inset Quotes eld
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fluxograma dos métodos de recuperação primária, secundária e avançada.
+ Fonte: Modificado de LAKE et al., 2014.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: fluxograma_eor"
+
 \end_inset
 
-steam soak
-\begin_inset Quotes erd
+
+\end_layout
+
 \end_inset
 
-, são os processos de recuperação avançada de óleo (EOR) mais bem-sucedidos.
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Devido ao elevado custo dos fluidos utilizados para a injeção, é necessário
+ realizar uma comparação entre o acréscimo da explotação de óleo do poço
+ que venha com a implementação da recuperação e o incremento de produção
+ ao se perfurar novos poços e, assim, decidir qual é o projeto mais viável.
+ Como mostra a Figura 11, a produção futura estimada do campo é representada
+ pelo declínio B-C, mas com a aplicação do projeto de EOR em B, houve o
+ incremento de produção representado pela área limitada em B-D (LAKE et
+ al., 2014).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/estimativa_volume_de_oleo.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Estimativa do volume de óleo incrementado a partir de projetos EOR.
+ Fonte: Modificado de LAKE et al., 2014.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: estimativa_eor"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os métodos térmicos se dividem em injeção de fluidos quentes (água quente
+ ou vapor d'água) e geração de calor dentro do reservatório (combustão in
+ situ).
+ Na injeção de fluidos quentes, o calor é gerado na superfície e em seguida
+ é transportado para o interior da formação.
+ O fluido utilizado é a água, que pode ser injetada na forma de vapor, ou
+ a uma temperatura elevada ainda no estado líquido (ROSA et al, 2006).
+ 
+\end_layout
+
+\begin_layout Standard
+Os métodos “steam drive” e “steam soak”, são os processos de recuperação
+ avançada de óleo (EOR) mais bem-sucedidos.
  No Capítulo 2 de histórico, vimos que os métodos de vapor atualmente respondem
- por aproximadamente metáde da EOR nos Estados Unidos.
+ por aproximadamente metade da EOR nos Estados Unidos.
  A injeção térmica é um sucesso comercial há quase 50 anos.
  Neste capítulo, será explorado as razões desse sucesso (LAKE, 2014).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -167,6 +294,7 @@ Apesar do sucesso - bilhões de barris foram recuperados pelos métodos térmico
  o dobro da quantidade de óleo leve recuperável.
  Com isso, os processos térmicos estão em constante evolução para atender
  aos desafios da recuperação de óleos pesados.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -189,6 +317,19 @@ noprefix "false"
 
  vs.
  temperatura.
+\end_layout
+
+\begin_layout Standard
+A viscosidade cinemática diminui drasticamente com o aumento da temperatura.
+ Este efeito reflete principalmente a mudança na viscosidade dinâmica μ
+ 2 porque a densidade bruta muda relativamente pouco com a temperatura.
+ Por exemplo, um petróleo bruto pesado (10–20 ° API) que sofre um aumento
+ de temperatura de 300 para 400 K, que é facilmente obtido por métodos térmicos,
+ produzirá uma viscosidade bem dentro da faixa de fluxo (menos de 10 mPa.s).
+ A partir de agora, assim como na frase anterior usaremos uma prática de
+ usar as palavras leve e pesado para fluidos não viscosos e viscosos, mesmo
+ que leves e pesados, estritamente falando, referem-se à densidade (LAKE,
+ 2014).
 \end_layout
 
 \begin_layout Standard
@@ -235,22 +376,6 @@ name "fig:Efeito-da-temperatura"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-A viscosidade cinemática diminui drasticamente com o aumento da temperatura.
- Este efeito reflete principalmente a mudança na viscosidade dinâmica 
-\begin_inset Formula $μ_{2}$
-\end_inset
-
- porque a densidade bruta muda relativamente pouco com a temperatura.
- Por exemplo, um petróleo bruto pesado (10–20 ° API) que sofre um aumento
- de temperatura de 300 para 400 K, que é facilmente obtido por métodos térmicos,
- produzirá uma viscosidade bem dentro da faixa de fluxo (menos de 10 mPa.s).
- A partir de agora, assim como na frase anterior usaremos uma prática de
- usar as palavras leve e pesado para fluidos não viscosos e viscosos, mesmo
- que leves e pesados, estritamente falando, referem-se à densidade (LAKE,
- 2014).
 \end_layout
 
 \begin_layout Section
@@ -721,7 +846,7 @@ steam drive
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -922,7 +1047,7 @@ in situ
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1033,11 +1158,7 @@ noprefix "false"
 placement h
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1061,6 +1182,920 @@ name "fig:isc"
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Propriedades Físicas
+\end_layout
+
+\begin_layout Standard
+A elucidação dos mecanismos dos métodos térmicos começa com a compreensão
+ das propriedades termodinâmicas e de transporte da água e do petróleo.
+ Essas propriedades serão revisadas e sua dependência da temperatura nesta
+ seção.
+ As propriedades mais importantes da água para este tratamento são o envelope
+ da fase vapor/água, a qualidade do vapor e o calor latente de vaporização.
+ Para os óleos crus, a propriedade mais importante é a dependência da viscosidad
+e com a temperatura (LAKE, 2014)
+\end_layout
+
+\begin_layout Subsection
+Proriedade da água
+\end_layout
+
+\begin_layout Standard
+Quando se faz uma injeção térmica temperatura aumenta porque uma energia
+ adicional é introduzida ou gerada no reservatório.
+ Em ambos os casos, a água desempenha um papel central e por isso a importância
+ de estudar suas propriedades, e em paralelo com o tratamento genérico do
+ comportamento de fase.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+pressão de vapor
+\series default
+ é o valor da pressão (ou temperatura) no qual um componente puro (água)
+ muda de fase ( líquido para vapor) em um valor fixo de temperatura (pressão).
+ Na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-pressão"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra a pressão de vapor da água desde a pressão subatmosférica até seu
+ ponto crítico.
+ A figura também mostra a faixa de operação de vários 
+\begin_inset Quotes eld
+\end_inset
+
+steamdrives
+\begin_inset Quotes erd
+\end_inset
+
+ bem-sucedidos; as pressões de operação tendem a ser mais baixas do que
+ para métodos químicos e muito mais baixas do que para métodos de solvente.
+ Os métodos térmicos são processos intrinsecamente de baixa pressão.
+ Como veremos a seguir, as propriedades da água saturada são importantes
+ para a eficiência dos métodos de vapor e, portanto, o diagrama também mostra
+ a faixa de temperaturas - 320-660 ° F (433-622 K) - para esses métodos.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/14- valor pressao diagrama de agua.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de pressão de vapor da água (LAKE, 2014).
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-de-pressão"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-pressão-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra o diagrama de volume específico de pressão para água.
+ A curva de vapor saturado à direita do envelope mostra que a densidade
+ do vapor é muito menor do que a densidade do líquido saturado, exceto muito
+ perto do ponto crítico.
+ Esta figura contém linhas que indicam a qualidade do vapor, uma propriedade
+ discutida posteriormente.
+ Este conteúdo de energia da água é bem aproximado pela entalpia.
+ Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entalpia-vs.-diagrama"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra um diagrama de pressão/entalpia para a água.
+ 
+\end_layout
+
+\begin_layout Standard
+Este conteúdo de energia da água é bem aproximado pela entalpia.
+ Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entalpia-vs.-diagrama"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra um diagrama de pressão / entalpia para a água.
+ Este diagrama é análogo aos diagramas de pressão / composição discutidos
+ na Seção 4.1, com entalpia sendo a variável de composição.
+ A figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entalpia-vs.-diagrama"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ilustra vários marcos importantes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/15- pressaovs Volume específico.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de pressão vs.
+ volume específico para água (Bleakley 1965).
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-de-pressão-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/16- enthalpyvspressure.png
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Entalpia vs.
+ diagrama de pressão para água (LAKE, 2014).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entalpia-vs.-diagrama"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Conceitos
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Envelope de duas fases:
+\series default
+ O envelope define a região do comportamento de duas fases.
+ O limite esquerdo é a curva do ponto de bolha e o limite direito é a curva
+ do ponto de orvalho.
+ À esquerda e à direita do envelope estão as regiões do líquido super-resfriado
+ e do vapor superaquecido (vapor), respectivamente.
+ Dentro da região de duas fases, a temperatura depende da pressão de acordo
+ com Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-pressão"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Qualidade do vapor: 
+\series default
+Qualidade do vapor (y) é a quantidade total de vapor, em peso, expressa
+ como uma fração (ou porcentagem) da massa de líquido mais vapor, como mostra
+ a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:y"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ As linhas de qualidade dentro do envelope de duas fases representam a quantidad
+e relativa da massa total que é vapor.
+ Linhas de temperatura constante como na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Entalpia-vs.-diagrama"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, caem abruptamente na região do líquido, são constantes em todo o envelope
+ de duas fases e, em seguida, caem abruptamente novamente na região do vapor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y=\frac{\rho_{3}S_{3}}{\rho_{1}s_{1}+\rho_{3}S_{3}}\label{eq:y}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Líquido saturado:
+\series default
+ Um líquido é saturado se existir na temperatura e pressão em que o vapor
+ pode ser gerado.
+ A curva de líquido saturado representa 0% de qualidade do vapor.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Vapor Saturado: 
+\series default
+O vapor saturado é água na temperatura e pressão nas quais exatamente 100%
+ da água presente foi convertida em vapor.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Calor latente:
+\series default
+ Calor latente de vaporização 
+\begin_inset Formula $L_{v}$
+\end_inset
+
+ é a quantidade de calor adicionada a uma dada massa de água saturada (vapor
+ de qualidade 0%) para convertê-la em vapor saturado (vapor de qualidade
+ 100%) em temperatura constante.
+ O calor é latente porque a temperatura do sistema não muda conforme o líquido
+ é convertido em vapor.
+ Em um diagrama de entalpia/pressão, o calor latente é a diferença, na coordenad
+a x, entre as curvas do ponto de orvalho e do ponto de bolha em Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-de-pressão"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ a uma pressão particular.
+ O calor latente desaparece no ponto crítico da água, 3206,2 psia e 705,4
+ ° F (21,8 MPa e 647 K).
+ A localização da pressão crítica é importante nos processos de vapor.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Calor sensível:
+\series default
+ O calor sensível é a quantidade de calor que deve ser adicionada a uma
+ dada massa de água para elevar sua temperatura sem alterar sua fase.
+ Esta quantidade é sensível porque um termômetro na água sentirá um aumento
+ de temperatura conforme o calor é adicionado (a uma pressão constante)
+ até que a comece a aparecer vapor.
+ O calor sensível é o produto de uma capacidade de calor e uma diferença
+ de temperatura.
+\end_layout
+
+\begin_layout Standard
+As propriedades termodinâmicas, cujos tipos são os dois diagramas anteriores,
+ são geralmente ensinadas com mudança de temperatura, em vez de pressão,
+ conforme ilustrado em Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-entalpia-temperatura-pa11-7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Nesta figura, o vapor superaquecido está acima do envelope de duas fases
+ e a região superresfriada abaixo.
+ As linhas de T constante dentro da região de duas fases são verticais.
+ Como a figura ilustra, a mudança na entalpia com a temperatura é a capacidade
+ de calor ( Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Cp"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{p}=\left(\frac{\delta H}{\delta T}\right)_{p}.\label{eq:Cp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Isso pode ser por mol ou por massa, dependendo das unidades de H.
+ Se for o último, Cp é freqüentemente chamado de calor específico.
+ Você pode ver no gráfico que a capacidade de calor é quase independente
+ de ambos T e P (as inclinações são constantes) no líquido.
+ Este é essencialmente o caso nas regiões de vapor, exceto na região próxima
+ ao ponto crítico.
+ Assumiremos capacidades de calor constantes em grande parte do que fizermos
+ a seguir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/17-entvstemp.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama entalpia-temperatura para água (LAKE, 2014).
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-entalpia-temperatura-pa11-7"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Propriedades do Petróleo Cru
+\end_layout
+
+\begin_layout Standard
+Existem algumas definições para a constituição de um óleo pesado, como por
+ exemplo as definições do United States Geological Survey (USGS):
+\end_layout
+
+\begin_layout Itemize
+Óleo leve ou convencional: Produto bruto com uma densidade API> 22 ° e um
+ viscosidade de μ2 <100 mPa.s;
+\end_layout
+
+\begin_layout Itemize
+Óleo pesado: Produto bruto com densidade API <22 ° e μ2 > 100 mPa.s;
+\end_layout
+
+\begin_layout Itemize
+Petróleo Extra Pesado: A porção de petróleo pesado com densidade API <10
+ ° e μ2 > 10.000 mPa.s.
+\end_layout
+
+\begin_layout Standard
+Todas as viscosidades citadas estão nas condições do reservatório.
+ 
+\end_layout
+
+\begin_layout Standard
+A propriedade do petróleo bruto mais importante para a injeção térmica é
+ a dependência da viscosidade com a temperatura.
+ Quanto à maioria dos líquidos, a equação de Andrade (1930) (Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equação-de-andrade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) captura essa dependência:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\mu_{2}=Ae^{B/T},\label{eq:equação-de-andrade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde T está em graus absolutos.
+ A e B são parâmetros empíricos para os quais os valores são determinados
+ a partir de duas medições de viscosidade em diferentes temperaturas.
+ Para extrapolação ou interpolação, a Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equação-de-andrade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ indica que um gráfico semi-logarítmico de viscosidade vs 
+\begin_inset Formula $T^{-1}$
+\end_inset
+
+deve ser uma linha reta.
+ Se apenas uma medição estiver disponível, uma estimativa grosseira de viscosida
+de pode ser obtida a partir da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlação-de-viscosidade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Esta correlação de parâmetros único assume que a mudança de viscosidade
+ é uma função universal da mudança de temperatura.
+ 
+\end_layout
+
+\begin_layout Standard
+Outra representação que é útil no trabalho de derivação foi dada por Butler
+ (1997) como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{v_{1}}{v}=\left(\frac{T-T_{2}}{T_{1}-T_{2}}\right)^{m}\label{eq: viscosidade-cinematica}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 1 e 2 são as condições de referência, geralmente o vapor saturado e
+ as condições do reservatório, respectivamente, e v é a viscosidade cinemática.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/18- grafico viscosidade oleo.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Correlação de viscosidade de parâmetro único (LAKE, 2014).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlação-de-viscosidade"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Várias outras propriedades do petróleo bruto, como calor específico, capacidade
+ volumétrica de calor e condutividade térmica, são funções da temperatura.
+ Equações empíricas para prever essas propriedades incluem a equação de
+ Gambill (1957) para calor específico,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{p2}=\frac{0,7+0,0032T}{\rho_{2}^{0,5}}\label{eq:calor-especifico}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde 
+\begin_inset Formula $C_{p2}$
+\end_inset
+
+ está em kJ/kg.K, T em K, e 
+\begin_inset Formula $ρ_{2}$
+\end_inset
+
+ em 
+\begin_inset Formula $g/cm_{3}$
+\end_inset
+
+, e a condutividade térmica (Maxwell 1950) é
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{T2}=0,135-2,5x10^{-5}T\label{eq:kt2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $k_{T2}$
+\end_inset
+
+ nesta equação tem unidades de kJ/mhK.
+\end_layout
+
+\begin_layout Standard
+Com a Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:calor-especifico"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:kt2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ torna-se possível estimar o coeficiente de difusão térmica,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+K_{T2}=\frac{k_{T2}}{\rho_{2}C_{p2}}\label{eq:Kt2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Propriedades das Rochas
+\end_layout
+
+\begin_layout Standard
+A condutividade térmica total de um meio preenchido com areia não consolidado
+ com uma fase única j é,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{T_{t}}=0,0149-0,0216\phi+8,33x10^{-7}k-10^{-4}\left(\frac{D_{90}}{D_{10}}\right)+7,77D_{50}+4,188k_{T_{t}}+0,0507k_{Ts}\label{eq:condutividade termica}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os parâmetros nesta equação têm seus significados usuais, exceto naquela
+ 
+\begin_inset Formula $D_{10}$
+\end_inset
+
+ e
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ são partículas com diâmetros menores que 10 e 90% da amostra total por
+ peso.
+ As unidades no total, fluidoj, e sólido 
+\begin_inset Formula $(k_{T_{t}},k_{T_{j}},k_{T_{s}})$
+\end_inset
+
+ as condutividades térmicas são J/ms.K, a permeabilidade k é em 
+\begin_inset Formula $μm^{2}$
+\end_inset
+
+, e o tamanho médio do grão
+\begin_inset Formula $D_{50}$
+\end_inset
+
+ está em mm.
+ Para arenitos consolidados preenchidos com fluido, a relação análoga é,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{k_{T_{t}}}{k_{T_{d}}}=1+0,299\left[\left(\frac{k_{t_{j}}}{k_{T_{a}}}\right)^{0,33}-1\right]+4,57\left(\frac{\phi k_{T_{j}}}{1-\phi k_{Td}}\right)^{0,482}\left(\frac{\text{\ensuremath{\rho}}}{\rho_{s}}\right)^{-4,30}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde os subscritos uma e d referem-se ao ar e à rocha seca.
+ ρ é a densidade da rocha saturada com líquido ( LAKE, 2014).
+\end_layout
+
+\begin_layout Standard
+A capacidade volumétrica de calor aparece nos balanços de energia para processos
+ térmicos.
+ É definido para todas as fases, incluindo o sólido, como,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+M_{Tj}=\rho_{j}C_{pj},\ \ \ \ \ \ \ \ \ \ j=1,...,N_{p},s\label{eq:mtt}
+\end{equation}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A tabela ?
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Densidade,-calor-específico,"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ fornece valores representativos de densidade, calor específico, condutividade
+ térmica e coeficiente de difusão térmica.
+ Esses valores são apropriados para estimativas aproximadas das propriedades
+ térmicas rocha-fluido ou para comparação com estimativas mais refinadas
+ das Eqs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:condutividade termica"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ a 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mtt"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ A capacidade de calor da fase sólida varia relativamente pouco com o tipo
+ de sólido, mas a condutividade térmica pode variar por um fator de dois
+ (compare os valores para calcário e siltito).
+ A origem da frase, “o calor pode ir onde os fluidos não podem”, deriva
+ da última afirmação.
+ A variabilidade espacial da maioria das propriedades não térmicas, a permeabili
+dade em particular, é muito maior do que isso ( LAKE, 2014).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Densidade, calor específico, condutividade térmica e coefeciente de rochas
+ selecionadas (Adaptada Lake,2014).
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Densidade,-calor-específico,"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/19- tabela propriedade das rocjas.png
 
 \end_inset
 

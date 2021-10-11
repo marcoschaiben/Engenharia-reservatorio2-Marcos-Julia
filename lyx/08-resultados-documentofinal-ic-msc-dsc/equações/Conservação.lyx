@@ -1,0 +1,2073 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Conservação de Massa
+\end_layout
+
+\begin_layout Standard
+Afim de desenvolver as equações para darem início ao estudo dos Métodos
+ Térmicos de Recuperação Avançada de Petróleo, serão definidos como V um
+ volume arbitrário fixo em um meio poroso contendo um fluxo de compostos
+ químicos, i = 1, 2, ..., 
+\begin_inset Formula $N_{c}$
+\end_inset
+
+ como o número de componentes e j= 1, 2, ..., 
+\begin_inset Formula $N_{p}$
+\end_inset
+
+como o número de fases.
+ A área A do volume V pode ser decomposta por elementos de superfície 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+ e o vetor normal ao centro é dado por , assim, a soma dos elementos de
+ superfície corresponde a área da superfície de V.
+\end_layout
+
+\begin_layout Standard
+Para cada componente em cada fase de volume, tem-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{\text{c}}{\underbrace{\left\{ \text{Taxa de Acúmulo de i em V}\right\} }}=\underset{\text{Fluxo}}{\underbrace{\left\{ \text{Taxa de i que entra V}\right\} -\left\{ \text{Taxa de i que sai de V}\right\} }}+\underset{\text{\text{Fonte}}}{\underbrace{\left\{ \text{Taxa de i gerada em V}\right\} }}\label{eq:1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assim, pode-se definir os termos de Fluxo e o acúmulo como, respectivamente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de Transporte de i em V}\right\} =\left\{ \text{Taxa de i que entra V}\right\} -\left\{ \text{Taxa de i que sai de V}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de Acúmulo de i em V}\right\} =\frac{\partial}{\partial t}\left\{ \text{Massa total de i em V}\right\} =\frac{\partial}{\partial t}\left\{ \underset{V}{\int}W_{i}dV\right\} =\underset{V}{\int}\frac{\partial W_{i}}{\partial t}dV\label{eq:Acumulo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sendo 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+= concentração total da massa de i por unidade de volume, definido por:
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $W_{i}=\frac{m_{i}}{V}$
+\end_inset
+
+
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+O produto vetorial 
+\begin_inset Formula $\overrightarrow{n}$
+\end_inset
+
+.
+\begin_inset Formula $\overrightarrow{N_{i}}$
+\end_inset
+
+representa a componente normal do fluxo que passa pela superfície 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+, logo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de Transporte de i em \ensuremath{\Delta A}}\right\} =-\overrightarrow{n}.\overrightarrow{N_{i}}\Delta A\label{eq: taxadetransporte}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+considerando a soma dos termos infinitesimais da superfície, pode-se reescrever
+ a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: taxadetransporte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ como:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de Transporte de i em \ensuremath{\Delta A}}\right\} =-\underset{A}{\int}\overrightarrow{n}.\overrightarrow{N_{i}}\Delta A\label{eq:transporte}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:transporte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ é válida tanto para o fluxo que entra quanto para o fluxo que sai, visto
+ que é calculada em V.
+ 
+\end_layout
+
+\begin_layout Standard
+A taxa líquida de produção em V é dada por:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\left\{ \text{Taxa de Transporte de i em V}\right\} =\underset{V}{\int}R_{i}dV\label{eq:taxaliquidagerada}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+é a taxa de produção/destruição da massa de i por unidade de volume gerada
+ por uma ou mais reações químicas em V.
+\end_layout
+
+\begin_layout Standard
+Substituindo as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: taxadetransporte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:transporte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:taxaliquidagerada"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, obtêm-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{\text{\{Taxa de Acúmulo de i em V\}}}{\underset{V}{\int}\frac{\partial W_{i}}{\partial t}dV}=\underset{\{\text{Taxa de entrada e saída de i em V}\}}{-\underset{A}{\int}\overrightarrow{n}.\overrightarrow{N_{i}}\Delta A}+\underset{\{\text{Taxa de i gerada em V}\}}{\underset{V}{\int}R_{i}dV\text{ },i=1,2,...,N_{c}}\label{eq:7}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aplicando o Teorema da Divergência na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{A}{\int}\overrightarrow{n}.\overrightarrow{N_{i}}\Delta A=\underset{V}{\int}\overrightarrow{\nabla}N_{i}dV
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\underset{V}{\int}\left(\frac{\partial W_{i}}{\partial t}+\overrightarrow{\nabla}\overrightarrow{N_{i}}-R_{i}\right)dV=0\text{ },i=1,2,...,N_{c}\label{eq:7-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando o Volume (V) arbitrário, a equação da conservação do componente
+ i na sua forma diferencial reduz-se a:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial W_{i}}{\partial t}+\overrightarrow{\nabla}\overrightarrow{N_{i}}-R_{i}=0\text{ },i=1,2,...,N_{c}\label{eq:equacao_conservacao_i_em_v}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Definição de termos para o fluxo isotérmico em meios porosos
+\end_layout
+
+\begin_layout Standard
+Com o objetivo de desenvolver o estudo do fluxo multifásico em meios porosos,
+ nesta subseção, serão definidos uma série de termos para posterior uso
+ na solução de problemas deste caráter.
+\end_layout
+
+\begin_layout Standard
+Definindo a porosidade como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi=\frac{V_{p}}{V_{b}}\label{eq:porosidade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $\phi=$
+\end_inset
+
+porosidade, 
+\begin_inset Formula $V_{p}=$
+\end_inset
+
+volume poroso e 
+\begin_inset Formula $V_{b}=$
+\end_inset
+
+volume total.
+\end_layout
+
+\begin_layout Standard
+Se 
+\begin_inset Formula $S_{j}=$
+\end_inset
+
+fração do volume de poros ocupado pela fase j e 
+\begin_inset Formula $E_{j}=$
+\end_inset
+
+fração de volume da fase:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{j}=\frac{V_{j}}{V_{p}}\label{eq:saturacao_fase_j}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{j}=\frac{V_{j}}{V_{b}}\label{eq:fracao_de_volume_de_j}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:saturacao_fase_j"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:porosidade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_de_volume_de_j"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, obtêm-se o conteúdo de fluido:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{j}=\frac{S_{j}V_{p}}{\frac{V_{p}}{\phi}}=S_{j}\phi
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para a fase sólida:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E_{s}=1-\phi
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[j=1]{N_{p}}{\sum}E_{j}=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A massa específica de uma fase(
+\begin_inset Formula $\rho_{j}$
+\end_inset
+
+) é definida como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\rho_{j}=\frac{m_{j}}{V_{j}}\label{eq:massa_especifica}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_de_volume_de_j"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:massa_especifica"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+m_{j}=\rho_{j}E_{j}V_{b}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Definindo 
+\begin_inset Formula $\omega_{ij}$
+\end_inset
+
+como a massa do componente i na fase j divido pela massa total de todos
+ os componentes na mesma fase:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\omega_{ij}=\frac{m_{ij}}{m_{j}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}\omega_{ij}=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O somatório dos componentes 
+\begin_inset Formula $i$
+\end_inset
+
+ nas 
+\begin_inset Formula $N_{p}$
+\end_inset
+
+fases mais a fase estacionária definem o termo de acúmulo 
+\begin_inset Formula $W_{i}$
+\end_inset
+
+, descrito na 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:definicao-de-termos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:conservacao_global_i"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Somando os componentes i com as definições das frações mássicas (Equações
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_massica_fase"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_massica_estacionaria"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), obtêm-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}W_{i}=\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}+(1-\phi)\rho_{s}\equiv\rho(\omega_{i},P)
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Não entendi porque concluimos que a massa especifica é função de wi e P.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $\rho_{s}$
+\end_inset
+
+representa a massa específica da fase sólida.
+\end_layout
+
+\begin_layout Standard
+Se definirmos 
+\begin_inset Formula $\omega_{i}$
+\end_inset
+
+como a massa dos componentes 
+\begin_inset Formula $i$
+\end_inset
+
+ em todas as fases dividido pela massa total presente no meio, conclui-se:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula 
+\begin{equation}
+\omega_{i}=\frac{W_{i}}{\stackrel[i=1]{N_{c}}{\sum}W_{i}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O fluxo de i (
+\begin_inset Formula $\overrightarrow{N_{i}}$
+\end_inset
+
+) representa o somatório do fluxo do componente i em todas as fases, sendo
+ subdividido em um termo de convecção (determinado pela velocidade da fase
+ j superficial ) e um termo de dispersão (caracterizado pelo tensor de dispersão
+ 
+\begin_inset Formula $\overset{\rightarrow}{\overrightarrow{K}}_{ij}$
+\end_inset
+
+ ).
+\end_layout
+
+\begin_layout Standard
+O tensor de dispersão possui uma componente longitudinal e uma transversal
+ para meios homogêneos e isotrópicos definidos pelas Equações ,respectivamente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(K_{xx})_{ij}=\frac{D_{ij}}{\tau}+\frac{\alpha_{lj}u_{xj}^{2}+\alpha_{tj}(u_{yj}^{2}+u_{zj}^{2})}{\phi S_{j}|\overrightarrow{u_{j}}|}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(K_{xy})_{ij}=\frac{(\alpha_{lj}+\alpha_{tj})(u_{xj}u_{yj})}{uS_{j}|\overrightarrow{u_{j}}|}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde l= a coordenada especial na direção paralela ou longitudinal ao fluxo
+ total, t= direção perpendicular ou transversal a l, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D_{ij}$
+\end_inset
+
+= o coeficiente de difusão do componente i na fase j, 
+\begin_inset Formula $\alpha_{lj}$
+\end_inset
+
+e 
+\begin_inset Formula $\alpha_{rj}$
+\end_inset
+
+são as dispersividades longitudinal e transversal e 
+\begin_inset Formula $\tau$
+\end_inset
+
+= é o fator de tortuosidade do meio.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:definicao-de-termos"
+
+\end_inset
+
+Definição de termos para fluxo isotérmico em meios porosos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conservação dos i componentes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial W_{i}}{\partial t}+\overrightarrow{\nabla.}\overrightarrow{N_{i}}=R_{i}\label{eq:conservacao_i_componentes}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conservação global de i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+W_{i}=\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}+(1-\phi)\rho_{s}\omega_{is}\label{eq:conservacao_global_i}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fluxo de i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{N_{i}}=\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}-\phi\rho_{j}S_{j}\overset{\rightarrow}{\overrightarrow{K}}_{ij}.\overrightarrow{\nabla}\omega_{ij}\label{eq:fluxo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fonte de i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+R_{i}=\phi\stackrel[j=1]{N_{p}}{\sum}S_{j}r_{ij}+(1-\phi)r_{is}\label{eq:fonte_i}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lei de Darcy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{u_{j}}=-\lambda_{rj}\overset{\rightarrow}{\overrightarrow{k}}.(\overrightarrow{\nabla}p_{j}+\rho_{j}\overrightarrow{g})\label{eq:lei_de_darcy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mobilidade relativa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\lambda_{rj}=\lambda_{rj}(S,\omega,\overrightarrow{u_{j}},\overrightarrow{x})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pressão Capilar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+P_{cjn}(S,\omega,\overrightarrow{x})=P_{j}-P_{n}\label{eq:pressao_capilar}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fração mássica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}\omega_{ij}=1\label{eq:fracao_massica_fase}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fração mássica da fase estacionária
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}\omega_{is}=1\label{eq:fracao_massica_estacionaria}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Restrição da saturação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[j=1]{N_{p}}{\sum}S_{j}=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reação total da fase j
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}r_{ij}=0\label{eq:reacao_fase}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reação total da fase sólida
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[i=1]{N_{c}}{\sum}r_{is}=0\label{eq:reacao_estacionario}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Porosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\phi=\frac{V_{p}}{V_{b}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fração de Volume
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\stackrel[j=1]{N_{p}}{\sum}E_{j}=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Relações Auxiliares
+\end_layout
+
+\begin_layout Standard
+A Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:lei_de_darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ é uma versão da Lei de Darcy para fluxos multifásicos em meio porosos e,
+ neste formato, assume-se que o fluxo não tem escorregamento entre as fases.
+ A função potencial da velocidade superficial da fase 
+\begin_inset Formula $\overrightarrow{u_{j}}$
+\end_inset
+
+ é representada pela soma vetorial 
+\begin_inset Formula $\overrightarrow{\nabla}p_{j}+\rho_{j}\overrightarrow{g},$
+\end_inset
+
+onde 
+\begin_inset Formula $p_{j}$
+\end_inset
+
+é a pressão na fase j e 
+\begin_inset Formula $\overrightarrow{g}$
+\end_inset
+
+é o vetor gravitacional que pode ser escrito como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+g é vetor?
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{g}=-g\overrightarrow{\nabla}D_{z}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde g é o vetor de magnitude gravitacional, e 
+\begin_inset Formula $D_{z}$
+\end_inset
+
+é uma distância positiva abaixo de algum plano de referência horizontal.
+ Para um sistema de coordenadas cartesianas com uma constante de inclinação
+ com o plano de referência, 
+\begin_inset Formula $\overrightarrow{\nabla}$
+\end_inset
+
+ se torna um vetor que consiste no cosseno do ângulo de inclinação entre
+ os respectivos eixos e a vertical.
+ 
+\end_layout
+
+\begin_layout Standard
+A forma tensorial da permeabilidade
+\begin_inset Formula $\overset{\rightarrow}{\overrightarrow{k}}$
+\end_inset
+
+implica em um meio poroso anisotrópico e permeável tendo o eixo das coordenadas
+ não alinhados em relação aos eixos principais de 
+\begin_inset Formula $\overset{\rightarrow}{\overrightarrow{k}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Já a mobilidade relativa da fase j (
+\begin_inset Formula $λ_{rj})$
+\end_inset
+
+ é definida como o quociente entre a permeabilidade relativa da fase j (
+\begin_inset Formula $k_{rj})$
+\end_inset
+
+ e a viscosidade da fase j (
+\begin_inset Formula $\mu_{j})$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{rj}=\frac{k_{j}}{k}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\lambda_{rj}=\frac{k_{rj}(S,\omega,\overrightarrow{x})}{\mu_{j}(\omega,\overrightarrow{u_{j}})}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A mobilidade é uma função da tendência da fase j de molhar o meio poroso,
+ da distribuição dos poros e de todas as saturações da fase.
+ Portanto, o termo 
+\begin_inset Formula $\lambda_{rj}\overset{\rightarrow}{\overrightarrow{k}}$
+\end_inset
+
+da Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:lei_de_darcy"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ pode ser reescrita como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\lambda_{rj}\overset{\rightarrow}{\overrightarrow{k}}=\frac{\overset{\rightarrow}{\overrightarrow{k}}_{j}}{\mu_{j}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $\overset{\rightarrow}{\overrightarrow{k}}_{j}$
+\end_inset
+
+é o tensor de permeabilidade da fase.
+ 
+\end_layout
+
+\begin_layout Standard
+A pressão capilar(
+\begin_inset Formula $P_{cjn}(S,\omega,\overrightarrow{x}))$
+\end_inset
+
+ é definida como a diferença entre as pressões de duas fases que passam
+ pelo volume de controle, definida pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pressao_capilar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:reacao_fase"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:reacao_estacionario"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ representam, respectivamente, a taxa de reação do componente i na fase
+ j e a taxa de reação na fase estacionária.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Equação da Continuidade
+\end_layout
+
+\begin_layout Standard
+Substituindo os termos referentes
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ a conservação global de i, ao fluxo de i e a fonte na 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Conservação dos i componentes
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, definidos, respectivamente, pelas Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equacao_conservacao_i_em_v"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fluxo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fonte_i"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:conservacao_i_componentes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, obtêm-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}+(1-\phi)\rho_{s}\omega_{is}\right)$
+\end_inset
+
++
+\begin_inset Formula $\overrightarrow{\nabla}\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}-\phi\rho_{j}S_{j}\overset{\rightarrow}{\overrightarrow{K}}_{ij}.\overrightarrow{\nabla}\omega_{ij}\right)=$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+\phi\stackrel[j=1]{N_{p}}{\sum}S_{j}r_{ij}+(1-\phi)r_{is},\text{ i=1,...,\ensuremath{N_{c}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lembrando as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_massica_fase"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:fracao_massica_estacionaria"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ referentes a frações mássicas e as Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:reacao_fase"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:reacao_estacionario"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ referentes as reações:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\stackrel[i=1]{N_{c}}{\sum}\omega_{ij}=1\:\text{e}\:\stackrel[i=1]{N_{c}}{\sum}\omega_{is}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\stackrel[i=1]{N_{c}}{\sum}r_{ij}=0\:\stackrel[i=1]{N_{c}}{\text{e }\:\sum}r_{is}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\cancelto{1}{\omega_{ij}}+(1-\phi)\rho_{s}\cancelto{1}{\omega_{is}}\right)$
+\end_inset
+
++
+\begin_inset Formula $\overrightarrow{\nabla}\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\cancelto{1}{\omega_{ij}}\overrightarrow{u_{j}}-\cancelto{o}{\phi\rho_{j}S_{j}\overset{\rightarrow}{\overrightarrow{K}}_{ij}.\overrightarrow{\nabla}\omega_{ij}}\right)=$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+\cancelto{0}{\phi\stackrel[j=1]{N_{p}}{\sum}S_{j}r_{ij}+(1-\phi)r_{is}},\text{ i=1,...,\ensuremath{N_{c}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assim, a Equação da Continuidade é definida como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}+(1-\phi)\rho_{s}\right)+\overrightarrow{\nabla}\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\overrightarrow{u_{j}}\right)=0\label{eq:equacao_da_continuidade}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Equação do Fluxo Fracionário
+\end_layout
+
+\begin_layout Standard
+Considerando as seguintes premissas:
+\end_layout
+
+\begin_layout Itemize
+Fluxo 1D, horizontal, isotérmico;
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+T,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\phi$
+\end_inset
+
+,k e 
+\begin_inset Formula $\rho_{j}$
+\end_inset
+
+= constantes em relação ao tempo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Meio Poroso Homogêneo e Incompressível;
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\rho_{s}$
+\end_inset
+
+=0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sem reações químicas e adsorção;
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ri=0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Fases imiscíveis, incompressíveis e viscosidade constante;
+\end_layout
+
+\begin_layout Standard
+Derivando a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equacao_da_continuidade"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi\rho_{j}\frac{\partial S_{j}}{\partial t}+\rho_{j}\frac{\partial u_{j}}{\partial x}=0\label{eq:equacao_da_continuidade-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial S_{j}}{\partial t}+\frac{\partial u_{j}}{\partial x}=0\label{eq:equacao_do_fluxo_fracionario}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

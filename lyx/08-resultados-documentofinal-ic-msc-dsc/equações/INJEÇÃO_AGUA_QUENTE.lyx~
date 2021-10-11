@@ -1,0 +1,1078 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Equação de Injeção de água quente 
+\end_layout
+
+\begin_layout Standard
+Premissas:
+\end_layout
+
+\begin_layout Enumerate
+Fluxo 1D;
+\end_layout
+
+\begin_layout Enumerate
+Meio Poroso homogênio;
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Sistema Incompressível;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Sem Dispersão;
+\end_layout
+
+\begin_layout Enumerate
+Sem Adsorção;
+\end_layout
+
+\begin_layout Enumerate
+Sem gravidade;
+\end_layout
+
+\begin_layout Enumerate
+Sem efeitos capilares.
+\end_layout
+
+\begin_layout Enumerate
+Sem energia cinética;
+\end_layout
+
+\begin_layout Enumerate
+Sem Trabalho;
+\end_layout
+
+\begin_layout Enumerate
+Sem Difusão Térmica.
+\end_layout
+
+\begin_layout Standard
+Dada a equação da conservação de massa :
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial W_{i}}{\partial t}+\overrightarrow{\nabla}\cdotp\overrightarrow{N_{i}}-R_{i}=0\text{ },i=1,2,...,N_{c}\label{eq:equacao_conservacao_i_em_v}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula $\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}+\cancelto{0}{(1-\phi)\rho_{s}\omega_{is}}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}-\cancelto{0}{\phi\rho_{j}S_{j}\overset{\rightarrow}{\overrightarrow{K}}_{ij}\cdotp\overrightarrow{\nabla}\omega_{ij}}\right)=$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+\cancelto{0}{\phi\stackrel[j=1]{N_{p}}{\sum}S_{j}r_{ij}+(1-\phi)r_{is}},\text{ i=1,...,\ensuremath{N_{c}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Com isso a equação se torna : 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}\omega_{ij}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}(\rho_{j}\omega_{ij}\overrightarrow{u_{j}}\right)=0,\ \ \ \ \ \ \ \ \text{ i=1,...,\ensuremath{N_{c}}}\label{eq:conservacao_geral}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando um sistema de 2 fases, pode-se defini-lás como:
+\end_layout
+
+\begin_layout Itemize
+j= 1, aquosa;
+\end_layout
+
+\begin_layout Itemize
+j= 2, oleosa;.
+\end_layout
+
+\begin_layout Standard
+Há dois componentes presentes, que não reagem e não se misturam:
+\end_layout
+
+\begin_layout Itemize
+i = 1, água;
+\end_layout
+
+\begin_layout Itemize
+i= 2, óleo;
+\end_layout
+
+\begin_layout Standard
+Enquanto a fase oleosa apresenta apenas o componente óleo, a fase aquosa
+ apresentam somente o componente água.
+ A partir disso, podemos reescrever a Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:conservacao_geral"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ para os componentes como:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente água:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\omega_{11}+\phi\rho_{2}S_{2}\omega_{12}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\omega_{11}\overrightarrow{u_{1}}+\rho_{2}\omega_{12}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+como não há troca de massa:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\omega_{11}=1,\ \omega_{12}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+então, 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}\right)=0\label{eq:conservacao_geral-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando o fluxo unidimencional, temos: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial}{\partial t}\left(\rho_{1}S_{1}\right)+\frac{\partial}{\partial x}\left(\rho_{1}\overrightarrow{u_{1}}\right)=0\label{eq:componente agua}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Componente óleo:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\phi\rho_{1}S_{1}\omega_{21}+\phi\rho_{2}S_{2}\omega_{22}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\omega_{21}\overrightarrow{u_{1}}+\rho_{2}\omega_{22}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+como não há troca de massa:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\omega_{21}=0,\ \omega_{22}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+então, 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando o fluxo unidirecional, temos: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\phi\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\frac{\partial}{\partial x}\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:componente oleo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+onde, 
+\begin_inset Formula $\rho(P,T)\text{,}S(P,T)\text{e }\overrightarrow{u}=\frac{q}{A}=-\frac{kk_{r}}{\mu}\frac{dP}{dx}$
+\end_inset
+
+ e 
+\begin_inset Formula $\mu(P,T)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dada a equação da energia: 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:10}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Presumindo ausência 
+\series bold
+da energia cinética e potencial
+\series default
+, desconsiderando a ação da gravidade e do trabalho pressão-volume em um
+ meio poroso incompressível a equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:10"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ pode ser reescrita como:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial}{\partial t}\left(\rho U\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}H_{j}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+Na conservação da energia não se faz equações por componentes, se faz a
+ consevação total.
+ Como ,
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+como,
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
+\rho U=\phi\stackrel[j=1]{N_{p}}{\sum}\rho_{j}S_{j}U_{j}+(1-\phi)\rho_{s}U_{s}\label{eq:00}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+então:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+\frac{\partial}{\partial t}\left[\phi\left(\rho_{1}S_{1}U_{1}+\rho_{2}S_{2}U_{2}\right)+(1-\phi)\rho_{s}U_{s}\right]
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{equation}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Nós ainda negligenciamos o trabalho de pressão/volume definindo as entalpias
+ iguais às energias internas (Eq.
+ ?????) (uma boa suposição para líquidos e sólidos) e assumindo que a porosidade
+ é incompressível:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{multline*}
+\frac{\partial}{\partial t}\left[\phi\left(\rho_{1}S_{1}H_{1}+\rho_{2}S_{2}H_{2}\right)+(1-\phi)\rho_{s}H_{s}\right]
+\end{multline*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:8}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Derivando a Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, temos:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\left[\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}\right]+\left[\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})\right]+\left[\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reorganizando os termos, temos:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
++\left[\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reorganizando a equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:derivada-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e substituindo as Equações de Conservação de Massa para os componentes
+ água e óleo (Equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:componente agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:componente oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ) na Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:derivada-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline*}
++\hat{H_{1}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}}\right]+\hat{H_{2}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})+\phi\frac{\partial(\rho_{2}S_{2})}{\partial t}}\right]
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+então,
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+considerando fluxo unidimencional,
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{multline*}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\frac{\partial\hat{H_{1}}}{\partial x}+\rho_{2}\overrightarrow{u_{2}}\cdotp\frac{\partial\hat{H_{2}}}{\partial x}
+\end{multline*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+-\frac{\partial}{\partial x}\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)=0\label{eq:derivada-1-1-1-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assumimos que as entalpias são independentes da pressão, 
+\begin_inset Formula $dH_{j}=C_{pj}dT$
+\end_inset
+
+, onde 
+\begin_inset Formula $C_{pj}$
+\end_inset
+
+ é o calor específico da fase j.
+ Se o 
+\begin_inset Formula $C_{pj}$
+\end_inset
+
+ for constante, torna-se:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial t}\left[\phi\text{\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}}\right]+(\rho_{1}C_{p1}\overrightarrow{u_{1}}+\rho_{2}C_{p2}\overrightarrow{u_{2}})\frac{\partial T}{\partial x}-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fluxo Fracionário
+\end_layout
+
+\begin_layout Standard
+- fluido incompressivel ??
+\end_layout
+
+\begin_layout Standard
+Definindo a Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ em termos de uma função de fluxo fracionário,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{j}=\frac{u_{j}}{u}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As equações básicas governantes são as formas de conservação da água,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial{}_{1}}{\partial t}+\frac{u}{\phi}\frac{\partial f_{1}}{\partial x}=0.\label{eq:flux-frac}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e conservação do óleo,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial S_{2}}{\partial t}+\frac{u}{\phi}\frac{\partial f_{2}}{\partial x}=0.\label{eq:flux-frac-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+e a conservação da energia
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\frac{\partial T}{\partial t}\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]+\frac{\partial T}{\partial x}\left[u(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}\overrightarrow{f_{2}})\right]-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $u$
+\end_inset
+
+=
+\begin_inset Formula $\stackrel[i]{Np}{\sum}u_{j}$
+\end_inset
+
+.A velocidade 
+\begin_inset Formula $u$
+\end_inset
+
+ é uma função da temperatura 
+\begin_inset Formula $u(T)$
+\end_inset
+
+ e 
+\begin_inset Formula $f_{j}$
+\end_inset
+
+é uma função da saturação 
+\begin_inset Formula $f(S)$
+\end_inset
+
+, que nos permite escrever a Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ como,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial S_{j}}{\partial t}+\frac{u(S,T)}{\phi}\frac{\partial f_{j}}{\partial x}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pela Lei de Darcy( Eq.
+ )
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{wx}=k\frac{k_{rw}}{u_{w}}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{w}(S_{w},T)=-k\frac{k_{rw}(S_{w})}{u_{w}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{o}(S_{o},T)=-k\frac{k_{ro}(S_{o})}{u_{o}(T)}\frac{\partial P}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T^{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(S_{w},T)=\frac{\frac{k_{rw}}{u_{w}}}{\frac{k_{rw}}{u_{w}}+\frac{k_{ro}}{u_{o}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

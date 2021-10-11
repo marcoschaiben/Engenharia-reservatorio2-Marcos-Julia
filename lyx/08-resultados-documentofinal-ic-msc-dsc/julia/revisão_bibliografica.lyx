@@ -1,0 +1,207 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Revisão Bibliográfica
+\end_layout
+
+\begin_layout Standard
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Chiou et al.
+ (1989) descreveram em seu trabalho, o desempenho de um projeto de injeção
+ cíclica de vapor em um reservatório de óleo pesado com mergulho de 40 graus.
+ O reservatório estudado está localizado no campo de Sho-Vel-Tum, no sul
+ de Oklahoma.
+ Embora o ótimo incremento de produção obtido neste projeto piloto, os autores
+ recomendam a utilização da simulação numérica a fim de avaliar o fator
+ de recuperação utilizando outros valores de referência operacionais.
+ 
+\end_layout
+
+\begin_layout Standard
+Pascual (2001) descreveu em seu estudo a implementação e os resultados obtidos
+ no projeto piloto de injeção cíclica de vapor no campo de Los Perales na
+ Argentina.
+ O projeto piloto consistiu de quatro novos poços projetados e perfurados
+ especificamente para injeção de vapor.
+ O teste começou no ano de 1999 com 18 dias de injeção de vapor a uma vazão
+ de 820 bbl/dia, pressão de 1800 psi na cabeça do poço, temperatura de 625°F
+ e título entre 65-70%.
+ Após o período de injeção o poço ficou sete dias em soaking e foi equipado
+ para a produção.
+ Foi observado que as vazões máximas de produção de óleo e água ocorreram
+ dentro de uma a três semanas e foi constatado uma produção três vezes maior
+ do que a produção primária, alcançando uma vazão de 27 m³/dia.
+ O poço produziu aproximadamente um ano até atingir a taxa de produção primária.
+ 
+\end_layout
+
+\begin_layout Standard
+Queiroz et al.
+ (2005) realizaram um estudo de determinação da melhor cota de vapor, para
+ se ter viabilidade econômica no processo de injeção cíclica de vapor, através
+ de simulações realizadas pelo simulador STARS®.
+ A partir da construção de um modelo de reservatório analisou-se o comportamento
+ do processo para cada cota estudada.
+ Foi observado que a recuperação aumenta à medida que o número de ciclos
+ aumenta, porém o incremento entre ciclos é cada vez menor.
+ Os autores concluíram que a cota de vapor mais indicada foi a de 8000 ton/ciclo
+ limitando-se o número de ciclos em seis ciclos de injeção de vapor.
+ 
+\end_layout
+
+\begin_layout Standard
+De acordo com Mousavi Mirkalaei et al.
+ (2011) embora a injeção de vapor seja um método eficiente na recuperação
+ de óleo pesado, pode ser um processo extremamente desafiador em reservatórios
+ de óleo pesado naturalmente fraturados.
+ Os autores utilizaram um modelo térmico com dupla porosidade para representarem
+ um reservatório fraturado no Irã cuja gravidade do óleo varia entre 8 e
+ 12 °API.
+ Os resultados obtidos através da simulação apontam que mesmo em um cenário
+ crítico a injeção contínua de vapor conseguiu incrementar o fator de recuperaçã
+o em 12%.
+ Já a injeção cíclica de vapor aumentou o fator de recuperação em cerca
+ de 37%.
+ 
+\end_layout
+
+\begin_layout Standard
+KANG et al.
+ (2014) realizaram um estudo comparativo dos métodos de recuperação avançada
+ utilizados nos campos terrestres e marítimos.
+ Conforme os autores, nos campos marítimos a injeção miscível de gás natural
+ é o método mais utilizado, seguido pela injeção de polímeros.
+ Já nos campos terrestres, os métodos térmicos representam a maior parte
+ dos projetos de recuperação avançada de petróleo.
+ Os autores acrescentam que aplicações térmicas em ambientes marinhos são
+ desafiadoras devido à grande perda de calor, com possibilidade de corrosão
+ severa no sistema submarino, além do grande espaço necessário para a geração
+ de vapor na plataforma.
+ 
+\end_layout
+
+\begin_layout Standard
+Alshammari et al.
+ (2018) utilizaram em seu trabalho o simulador térmico STARS® para avaliar
+ o efeito da variação da taxa de injeção, período de soaking e período de
+ produção, visando melhorar a recuperação do óleo pesado no reservatório
+ de Ratqa-North no Kuwait.
+ As principais conclusões deste estudo foram que o período máximo de injeção
+ de sessenta dias, período mínimo de soaking de cinco dias e período mínimo
+ de produção de noventa dias são necessários para cada ciclo, a fim de maximizar
+ a recuperação e otimizar os custos.
+ Os autores acrescentaram que maiores títulos de vapor e períodos de soaking
+ mais curtos proporcionam recuperações mais altas e, que o período de injeção
+ é o fator mais influente na maximização da recuperação, pois representa
+ a quantidade de vapor entrando em contato com o óleo no reservatório, reduzindo
+ a viscosidade.
+ 
+\end_layout
+
+\begin_layout Standard
+Oliveira et al.
+ (2016) verificaram a partir do seu estudo que o método de recuperação por
+ injeção a vapor, foi eficaz na maioria dos campos da bacia do Espírito
+ Santo estudados, principalmente quando começou a ser utilizado no início
+ de sua vida produtiva.
+ No campo de Fazenda Alegre, a injeção de vapor começou apenas quando já
+ era um campo maduro e, apesar de ter boas características permoporosas,
+ o método não foi tão eficaz.
+ Esse comportamento pode ser justificado devido a este reservatório estar
+ próximo de um aquífero, fato que não foi observado nos demais campos avaliados.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Faltou baixar esse oliveira
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
