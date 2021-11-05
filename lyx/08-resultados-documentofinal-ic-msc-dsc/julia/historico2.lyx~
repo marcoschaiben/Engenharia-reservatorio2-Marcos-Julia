@@ -1,0 +1,1352 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Histórico
+\end_layout
+
+\begin_layout Standard
+A cotação mais acompanhada no mercado financeiro para o petróleo é o Brent
+ Crude Oil.
+ O Brent é um petróleo originário do Mar do Norte e pode especificado tecnicamen
+te segundo a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tabela_brent"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Assim, ao especular-se sobre o valor de um óleo pesado - elevada viscosidade
+ e densidade abaixo de 20º API, agregado de dificuldades técnicas para a
+ extração - o valor do barril no mercado internacional é menor que o petróleo
+ tipo Brent.
+ Por essa razão, em muitos casos, o reservatório é considerado comercialmente
+ inviável, surgindo a necessidade de investimentos em novas tecnologias.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+precisamos de uma classificação de petróleo por densidade para referenciar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename Imagens/tabela_brent.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tabela_brent"
+
+\end_inset
+
+Especificação Técnica do Brent (ANP)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+http://www.anp.gov.br/arquivos/royalties-outras-participacoes/preco_referencia_petr
+oleo/especificacoes-tecnicas/1a-revisao-corrente.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Existem recursos muito grandes de óleo pesado, óleo extra pesado e betume
+ cuja extensão e localização são conhecidas.
+ A Agência Internacional de Energia (IEA) estima que existam 6 trilhões
+ de barris de petróleo pesado, a mais óleo pesado e betume existentes em
+ todo o mundo, com 2,5 trilhões de barris no oeste do Canadá, 1,5 trilhões
+ de barris em Venezuela, 1 trilhão de barris na Rússia e 100 a 180 bilhões
+ de barris nos Estados Unidos (Clark, Graves, Gurfinkel, Peats, & Lopez-de-Carde
+nas, 2007).
+ 
+\end_layout
+
+\begin_layout Standard
+Recursos de óleo pesado e betume no Canadá Ocidental e os Estados Unidos
+ poderiam fornecer fontes estáveis e seguras de petróleo para os Estados
+ Unidos.
+ A maioria destes recursos estão atualmente inexplorados.
+ A Figura 
+\series bold
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:total_world_reserves"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\series default
+ mostra a fração de recursos de petróleo bruto globalmente (Alboudwarej,
+ Felix, & Taylor, Highlighting Heavy Oil, 2006)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename Imagens/oil_world_reserves.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:total_world_reserves"
+
+\end_inset
+
+Adaptado Highlighting Heavy Oil Schulumberger
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em 2011, a produção canadense de petróleo, incluindo areias convencionais
+ e areias betuminosas, é de 1,6 milhões de barris por dia, representando
+ 1,5% da produção mundial de petróleo.
+ A produção de petróleo está aumentando devido às vastas areias betuminosas
+ recursos em Alberta, embora a produção de petróleo convencional continue
+ a diminuir.
+ Canadá estima isso tem 135 anos de produção a uma taxa de 3,5 MM bbl /
+ d, sendo que possui 175 bilhões de barris de areias petrolíferas reservas,
+ de acordo com a Associação Canadense de Produtores de Petróleo (CAPP),
+ com sede em Calgary.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://lqes.iqm.unicamp.br/canal_cientifico/lqes_news/lqes_news_cit/lqes_news_2013
+/lqes_news_novidades_1708.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No Canadá, a mineração a céu aberto de areias betuminosas rasas fornece
+ aproximadamente 50% do petróleo pesado do país Produção.
+ A produção in-situ de óleo pesado com areia e a produção térmica usando
+ vapor injetado fornecem o restante da produção do Canadá.
+ O World Energy Outlook da IEA projeta que petróleo pesado e a produção
+ de betume do Canadá e da Venezuela juntos pode chegar a 6 MM bbl / d em
+ 2030.
+ (Clark, Graves, Gurfinkel, Peats, & Lopez-de-Cardenas, 2007)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename Imagens/areia_betuminosas_canada.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:areia_betuminosa_canada"
+
+\end_inset
+
+Zonas de areias betuminosas próximas da superfície no Canadá (Fonte: Colin
+ O'Connor, Greenpeace)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A China tem depósitos significativos de petróleo pesado, cerca 10 bilhões
+ de barris de volume de óleo original 
+\series bold
+in place
+\series default
+ (VOOIP) com quatro principais áreas de produção de petróleo: Liaohe Oil
+ Field, Xianjiang Oil Field, Shengli Oil Field e Henan Oil Campo.
+ A China tem muitos tipos de reservatórios de petróleo pesado, nomeadamente
+ reservatórios de camada única, multicamadas e obstrução espessa com ampla
+ faixa de viscosidade variando de 100 cP a 100.000 cP e profundidade de 200m
+ a mais de 2000m.
+ Em 1993, a produção de óleo pesado atingiu 70 milhões de barris por ano,
+ e manteve o nível por mais de 10 anos.
+ Atualmente, a recuperação de petróleo atingiu 18% (Haiyan, Shuhong, Yitang,
+ Dingmin, & Zhong, 2005).
+ Apesar de muito progresso ter sido feito, vários problemas existem no desenvolv
+imento de reservatórios de óleo pesado.
+ 
+\end_layout
+
+\begin_layout Standard
+De acordo com Queiroz (2006), no Brasil, os métodos térmicos para recuperação
+ de óleos pesados apresentam um histórico de sucesso, principalmente a injeção
+ de vapor devido à tecnologia amplamente dominada, resposta rápida ao aumento
+ de produção e outros fatores.
+ Entretanto, historicamente, foram utilizados outras categorias em projetos
+ pilotos ao longo do país.
+ 
+\end_layout
+
+\begin_layout Standard
+Conforme Shecaira et al.
+ (2002), no Brasil, a combustão in-situ foi aplicada no final da década
+ de 70 com o intuito de recuperar óleo em dois projetos pilotos com estrutura
+ de campo terrestre: Buracica e Carmópolis (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:panorama_combustao_in_situ"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ O projeto piloto de Buracica obteve os melhores índices, sendo que a injeção
+ de ar promoveu a manutenção da pressão no reservatório, favorecendo a produção
+ do óleo.
+ Por outro lado, a produção de areia, a corrosão nos poços e a manutenção
+ dos equipamentos de superfície revelaram-se como problemas operacionais.
+ Já o piloto de Carmópolis apresentou índices inferiores utilizando o processo
+ de combustão (Rosa et al.,2017).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ROSA, A.
+ J.; MACHADO, M.
+ V.
+ B.
+ Panorama da Aplicação de Métodos de Recuperação Melhorada no Brasil e no
+ Mundo.
+ Petrobras.
+ 2017.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Campos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Período de Aplicação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sucesso
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Número de Poços
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Buracica(BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1979-1986
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Poços Injetores
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carmópolis(SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1978-1991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 Poços Injetores
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:panorama_combustao_in_situ"
+
+\end_inset
+
+Panorama da aplicação do método de combustão in-situ no Brasil (Adaptado
+ Rosa et al., 2017).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em comparação a combustão in-situ, a injeção de vapor funciona com um princípio
+ diferente: ao invés de aumentar a temperatura apenas dentro do reservatório,
+ há uma injeção de fluido já com a temperatura aumentada.
+ Além disso, é considerado um método mais seguro, pois não permite riscos
+ de explosão no reservatório.
+ 
+\end_layout
+
+\begin_layout Standard
+No Brasil, projetos com injeção cíclica de vapor foram implantados com sucesso
+ já no final da década de 70 (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:panorama_injecao"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Atualmente a injeção de vapor, é amplamente aplicada em campos onshore
+ de óleos viscosos da Petrobras.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Campos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Período de Aplicação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sucesso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fazenda Alvorada (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dom João Terra (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Miranga (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carmópolis (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1978
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sirizinho (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1995
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Castanhal (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1981
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alto do Rodrigues (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1984
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estreito (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1984
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fazenda Belém (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1982
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fazenda Pocinho (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monte Alegre (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fazenda Alegre (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rio Preto Oeste (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fazenda São Jorge (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inhambu (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2005
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cancã (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Córrego Cedro Norte (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:panorama_injecao"
+
+\end_inset
+
+Panorama da aplicação do método de combustão in-situ no Brasil (Adaptado
+ Rosa et al., 2017).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O Campo de Inhambu, no Espírito Santo, é caracterizado por um óleo considerado
+ pesado, uma vez que possui um grau API em torno de 11 e altamente viscoso
+ com valores de 9447 cP e 38,9 kgf/cm2° e 38°C.
+ Nesse campo, apenas um poço apresentou produção sem a utilização de métodos
+ térmicos.
+ Entretanto, após a injeção de vapor, o pico mensal de produção de óleo
+ deste poço foi doze vezes mais elevado que o pico apresentado na produção
+ a frio (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:historico_inhambu"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Todos os demais poços receberam injeções de vapor para produzirem óleo,
+ uma vez que o método de recuperação primário do campo (gás em solução)
+ possui baixa eficiência.
+ Ou seja, a produção do campo de Inhambu está totalmente vinculada à utilização
+ de um método térmico para recuperação do óleo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename Imagens/historico_producao_inhambu.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:historico_inhambu"
+
+\end_inset
+
+Histórico de Produção do 7-IBU-15H-ES (resposta ao primeiro ciclo de vapor)
+ (Petrobras)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Chiou et al.
+ (1989) descreveram em seu trabalho, o desempenho de um projeto de injeção
+ cíclica de vapor em um reservatório de óleo pesado com mergulho de 40 graus.
+ O reservatório estudado está localizado no campo de Sho-Vel-Tum, no sul
+ de Oklahoma.
+ Embora o ótimo incremento de produção obtido neste projeto piloto, os autores
+ recomendam a utilização da simulação numérica a fim de avaliar o fator
+ de recuperação utilizando outros valores de referência operacionais.
+ 
+\end_layout
+
+\begin_layout Standard
+Pascual (2001) descreveu em seu estudo a implementação e os resultados obtidos
+ no projeto piloto de injeção cíclica de vapor no campo de Los Perales na
+ Argentina.
+ O projeto piloto consistiu de quatro novos poços projetados e perfurados
+ especificamente para injeção de vapor.
+ O teste começou no ano de 1999 com 18 dias de injeção de vapor a uma vazão
+ de 820 bbl/dia, pressão de 1800 psi na cabeça do poço, temperatura de 625°F
+ e título entre 65-70%.
+ Após o período de injeção o poço ficou sete dias em soaking e foi equipado
+ para a produção.
+ Foi observado que as vazões máximas de produção de óleo e água ocorreram
+ dentro de uma a três semanas e foi constatado uma produção três vezes maior
+ do que a produção primária, alcançando uma vazão de 27 m³/dia.
+ O poço produziu aproximadamente um ano até atingir a taxa de produção primária.
+ 
+\end_layout
+
+\begin_layout Standard
+Queiroz et al.
+ (2005) realizaram um estudo de determinação da melhor cota de vapor, para
+ se ter viabilidade econômica no processo de injeção cíclica de vapor, através
+ de simulações realizadas pelo simulador STARS®.
+ A partir da construção de um modelo de reservatório analisou-se o comportamento
+ do processo para cada cota estudada.
+ Foi observado que a recuperação aumenta à medida que o número de ciclos
+ aumenta, porém o incremento entre ciclos é cada vez menor.
+ Os autores concluíram que a cota de vapor mais indicada foi a de 8000 ton/ciclo
+ limitando-se o número de ciclos em seis ciclos de injeção de vapor.
+ 
+\end_layout
+
+\begin_layout Standard
+De acordo com Mousavi Mirkalaei et al.
+ (2011) embora a injeção de vapor seja um método eficiente na recuperação
+ de óleo pesado, pode ser um processo extremamente desafiador em reservatórios
+ de óleo pesado naturalmente fraturados.
+ Os autores utilizaram um modelo térmico com dupla porosidade para representarem
+ um reservatório fraturado no Irã cuja gravidade do óleo varia entre 8 e
+ 12 °API.
+ Os resultados obtidos através da simulação apontam que mesmo em um cenário
+ crítico a injeção contínua de vapor conseguiu incrementar o fator de recuperaçã
+o em 12%.
+ Já a injeção cíclica de vapor aumentou o fator de recuperação em cerca
+ de 37%.
+ 
+\end_layout
+
+\begin_layout Standard
+KANG et al.
+ (2014) realizaram um estudo comparativo dos métodos de recuperação avançada
+ utilizados nos campos terrestres e marítimos.
+ Conforme os autores, nos campos marítimos a injeção miscível de gás natural
+ é o método mais utilizado, seguido pela injeção de polímeros.
+ Já nos campos terrestres, os métodos térmicos representam a maior parte
+ dos projetos de recuperação avançada de petróleo.
+ Os autores acrescentam que aplicações térmicas em ambientes marinhos são
+ desafiadoras devido à grande perda de calor, com possibilidade de corrosão
+ severa no sistema submarino, além do grande espaço necessário para a geração
+ de vapor na plataforma.
+ 
+\end_layout
+
+\begin_layout Standard
+Alshammari et al.
+ (2018) utilizaram em seu trabalho o simulador térmico STARS® para avaliar
+ o efeito da variação da taxa de injeção, período de soaking e período de
+ produção, visando melhorar a recuperação do óleo pesado no reservatório
+ de Ratqa-North no Kuwait.
+ As principais conclusões deste estudo foram que o período máximo de injeção
+ de sessenta dias, período mínimo de soaking de cinco dias e período mínimo
+ de produção de noventa dias são necessários para cada ciclo, a fim de maximizar
+ a recuperação e otimizar os custos.
+ Os autores acrescentaram que maiores títulos de vapor e períodos de soaking
+ mais curtos proporcionam recuperações mais altas e, que o período de injeção
+ é o fator mais influente na maximização da recuperação, pois representa
+ a quantidade de vapor entrando em contato com o óleo no reservatório, reduzindo
+ a viscosidade.
+ 
+\end_layout
+
+\begin_layout Standard
+Oliveira et al.
+ (2016) verificaram a partir do seu estudo que o método de recuperação por
+ injeção a vapor, foi eficaz na maioria dos campos da bacia do Espírito
+ Santo estudados, principalmente quando começou a ser utilizado no início
+ de sua vida produtiva.
+ No campo de Fazenda Alegre, a injeção de vapor começou apenas quando já
+ era um campo maduro e, apesar de ter boas características permoporosas,
+ o método não foi tão eficaz.
+ Esse comportamento pode ser justificado devido a este reservatório estar
+ próximo de um aquífero, fato que não foi observado nos demais campos avaliados.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Faltou baixar esse oliveira
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

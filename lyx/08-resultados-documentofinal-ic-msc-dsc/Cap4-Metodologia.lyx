@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass extbook
+\textclass abnt
 \begin_preamble
 \usepackage {graphicx}
 \usepackage {longtable}
@@ -93,24 +93,7 @@
 \begin_body
 
 \begin_layout Chapter
-Fundamentação Teórica 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Fundamentacao Teórioca
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Fundamentaca-Teorica"
-
-\end_inset
-
-
+Fundamentação Teórica
 \end_layout
 
 \begin_layout Standard

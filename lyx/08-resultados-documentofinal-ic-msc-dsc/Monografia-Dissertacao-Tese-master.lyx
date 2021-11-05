@@ -122,7 +122,7 @@
 \begin_layout Standard
 \align block
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Não se atenha ao modelo; leia o tutorial do \SpecialChar LyX
@@ -137,7 +137,7 @@ Não se atenha ao modelo; leia o tutorial do \SpecialChar LyX
 \begin_layout Standard
 \align block
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Nota importante:
@@ -265,7 +265,7 @@ rhead{}
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Ler todas as notas!
@@ -380,7 +380,7 @@ o que já foi feito, e crítica aos trabalhos existentes destacando a necessidad
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap4-Metodologia.lyx"
+filename "Cap3-RevisaoBibliografica.lyx"
 
 \end_inset
 
@@ -402,7 +402,7 @@ todos os conceitos matemáticos, computacionais; que você vai usar e que
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap4-Metodologia.lyx"
+filename "Cap5-RevisaoDeModelos.lyx"
 
 \end_inset
 

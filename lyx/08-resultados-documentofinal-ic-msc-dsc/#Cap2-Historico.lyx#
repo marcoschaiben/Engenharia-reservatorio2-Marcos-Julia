@@ -146,27 +146,238 @@ ge-v2.en.pt
 \end_layout
 
 \begin_layout Standard
-A recuperação está no coração da produção de petróleo de reservatórios subterrân
-eos.
- Se a média mundial do fator de recuperação de reservatórios de hidrocarbonetos
- pudesse ser aumentada além dos limites atuais, isto iria aliviar uma série
- de questões relacionadas ao suprimento global de energia.
- Atualmente, a produção diária de petróleo vem de campos de petróleo maduros
- ou em maturação e a reposição de reservas não está acompanhando a crescente
- demanda por energia.
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+De acordo com o recente panorama energético publicado pela British Petroleum,
+ devido ao crescimento esperado da economia mundial e ao aumento da população
+ terrestre, prevê-se que o consumo global de energia aumente 34% entre 2014
+ e 2035 [1].
+ Os combustíveis fósseis são a principal fonte de energia do mundo, comumente
+ explorados em reservatórios de hidrocarbonetos.
+ Geralmente, uma grande parte do óleo fica presa dentro das rochas reservatório
+ após o estágio de esgotamento primário, no qual o óleo é explorado por
+ mecanismos de acionamento naturais.
+ Para acessar o máximo de recursos de petróleo, técnicas de recuperação
+ aprimorada de petróleo (EOR), como inundação de água, métodos térmicos,
+ métodos químicos e injeção de CO2 [2], são empregadas.
+ Todas essas técnicas estão tentando mover mais óleo para poços de produção
+ com diferentes mecanismos, como aumentar a pressão do reservatório e melhorar
+ a mobilidade do óleo.
+ De acordo com as estatísticas disponíveis, o petróleo pesado constitui
+ mais de 65 por cento dos recursos comprovados do mundo [3].
+ Métodos EOR térmicos têm sido amplamente empregados para melhorar a recuperação
+ de óleo pesado e são frequentemente usados de forma eficaz nesses reservatórios.
+ Esses métodos visam aumentar a energia interna do petróleo bruto por injeção
+ de calor (por exemplo, injeção de vapor quente) ou geração de calor (por
+ exemplo, combustão de petróleo) dentro do reservatório para reduzir a viscosida
+de do óleo pesado e aumentar sua mobilidade.
+ Inundação de vapor [4], inundação de água quente [5], estimulação de vapor
+ cíclico (CSS) [6], drenagem por gravidade steamassisted (SAGD) com poços
+ horizontais [7] e inundação de incêndio [8] são alguns métodos EOR térmicos
+ práticos que são comumente implementado para aumentar a quantidade de óleo
+ pesado que pode ser extraído de um campo de petróleo.
+ Por exemplo, em um projeto de inundação de água quente, a água quente é
+ injetada no reservatório por meio de alguns poços de injeção para mover
+ as quantidades de óleo aprisionadas em direção aos poços de produção.
+ O desempenho deste processo depende fortemente do volume varrido do reservatóri
+o pelo fluido injetado.
+ A heterogeneidade do reservatório, a densidade do óleo e da água injetada
+ em linha com os cenários de injeção e produção podem afetar substancialmente
+ a eficiência de varredura do projeto EOR.
+ A eficiência de varredura do projeto será reduzida se a água injetada atingir
+ os poços de produção em um curto espaço de tempo e uma grande quantidade
+ de água for produzida, ao invés de óleo, dos poços de produção.
+ Consequentemente, o controle ideal dos parâmetros de decisão dos projetos
+ EOR é crucial para acessar a maior quantidade de recursos de energia disponívei
+s no subsolo.
+ A otimização de projetos de EOR, à primeira vista, pode ser dividida em
+ dois tipos gerais [9]: 1- otimização de localizações de poços em que o
+ melhor local para perfuração de poços é estimado de forma a maximizar a
+ produção de petróleo [10, 11]; 2- otimização de controles de poços, em
+ que pela variação das taxas do poço ou de sua pressão de fundo de poço
+ (BHP), se tenta maximizar a quantidade de produção de óleo ou gás [12,
+ 13].
+ Alguns trabalhos também focaram na otimização das localizações e controles
+ de poços [14, 15].
+ PAPER 4
+\end_layout
+
+\begin_layout Plain Layout
+- REFERENCIAS:
+\end_layout
+
+\begin_layout Plain Layout
+[1] B.
+ Petroleum, Statistical review of world energy June 2016, in, 2016.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+[2] R.
+ Xu, K.
+ Zeng, C.
+ Zhang, et al., Assessing the Feasibility and CO 2 Storage Capacity of CO
+ 2 Enhanced Shale Gas Recovery Using Triple-Porosity Reservoir Model, Applied
+ Thermal Engineering, (2017).
+\end_layout
+
+\begin_layout Plain Layout
+[3] M.
+ van der Hoeven, World Energy Outlook 2013, (2013).
+\end_layout
+
+\begin_layout Plain Layout
+[4] A.
+ Shafiei, M.B.
+ Dusseault, S.
+ Zendehboudi, et al., A new screening tool for evaluation of steamflooding
+ performance in Naturally Fractured Carbonate Reservoirs, Fuel, 108 (2013)
+ 502-514.
+\end_layout
+
+\begin_layout Plain Layout
+[5] M.
+ Lv, S.
+ Wang, Pore-scale modeling of a water/oil two-phase flow in hot water flooding
+ for enhanced oil recovery, RSC Advances, 5 (2015) 85373-85382.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+A produção em campos maduros é responsável pela maior parte da produção
+ de petróleo no mundo, e a taxa de reposição de reservas por novas descobertas
+ tem diminuído continuamente nas últimas décadas (ALVARADO e MANRIQUE, 2010).
+ Portanto, o aumento do fator de recuperação em campos maduros será um fator
+ muito importante para atender à crescente demanda nos próximos anos.
+ Os métodos de recuperação melhorada, equivalentes à expressão Enhanced
+ Oil Recovery (EOR), viabilizam a produção de uma parcela dos recursos que
+ não poderiam ser produzidos pelas técnicas de recuperação convencional,
+ aumentando a fração recuperável
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Métodos térmicos de EOR têm sido amplamente empregados para melhorar a recuperaç
+ão de óleo pesado e são frequentemente usados de forma eficaz nesses reservatóri
+os.
+ Esses métodos visam aumentar a energia interna do petróleo bruto por injeção
+ de calor ou geração de calor dentro do reservatório para reduzir a viscosidade
+ do óleo pesado e aumentar sua mobilidade.
+ A heterogeneidade do reservatório, a densidade do óleo e da água injetada
+ em linha com os cenários de injeção e produção podem afetar substancialmente
+ a eficiência de varredura do projeto EOR.
+ A eficiência de varredura do projeto será reduzida se a água injetada atingir
+ os poços de produção em um curto espaço de tempo e uma grande quantidade
+ de água for produzida, ao invés de óleo, dos poços de produção.
+ Consequentemente, o controle ideal dos parâmetros de decisão dos projetos
+ EOR é crucial para acessar a maior quantidade de recursos de energia disponívei
+s no subsolo.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De acordo com o recente panorama energético publicado pela British Petroleum
+ em 2016, devido ao crescimento esperado da economia mundial e ao aumento
+ da população terrestre, prevê-se que o consumo global de energia aumente
+ 34% entre 2014 e 2035.
+ Os combustíveis fósseis são a principal fonte de energia do mundo, comumente
+ explorados em reservatórios de hidrocarbonetos.
+ Geralmente, uma grande parte do óleo fica presa dentro das rochas reservatório
+ após o estágio de esgotamento primário, no qual o óleo é explorado por
+ mecanismos naturais.
+ Para acessar o máximo de recursos de petróleo, técnicas de recuperação
+ aprimorada de petróleo (EOR), como injeção de água, métodos térmicos, métodos
+ químicos e injeção de CO2 são empregadas (C.
+ Zhang, et al., 2017).
+ Todas essas técnicas estão tentando mover mais óleo para poços de produção
+ com diferentes mecanismos, como aumentar a pressão do reservatório e melhorar
+ a mobilidade do óleo.
+ De acordo com as estatísticas disponíveis, o petróleo pesado constitui
+ mais de 65% dos recursos comprovados do mundo (World Energy, 2013).
+\end_layout
+
+\begin_layout Standard
+Os métodos de recuperação aprimorada de petróleo (IOR) abrangem métodos
+ de recuperação avançada de petróleo (EOR), bem como novas tecnologias de
+ perfuração e poços, gerenciamento e controle inteligente de reservatórios,
+ técnicas avançadas de monitoramento de reservatórios e a aplicação de diferente
+s aprimoramentos de processos de recuperação primária e secundária.
+ Com a crescente demanda pela recuperação de petróleo surge a necessidade
+ de uma constante evolução nos métodos de recuperação, principalmente devido
+ aos variados e complexos reservatórios existentes.
+ É sabido que os projetos de EOR foram fortemente influenciados pela economia
+ e pelos preços do petróleo bruto.
+ O início de projetos EOR depende da preparação e disposição dos investidores
+ para gerenciar o risco EOR e a exposição econômica e da disponibilidade
+ de opções de investimento mais atraentes (ALVARADO; MANRIQUE, 2010).
+\end_layout
+
+\begin_layout Standard
+No entanto, o objetivo deste capítulo é mostrar a evolução desses métodos
+ de uma forma geral, com ênfase na evolução dos métodos térmicos, no Brasil
+ e no mundo.
+\end_layout
+
+\begin_layout Section
+EOR - Visão Geral 
+\end_layout
+
+\begin_layout Standard
+A produção em campos maduros é responsável pela maior parte da produção
+ de petróleo no mundo, e a taxa de reposição de reservas por novas descobertas
+ tem diminuído continuamente nas últimas décadas (ALVARADO; MANRIQUE, 2010).
+ Portanto, o aumento do fator de recuperação em campos maduros será um fator
+ muito importante para atender à crescente demanda nos próximos anos.
+ Os métodos de recuperação melhorada, equivalentes à expressão Enhanced
+ Oil Recovery (EOR), viabilizam a produção de uma parcela dos recursos que
+ não poderiam ser produzidos pelas técnicas de recuperação convencional,
+ aumentando a fração recuperável.
  O fator de recuperação médio mundial de reservatórios de hidrocarbonetos
- está estagnado na faixa de 35%.
- Esse desafio se torna uma oportunidade para tecnologias avançadas de recuperaçã
-o de óleo secundária e avançada (EOR) que podem mitigar o equilíbrio entre
- demanda e oferta.
+ está estagnado na faixa de 35% (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potencial-Petrolífero-Brasileiro"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) (MARCHESINI, 2016).
+ Isso se torna um desafio pra indústria do petróleo e uma oportunidade para
+ tecnologias avançadas de recuperação de óleo secundária e avançada (EOR)
+ que podem mitigar o equilíbrio entre demanda e oferta.
  
 \end_layout
 
 \begin_layout Standard
 A implementação do EOR está intimamente ligada ao preço do petróleo e economia
  geral.
- A EOR é intensiva em capital e recursos, e caro, principalmente devido
- aos altos custos de injeção.
+ A EOR é intensiva em capital e recursos, e cara principalmente devido aos
+ altos custos de injeção.
  O 
 \begin_inset Quotes eld
 \end_inset
@@ -175,56 +386,16 @@ timing
 \begin_inset Quotes erd
 \end_inset
 
- da EOR também é importante: as tecnologias de recuperação secundária são
- uma melhor opção antes da implantação da EOR.
+ da EOR também é um fator importante: as tecnologias de recuperação secundária
+ são uma melhor opção antes da implantação da EOR.
  A realização do potencial EOR só pode ser alcançado por meio de compromissos
- à longo prazo, tanto em capital quanto em recursos humanos, uma visão de
- se esforçar para a recuperação final do petróleo em vez de recuperação
- imediata de óleo, pesquisa e desenvolvimento, e disposição para assumir
- riscos.
- Enquanto as tecnologias EOR cresceram ao longo dos anos, desafios significativo
-s permanecem.
+ à longo prazo, tanto em capital quanto em recursos humanos.
+ Para sua utilização deve-se haver uma visão de se esforçar para a recuperação
+ final do petróleo - com pesquisas, desenvolvimento e disposição para assumir
+ riscos - em vez de recuperação imediata de óleo.
+ Mesmo que as tecnologias EOR tenham crescido ao longo dos anos, desafios
+ significativos permaneceram.
  
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/7-potencial.png
-	scale 40
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Potencial Petrolífero Brasileiro e as Rodadas de Licitações da ANP.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Produção Mundial
 \end_layout
 
 \begin_layout Standard
@@ -240,30 +411,26 @@ noprefix "false"
 
 \end_inset
 
-), em comparação com ~ 85 milhões de barris de produção diária, ou cerca
- de 3,5 por cento da produção diária.
- A maior parte dessa produção é proveniente de métodos térmicos, contribuindo
- com cerca de 2 milhões de barris de petróleo por dia.
+).
+ A maior parte dessa produção é proveniente de
+\series bold
+ métodos térmicos
+\series default
+, contribuindo com cerca de 2 milhões de barris de petróleo por dia.
  Isso inclui o petróleo pesado canadense (Alberta), Califórnia (Bakersfield),
- Venezuela, Indonésia, Omã, China e outros.
- CO2- EOR, que tem aumentado recentemente, contribui com cerca de um terço
+ Venezuela, Indonésia, Omã, China entre outros.
+ O CO2- EOR, que tem aumentado recentemente, contribui com cerca de um terço
  de um milhão de barris de petróleo por dia, principalmente da Bacia do
  Permian nos EUA e do campo de Weyburn no Canadá.
  A injeção de gás hidrocarboneto contribui com outro terço de um milhão
- de barris por dia de projetos na Venezuela,os EUA (principalmente Alasca),
+ de barris por dia de projetos na Venezuela, os EUA (principalmente Alasca),
  Canadá e Líbia.
- A injeção de gás hidrocarboneto é principalmente implementada onde o fornecimen
-to de gás não pode ser monetizado.
  A produção do EOR químico é praticamente toda da China, com a produção
  mundial total de outro terço de um milhão de barris por dia.
  Outros métodos mais esotéricos, como o microbiano, só foram testados em
  campo, sem que nenhuma quantidade significativa fosse produzida em escala
  comercial.
- Esses números foram retirados da literatura da SPE, Oil and Gas Journal
- e outras fontes, e provavelmente são um pouco conservadores porque alguns
- dos projetos não são relatados, especialmente os novos.
- Uma estimativa melhor da produção total da EOR será cerca de 10-20 por
- cento mais alta do que os 3 milhões por dia citados acima.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -271,7 +438,46 @@ to de gás não pode ser monetizado.
 placement H
 wide false
 sideways false
-status open
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/7-potencial.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Potencial Petrolífero Brasileiro e as Rodadas de Licitações da ANP.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potencial-Petrolífero-Brasileiro"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -285,9 +491,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Taxas de produção EOR mundiais em 2010 (Oil & Gas Journal, SPE
 \series bold
-Taxas de produção EOR mundiais em 2010 (Oil & Gas Journal, SPE)
+)
 \series default
 
 \begin_inset CommandInset label
@@ -313,18 +519,13 @@ name "fig:Taxas-de-produção"
 
 \end_layout
 
-\begin_layout Section
-Status atual do EOR
-\end_layout
-
 \begin_layout Standard
-A média global ou fator de recuperação
-\series bold
- agregado
-\series default
- de reservatórios de petróleo é cerca de um terço.
- Isso é considerado baixo e deixa uma quantidade substancial de petróleo
- no subsolo.
+A média global ou fator de recuperação de petróleo 
+\begin_inset Formula $(\sim1/3)$
+\end_inset
+
+ é considerado baixo pois deixa uma quantidade substancial de petróleo no
+ subsolo.
  Um esforço global já está em andamento há algum tempo para aumentar esse
  número e uma das razões para o seu fracasso é a relação entre o preço do
  petróleo e disponibilidade de recursos.
@@ -343,12 +544,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-O injetante mais barato para a produção de óleo é a água.
- Enquanto as empresas puderem produzir óleo injetando água, vão continuar
- fazendor isso.
- Outros ~ 2 trilhões de barris de petróleo podem ser produzidos com o preço
- do petróleo abaixo de US$40 (2008 $) por barril.
- Muitas das tecnologias EOR entram em ação quando o preço do petróleo estava
+Muitas das tecnologias EOR entram em ação quando o preço do petróleo estava
  entre US $ 20-80 por barril.
  No início dos anos 1980, houve um grande interesse gerado na EOR devido
  à escalada do preço do petróleo.
@@ -369,7 +565,7 @@ noprefix "false"
 
  mostra esta relação entre projetos de EOR e preço do petróleo.
  Existe uma defasagem entre o preço do petróleo e Projetos EOR.
- Na última escalada de preços, o interesse estava principalmente em os EUA,
+ Na última escalada de preços, o interesse estava principalmente nos EUA,
  mas desta vez o interesse em projetos EOR é global.
  
 \end_layout
@@ -380,7 +576,7 @@ Além da ligação da EOR com o preço do petróleo, os projetos são geralmente
 nto e financeiros.
  Os riscos são agravados com as flutuações do preço do petróleo.
  Os custos unitários do óleo EOR são substancialmente mais elevados do que
- os secundários ou convencionais óleo.
+ os metodos de recuperação de óleo secundários ou convencionais.
  Outro desafio para projetos EOR é o longo tempo de espera necessários para
  tais projetos.
  Normalmente, pode demorar várias décadas desde o início do laboratório
@@ -408,25 +604,15 @@ noprefix "false"
 
 ).
  Embora tenha havido alguma discussão na literatura de aplicar ou implantar
- EOR em um estágio inicial de um reservatório vida, isso geralmente é difícil,
- e não necessariamente a melhor opção, devido aos riscos envolvidos e à
- falta de disponibilidade de dados, isso pode facilmente obtido durante
- o estágio secundário de recuperação.
+ EOR em um estágio inicial de vida de um reservatório, isso geralmente é
+ difícil, e não necessariamente a melhor opção, devido aos riscos envolvidos
+ e à falta de disponibilidade de dados, que podem ser facilmente obtidos
+ durante o estágio de recuperação secundária.
 \end_layout
 
 \begin_layout Standard
 Os dois métodos EOR mais populares, conforme discutido abaixo, são injeção
- térmica (vapor) e miscível de gás, que são tecnologias maduras
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-O QUE SÃO TECNOLOGIAS MADURAS
-\end_layout
-
-\end_inset
-
-.
+ térmica (vapor) e miscível de gás, que são tecnologias mais maduras.
  Na EOR química, a injeção de polímero está atingindo o status comercial
  (Figura 
 \begin_inset CommandInset ref
@@ -440,8 +626,8 @@ noprefix "false"
 
 ).
  A injeção de gás ácido, a combustão in-situ (incluindo a mais nova injeção
- de ar de alta pressão (HPAI)) e a combinação de inundação química ainda
- estão em estágio de desenvolvimento de tecnologia.
+ de ar de alta pressão (HPAI)) e a combinação de injeção química ainda estão
+ em estágio de desenvolvimento de tecnologia.
  Tecnologias microbianas, híbridas e outras tecnologias inovadoras estão
  em fase de P&D.
  Isso complica e restringe a aplicação de EOR para um determinado campo.
@@ -454,9 +640,10 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -499,9 +686,10 @@ name "fig:Preço-do-petróleo"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -544,9 +732,10 @@ name "fig:Projetos-EOR-e"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -588,9 +777,10 @@ name "fig:Período-da-EOR:"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -632,6 +822,7 @@ name "fig:Período-da-EOR:-1"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -674,8 +865,1389 @@ name "fig:Maturidade-e-implantação"
 
 \end_layout
 
-\begin_layout Section*
-EOR térmico 
+\begin_layout Section
+Métodos Térmicos 
+\end_layout
+
+\begin_layout Standard
+A recuperação de óleo por métodos térmicos foi iniciada em 1966, nas operações
+ da Trintopec, com um pequeno projeto piloto cíclico no campo de Palo Seco.
+ Vinte e cinco anos de recuperação térmica, compreendendo operações cíclicas
+ e de injeção, testemunharam um crescimento vigoroso e expansão dinâmica,
+ na medida em que, em 1991,a produção total de recuperação térmica é em
+ média 9100 bopd, representando 55% da produção das terras da Trintopec.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Twenty-Five Years of Oil Recovery by Steam Injection Jamaludin Khan and
+ Dhanpaul Parag, Trinidad & Tobago Petroleum Co.
+ Ltd.
+ ..
+ PAPER 1.1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das técnicas aprimoradas de recuperação de óleo disponíveis para a indústria,
+ a saber, térmicas (vapor e combustão in-situ), injeçãos miscíveis, químicas
+ e de polímero, o único método que alcançou aceitação mais ampla foi o uso
+ de vapor, ambos em ciclos cíclicos e operações do tipo injeção.
+ Não surpreendentemente, este método se manifestou como o principal impulso
+ das operações EOR na Trintopec.
+ Os principais fatores que motivam seu uso são os seguintes: 
+\end_layout
+
+\begin_layout Enumerate
+Custo-benefício, com água barata e disponível;
+\end_layout
+
+\begin_layout Enumerate
+Abundância de reservas de óleo pesado nos arredores da Trintopec;
+\end_layout
+
+\begin_layout Enumerate
+Recuperação projetada de óleo mais leve, por destilação;
+\end_layout
+
+\begin_layout Enumerate
+Sucesso comprovado do método, tanto internacionalmente quanto na Trintopec.
+ 
+\end_layout
+
+\begin_layout Standard
+De forma significativa, e esperada, o crescimento da tecnologia associada
+ nas operações térmicas da empresa acompanhou o aumento das taxas de produção
+ das operações térmicas.
+ Embora o desempenho dos esquemas térmicos da companhia seja tal que 55%
+ da produção de terra seja assim acumulada, e as perspectivas para um maior
+ aumento da produção térmica sejam encorajadoras, seria errôneo sugerir
+ que o caminho não estava repleto de dificuldades e problemas operacionais.
+ No entanto, por meio de um vigoroso e dinâmico programa de crescimento
+ e expansão, o método empregado nos esquemas de recuperação térmica, embora
+ não seja totalmente avançado, foi refinado até níveis de confiança aceitáveis.
+ A Trintopec, então, continua a manter seu status de pioneira em recuperação
+ térmica em Trinidad e Tobago.
+\end_layout
+
+\begin_layout Standard
+A recuperação térmica que foi iniciada nas operações da Trintopec em 1966
+ com um pequeno projeto piloto cíclico no campo de Palo Seco, foi composta
+ por um único gerador de vapor e quatro poços.
+ Os resultados foram tão encorajadores a ponto de estimular um crescimento
+ sem precedentes neste mecanismo de recuperação, com o resultado que seis
+ grandes injeções a vapor estiveram em vigor nas operações da empresa, em
+ todos os seus principais ramos.
+\end_layout
+
+\begin_layout Itemize
+PALO SECO
+\end_layout
+
+\begin_layout Standard
+O esquema piloto foi iniciado em 1966 com um gerador de 5,8 MM Btu/hr abastecend
+o três poços.
+ Em 1970, um gerador de 25 MM Btu / hr foi instalado para aumentar ainda
+ mais a produção de vapor com o consequente aumento na produção líquida.
+ A injeção contínua de vapor começou em maio de 1975 com dois padrões de
+ sete pontos invertidos aumentando para quatro padrões em junho de 1976.
+ O volume total de vapor injetado sob injeção contínua até 1991 foi de aproximad
+amente 45,8 MM bbls, o que rendeu uma produção cumulativa de óleo de 18,15
+ MM STB.
+ A produção do esquema é em média de cerca de 2500 bopd com corte de água
+ de cerca de 72%.
+\end_layout
+
+\begin_layout Itemize
+GUAPO
+\end_layout
+
+\begin_layout Standard
+Guapo foi o segundo campo em que a injeção de vapor foi implementada após
+ o piloto bem-sucedido em Palo Seco.
+ A injeção de vapor cíclico começou em 1969 com o início da injeção contínua
+ em 1976 com 4 padrões.
+ Em 1992, já existiam 15 padrões ativos que se estendem por uma área de
+ cerca de 1000 acres, com o vapor cumulativo injetado sendo 30,02 MM bbls
+ com rendimento de produção cumulativo de 9,42 MM STB de óleo.
+ A taxa média de produção é de aproximadamente 1500 bopd.
+\end_layout
+
+\begin_layout Itemize
+CENTRAL LOS BAJOS
+\end_layout
+
+\begin_layout Standard
+A injeção de vapor cíclico começou em 1974 e a injeção contínua começou
+ em 1977.
+ No entanto, vários problemas operacionais forçaram a redução da injeção
+ de vapor na área até 1981.
+ O vapor acumulado injetado até dezembro de 1986 foi de 16,83 MM bbls e
+ a produção acumulada foi de 8,24 MM STB de óleo.
+ A taxa de produção média é de 1700 bopd.
+\end_layout
+
+\begin_layout Itemize
+FYZABAD
+\end_layout
+
+\begin_layout Standard
+A injeção de vapor cíclico começou em North Fyzabad em 1978 e a fase de
+ injeção contínua começou no início de 1979 com quatro padrões no Forest
+ Horizon.
+ Dois padrões no horizonte de Cruse também foram iniciados no final de 1979.
+ Hoje existem dez padrões de floresta e sete padrões de Cruse cobrindo uma
+ área de cerca de 100 acres com volume de injeção de vapor cumulativo de
+ 12,91 MM bbls e óleo cumulativo produzido sendo 4,71 MM STB de óleo.
+ A produção média é de 600 bopd.
+\end_layout
+
+\begin_layout Itemize
+APEX QUARRY/COORA/QUARRY
+\end_layout
+
+\begin_layout Standard
+A injeção contínua começou em janeiro de 1981 com quatro padrões.
+ Em 1992, já existiam vinte e nove padrões abrangendo uma área total de
+ 171 acres.
+ O vapor cumulativo injetado é de 34,28 MM bbls com uma produção cumulativa
+ correspondente de 5,48 MM STB de óleo.
+ A taxa média de produção é de 1500 bopd.
+\end_layout
+
+\begin_layout Standard
+Os métodos térmicos em outras regiões foram alvo de diversas pesquisas e
+ desenvolvimentos e se tornaram necessários e com fortes tendências.
+ Na China, por exemplo, tem depósitos significativos de petróleo pesado,
+ cerca 10 bilhões de barris de volume de óleo original in place (VOOIP)
+ com quatro principais áreas de produção de petróleo: Liaohe Oil Field,
+ Xianjiang Oil Field, Shengli Oil Field e Henan Oil Campo.
+ Em 1993, a produção de óleo pesado atingiu 70 milhões de barris por ano,
+ e manteve o nível por mais de 10 anos.
+ Em 2005, a recuperação de petróleo atingiu 18% (Haiyan, Shuhong, Yitang,
+ Dingmin, & Zhong, 2005).
+ Apesar de muito progresso ter sido feito, vários problemas existem no desenvolv
+imento de reservatórios de óleo pesado.
+\end_layout
+
+\begin_layout Standard
+Na Argentina, no campo de Los Perales, Pascual (2001) descreveu em seu estudo
+ a implementação e os resultados obtidos no projeto piloto de injeção cíclica
+ de vapor.
+ O projeto piloto consistiu de quatro novos poços projetados e perfurados
+ especificamente para injeção de vapor.
+ O teste começou no ano de 1999 com 18 dias de injeção de vapor a uma vazão
+ de 820 bbl/dia, pressão de 1800 psi na cabeça do poço, temperatura de 625°F
+ e título entre 65-70%.
+ Após o período de injeção o poço ficou sete dias em 
+\begin_inset Quotes eld
+\end_inset
+
+soaking
+\begin_inset Quotes erd
+\end_inset
+
+ e foi equipado para a produção.
+ Foi observado que as vazões máximas de produção de óleo e água ocorreram
+ dentro de uma a três semanas e foi constatado uma produção três vezes maior
+ do que a produção primária, alcançando uma vazão de 27 m³/dia.
+ O poço produziu aproximadamente um ano até atingir a taxa de produção primária.
+\end_layout
+
+\begin_layout Standard
+Queiroz et al.
+ (2005) realizaram um estudo de determinação da melhor cota de vapor, para
+ se ter viabilidade econômica no processo de injeção cíclica de vapor, através
+ de simulações realizadas pelo simulador STARS®.
+ A partir da construção de um modelo de reservatório analisou-se o comportamento
+ do processo para cada cota estudada.
+ Foi observado que a recuperação aumenta à medida que o número de ciclos
+ aumenta, porém o incremento entre ciclos é cada vez menor.
+ Os autores concluíram que a cota de vapor mais indicada foi a de 8000 ton/ciclo
+ limitando-se o número de ciclos em seis ciclos de injeção de vapor.
+ 
+\end_layout
+
+\begin_layout Standard
+De acordo com Mousavi Mirkalaei et al.
+ (2011) embora a injeção de vapor seja um método eficiente na recuperação
+ de óleo pesado, pode ser um processo extremamente desafiador em reservatórios
+ de óleo pesado naturalmente fraturados.
+ Os autores utilizaram um modelo térmico com dupla porosidade para representarem
+ um reservatório fraturado no Irã cuja gravidade do óleo varia entre 8 e
+ 12 °API.
+ Os resultados obtidos através da simulação apontam que mesmo em um cenário
+ crítico a injeção contínua de vapor conseguiu incrementar o fator de recuperaçã
+o em 12%.
+ Já a injeção cíclica de vapor aumentou o fator de recuperação em cerca
+ de 37%.
+ 
+\end_layout
+
+\begin_layout Standard
+KANG et al.
+ (2014) realizaram um estudo comparativo dos métodos de recuperação avançada
+ utilizados nos campos terrestres e marítimos.
+ Conforme os autores, nos campos marítimos a injeção miscível de gás natural
+ é o método mais utilizado, seguido pela injeção de polímeros.
+ Já nos campos terrestres, os métodos térmicos representam a maior parte
+ dos projetos de recuperação avançada de petróleo.
+ Os autores acrescentam que aplicações térmicas em ambientes marinhos são
+ desafiadoras devido à grande perda de calor, com possibilidade de corrosão
+ severa no sistema submarino, além do grande espaço necessário para a geração
+ de vapor na plataforma.
+ 
+\end_layout
+
+\begin_layout Standard
+Alshammari et al.
+ (2018) utilizaram em seu trabalho o simulador térmico STARS® para avaliar
+ o efeito da variação da taxa de injeção, período de 
+\begin_inset Quotes eld
+\end_inset
+
+soaking
+\begin_inset Quotes erd
+\end_inset
+
+ e período de produção, visando melhorar a recuperação do óleo pesado no
+ reservatório de Ratqa-North no Kuwait.
+ As principais conclusões deste estudo foram que o período máximo de injeção
+ de sessenta dias, período mínimo de 
+\begin_inset Quotes eld
+\end_inset
+
+soaking
+\begin_inset Quotes erd
+\end_inset
+
+ de cinco dias e período mínimo de produção de noventa dias são necessários
+ para cada ciclo, a fim de maximizar a recuperação e otimizar os custos.
+ Os autores acrescentaram que maiores títulos de vapor e períodos de soaking
+ mais curtos proporcionam recuperações mais altas e, que o período de injeção
+ é o fator mais influente na maximização da recuperação, pois representa
+ a quantidade de vapor entrando em contato com o óleo no reservatório, reduzindo
+ a viscosidade.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+PRECISAMOS COLOCAR ALGUMAS NO ANO 2019 E 2020 SE TIVER
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+PRECISAMOS COLOCAR UM PARAGRO DE FINALIZAÇÃO : TIPO DIZENDO QUE É CONSTANTE
+ A EVOLUÇÃO DO METODO E É MUITO UTILIZADA ATE HOJE
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Métodos Termicos no Brasil
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+No Brasil, de acordo com Queiroz (2006), os métodos térmicos para recuperação
+ de óleos pesados apresentam um histórico de sucesso, principalmente a injeção
+ de vapor devido à tecnologia amplamente dominada, resposta rápida ao aumento
+ de produção e outros fatores.
+ Entretanto, historicamente, foram utilizados outras categorias em projetos
+ pilotos ao longo do país.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Conforme Shecaira et al.
+ (2002), a combustão in-situ foi aplicada no Brasil no final da década de
+ 70 com o intuito de recuperar óleo em dois projetos pilotos com estrutura
+ de campo terrestre: Buracica e Carmópolis (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:panorama_combustao_in_situ"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ O projeto piloto de Buracica obteve os melhores índices, sendo que a injeção
+ de ar promoveu a manutenção da pressão no reservatório, favorecendo a produção
+ do óleo.
+ Por outro lado, a produção de areia, a corrosão nos poços e a manutenção
+ dos equipamentos de superfície revelaram-se como problemas operacionais.
+ Já o piloto de Carmópolis apresentou índices inferiores utilizando o processo
+ de combustão (Rosa et al.,2017).
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+ROSA, A.
+ J.; MACHADO, M.
+ V.
+ B.
+ Panorama da Aplicação de Métodos de Recuperação Melhorada no Brasil e no
+ Mundo.
+ Petrobras.
+ 2017.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Campos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Período de Aplicação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Sucesso
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Número de Poços
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Buracica(BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1979-1986
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+4 Poços Injetores
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Carmópolis(SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1978-1991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Não
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+4 Poços Injetores
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:panorama_combustao_in_situ"
+
+\end_inset
+
+Panorama da aplicação do método de combustão in-situ no Brasil (Adaptado
+ Rosa et al., 2017).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Em comparação a combustão in-situ, a injeção de vapor funciona com um princípio
+ diferente: ao invés de aumentar a temperatura apenas dentro do reservatório,
+ há uma injeção de fluido já com a temperatura aumentada.
+ Além disso, é considerado um método mais seguro, pois não permite riscos
+ de explosão no reservatório.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+No Brasil, projetos com injeção cíclica de vapor foram implantados com sucesso
+ já no final da década de 70 (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:panorama_injecao"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Atualmente a injeção de vapor, é amplamente aplicada em campos onshore
+ de óleos viscosos da Petrobras.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Campos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Período de Aplicação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Sucesso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Fazenda Alvorada (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Dom João Terra (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Miranga (BA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Carmópolis (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1978
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sirizinho (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1995
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Castanhal (SE)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1981
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Alto do Rodrigues (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1984
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Estreito (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1984
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Fazenda Belém (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1982
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Fazenda Pocinho (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Monte Alegre (RN)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Fazenda Alegre (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Rio Preto Oeste (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Fazenda São Jorge (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Inhambu (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2005
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Cancã (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Córrego Cedro Norte (ES)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2002
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sim
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:panorama_injecao"
+
+\end_inset
+
+Panorama da aplicação do método de combustão in-situ no Brasil (Adaptado
+ Rosa et al., 2017).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+O Campo de Inhambu, no Espírito Santo, é caracterizado por um óleo considerado
+ pesado, uma vez que possui um grau API em torno de 11 e altamente viscoso
+ com valores de 9447 cP e 38,9 kgf/cm2° e 38°C.
+ Nesse campo, apenas um poço apresentou produção sem a utilização de métodos
+ térmicos.
+ Entretanto, após a injeção de vapor, o pico mensal de produção de óleo
+ deste poço foi doze vezes mais elevado que o pico apresentado na produção
+ a frio (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:historico_inhambu"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Todos os demais poços receberam injeções de vapor para produzirem óleo,
+ uma vez que o método de recuperação primário do campo (gás em solução)
+ possui baixa eficiência.
+ Ou seja, a produção do campo de Inhambu está totalmente vinculada à utilização
+ de um método térmico para recuperação do óleo.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename julia/Imagens/historico_producao_inhambu.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:historico_inhambu"
+
+\end_inset
+
+Histórico de Produção do 7-IBU-15H-ES (resposta ao primeiro ciclo de vapor)
+ (Petrobras)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-09-02 at 13.43.35.jpeg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Campos brasileiros já submetidos à injeção de vapor ( adaptado da Petrobras).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+rascunho
 \end_layout
 
 \begin_layout Standard
@@ -704,11 +2276,8 @@ in situ
 
 .
  O primeiro pode ser dividido em três métodos: estimulação cíclica de vapor
- (huff e puff), injeção de vapor e 
-\series bold
-drenagem gravitacional assistida por injeção de vapor
-\series default
- (SAGD).
+ (huff e puff), injeção de vapor e drenagem gravitacional assistida por
+ injeção de vapor (SAGD).
  Enquanto a combustão 
 \begin_inset Quotes eld
 \end_inset
@@ -717,7 +2286,7 @@ in situ
 \begin_inset Quotes erd
 \end_inset
 
- envolve a injeção de ar, onde o óleo é inflamado, gera calor internamente
+ envolve a injeção de gás, onde o óleo é inflamado, gera calor internamente
  e também produz gases de combustão, melhorando a recuperação.
 \end_layout
 
@@ -737,16 +2306,6 @@ in-situ
 
 , não tão populares como o injeção de vapor, foram relatadas no Canadá,
  Índia, Romênia e os EUA.
-\end_layout
-
-\begin_layout Standard
-Uma nova versão, HPAI, para óleos leves, foi ganhando popularidade nos últimos
- 10 anos especialmente em reservatórios carbonáticos de baixa permeabilidade.
- Vários projetos têm se concentrado no noroeste dos EUA e México.
- A injeção de vapor também foi testada com sucesso em reservatórios de óleo
- leve que satisfaçam certos critérios, como profundidade <3.000 pés e 
-\series bold
-(depth < 3,000 ft, oil saturation-porosity product > 0.1).
 \end_layout
 
 \begin_layout Standard
@@ -788,10 +2347,6 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-08-24 at 14.19.02.jpeg
 
@@ -802,42 +2357,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename C:/Users/Marcos Chaiben/Documents/GitHub/Engenharia-reservatorio2-Marcos-Julia/lyx/imagens/WhatsApp Image 2021-09-02 at 13.43.35.jpeg
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-PETROBRÁS
 \end_layout
 
 \end_inset

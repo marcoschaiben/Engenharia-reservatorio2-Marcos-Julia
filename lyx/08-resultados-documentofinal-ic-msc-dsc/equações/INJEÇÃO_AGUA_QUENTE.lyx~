@@ -90,20 +90,11 @@ Fluxo 1D;
 \end_layout
 
 \begin_layout Enumerate
-Meio Poroso homogênio;
+Meio Poroso homogêneo;
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Sistema Incompressível;
-\end_layout
-
-\end_inset
-
-
+Sistema Incompressível
 \end_layout
 
 \begin_layout Enumerate
@@ -115,7 +106,7 @@ Sem Adsorção;
 \end_layout
 
 \begin_layout Enumerate
-Sem gravidade;
+Sem efeitos gravitacionais;
 \end_layout
 
 \begin_layout Enumerate
@@ -123,11 +114,11 @@ Sem efeitos capilares.
 \end_layout
 
 \begin_layout Enumerate
-Sem energia cinética;
+Sem energia cinética e potencial;
 \end_layout
 
 \begin_layout Enumerate
-Sem Trabalho;
+desconsiderando Trabalho;
 \end_layout
 
 \begin_layout Enumerate
@@ -135,7 +126,7 @@ Sem Difusão Térmica.
 \end_layout
 
 \begin_layout Standard
-Dada a equação da conservação de massa :
+Dada a equação da conservação de massa:
 \end_layout
 
 \begin_layout Standard
@@ -224,22 +215,6 @@ i = 1, água;
 i= 2, óleo;
 \end_layout
 
-\begin_layout Standard
-Enquanto a fase oleosa apresenta apenas o componente óleo, a fase aquosa
- apresentam somente o componente água.
- A partir disso, podemos reescrever a Equação 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:conservacao_geral"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- para os componentes como:
-\end_layout
-
 \begin_layout Itemize
 
 \series bold
@@ -298,7 +273,7 @@ então,
 \end_layout
 
 \begin_layout Standard
-Considerando o fluxo unidimencional, temos: 
+Considerando o fluxo unidimensional, temos: 
 \end_layout
 
 \begin_layout Standard
@@ -363,7 +338,7 @@ então,
 \lang english
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2-1}
+\phi\frac{\partial}{\partial t}\left(\rho_{2}S_{2}\right)+\overrightarrow{\nabla}\cdotp\left(\rho_{2}\overrightarrow{u_{2}}\right)=0\label{eq:conservacao_geral-1-2-1}
 \end{equation}
 
 \end_inset
@@ -372,7 +347,7 @@ então,
 \end_layout
 
 \begin_layout Standard
-Considerando o fluxo unidirecional, temos: 
+Considerando o fluxo unidimensional, temos: 
 \end_layout
 
 \begin_layout Standard
@@ -391,24 +366,24 @@ Considerando o fluxo unidirecional, temos:
 \begin_layout Standard
 
 \lang english
-onde, 
-\begin_inset Formula $\rho(P,T)\text{,}S(P,T)\text{e }\overrightarrow{u}=\frac{q}{A}=-\frac{kk_{r}}{\mu}\frac{dP}{dx}$
+\begin_inset VSpace defskip
 \end_inset
 
- e 
-\begin_inset Formula $\mu(P,T)$
-\end_inset
 
-.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-\begin_inset Newpage pagebreak
+onde, 
+\begin_inset Formula $\rho(T),\overrightarrow{u}=\frac{q}{A}=-\frac{kk_{r}}{\mu}\frac{dP}{dx}$
 \end_inset
 
+ e 
+\begin_inset Formula $\mu(T)$
+\end_inset
 
+.
 \end_layout
 
 \begin_layout Standard
@@ -420,7 +395,7 @@ Dada a equação da energia:
 \lang english
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:10}
+\frac{\partial}{\partial t}\left(\rho U+\phi\rho gD_{z}+\frac{1}{2}\stackrel[j=1]{N_{p}}{\sum}\rho_{j}|\overrightarrow{u_{j}}|^{2}\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}\left[H_{j}+\frac{1}{2}|u_{j}|^{2}\right]\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0,\label{eq:10}
 \end{equation}
 
 \end_inset
@@ -429,22 +404,8 @@ Dada a equação da energia:
 \end_layout
 
 \begin_layout Standard
-Presumindo ausência 
-\series bold
-da energia cinética e potencial
-\series default
-, desconsiderando a ação da gravidade e do trabalho pressão-volume em um
- meio poroso incompressível a equação 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:10"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- pode ser reescrita como:
+aplicando as premissa apresentadas no início da seção, a equação da energia
+ pode ser reescrita da seguinte forma:
 \end_layout
 
 \begin_layout Standard
@@ -452,7 +413,7 @@ noprefix "false"
 \lang english
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial}{\partial t}\left(\rho U\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}H_{j}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
+\frac{\partial}{\partial t}\left(\rho U\right)+\overrightarrow{\nabla}\cdotp\left(\stackrel[j=1]{N_{p}}{\sum}\rho_{j}\overrightarrow{u_{j}}H_{j}\right)=0
 \end{equation}
 
 \end_inset
@@ -482,7 +443,7 @@ Na conservação da energia não se faz equações por componentes, se faz a
 \begin_layout Standard
 
 \lang english
-como,
+e como,
 \end_layout
 
 \begin_layout Standard
@@ -501,7 +462,7 @@ como,
 \begin_layout Standard
 
 \lang english
-então:
+a equação da energia pode ser reescrita como:
 \end_layout
 
 \begin_layout Standard
@@ -532,9 +493,9 @@ então:
 
 \lang english
 \begin_inset Formula 
-\begin{equation}
-+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0
-\end{equation}
+\begin{multline}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)=0
+\end{multline}
 
 \end_inset
 
@@ -544,10 +505,13 @@ então:
 \begin_layout Standard
 
 \lang english
-Nós ainda negligenciamos o trabalho de pressão/volume definindo as entalpias
- iguais às energias internas (Eq.
- ?????) (uma boa suposição para líquidos e sólidos) e assumindo que a porosidade
- é incompressível:
+Negligenciando o trabalho de pressão/volume,as entalpias serão iguais às
+ energias internas (
+\begin_inset Formula $\hat{H}=\hat{U}+\frac{p}{\rho_{j}}$
+\end_inset
+
+) (uma boa suposição para líquidos e sólidos) e assumindo volume poroso
+ incompressível: 
 \end_layout
 
 \begin_layout Standard
@@ -563,7 +527,7 @@ Nós ainda negligenciamos o trabalho de pressão/volume definindo as entalpias
 
 \begin_inset Formula 
 \begin{equation}
-+\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:8}
++\overrightarrow{\nabla}\cdotp\left(\rho_{1}\overrightarrow{u_{1}}H_{1}+\rho_{2}\overrightarrow{u_{2}}H_{2}\right)=0\label{eq:8}
 \end{equation}
 
 \end_inset
@@ -602,35 +566,10 @@ noprefix "false"
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\left[\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}\right]+\left[\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})\right]+\left[\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Reorganizando os termos, temos:
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 \begin_inset Formula 
-\begin{multline*}
-(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
-\end{multline*}
+\begin{multline}
+(1-\phi)\frac{\partial(\rho_{s}H_{s})}{\partial t}+\left[\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}\right]+\left[\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})\right]+\left[\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]=0\label{eq:energia}
+\end{multline}
 
 \end_inset
 
@@ -638,40 +577,8 @@ Reorganizando os termos, temos:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\begin{multline*}
-+\left[\hat{H_{1}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\hat{H_{1}}\frac{\partial(\rho_{1}S_{1})}{\partial t}\right]+\left[\phi\hat{H_{2}}\frac{\partial(\rho_{2}S_{2})}{\partial t}+\hat{H_{2}}\cdotp\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})\right]
-\end{multline*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
--\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Reorganizando a equação 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:derivada-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- e substituindo as Equações de Conservação de Massa para os componentes
- água e óleo (Equações 
+Reorganizando a equação e substituindo as equações de conservação de massa
+ para os componentes água e óleo (Equações 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:componente agua"
@@ -691,17 +598,17 @@ noprefix "false"
 
 \end_inset
 
- ) na Equação 
+ ) a equação 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:derivada-1"
+reference "eq:energia"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-:
+ se torna:
 \end_layout
 
 \begin_layout Standard
@@ -732,19 +639,8 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{multline*}
-+\hat{H_{1}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}}\right]+\hat{H_{2}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})+\phi\frac{\partial(\rho_{2}S_{2})}{\partial t}}\right]
++\hat{H_{1}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{1}\overrightarrow{u_{1}})+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}}\right]+\hat{H_{2}}\left[\cancelto{0}{\overset{\rightarrow}{\nabla}\cdotp(\rho_{2}\overrightarrow{u_{2}})+\phi\frac{\partial(\rho_{2}S_{2})}{\partial t}}\right]=0
 \end{multline*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
--\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1-1}
-\end{equation}
 
 \end_inset
 
@@ -772,7 +668,7 @@ então,
 \color none
 \begin_inset Formula 
 \begin{multline*}
-(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{1}}+\rho_{2}\overrightarrow{u_{2}}\cdotp\overset{\rightarrow}{\nabla}\hat{H_{2}}=0
 \end{multline*}
 
 \end_inset
@@ -781,23 +677,7 @@ então,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
--\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\overset{\rightarrow}{\nabla}T\right)=0\label{eq:derivada-1-1-1}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-considerando fluxo unidimencional,
-\end_layout
-
-\begin_layout Standard
-\align left
-
+que considerando fluxo unidimensional,
 \family roman
 \series medium
 \shape up
@@ -810,21 +690,11 @@ considerando fluxo unidimencional,
 \uwave off
 \noun off
 \color none
+ pode ser reecrita como:
 \begin_inset Formula 
 \begin{multline*}
-(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\frac{\partial\hat{H_{1}}}{\partial x}+\rho_{2}\overrightarrow{u_{2}}\cdotp\frac{\partial\hat{H_{2}}}{\partial x}
+(1-\phi)\frac{\partial(\rho_{s}\hat{H_{s}})}{\partial t}+\phi\rho_{1}S_{1}\frac{\partial\hat{H_{1}}}{\partial t}+\phi\rho_{2}S_{2}\frac{\partial\hat{H_{2}}}{\partial t}+\rho_{1}\overrightarrow{u_{1}}\cdotp\frac{\partial\hat{H_{1}}}{\partial x}+\rho_{2}\overrightarrow{u_{2}}\cdotp\frac{\partial\hat{H_{2}}}{\partial x}=0
 \end{multline*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
--\frac{\partial}{\partial x}\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)=0\label{eq:derivada-1-1-1-1}
-\end{equation}
 
 \end_inset
 
@@ -865,7 +735,7 @@ Assumimos que as entalpias são independentes da pressão,
 \color none
 \begin_inset Formula 
 \[
-\frac{\partial T}{\partial t}\left[\phi\text{\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}}\right]+(\rho_{1}C_{p1}\overrightarrow{u_{1}}+\rho_{2}C_{p2}\overrightarrow{u_{2}})\frac{\partial T}{\partial x}-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)
+\left[\phi\text{\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}}\right]\frac{\partial T}{\partial t}+(\rho_{1}C_{p1}\overrightarrow{u_{1}}+\rho_{2}C_{p2}\overrightarrow{u_{2}})\frac{\partial T}{\partial x}=0
 \]
 
 \end_inset
@@ -880,28 +750,13 @@ Fluxo Fracionário
 \end_layout
 
 \begin_layout Standard
-- fluido incompressivel ??
-\end_layout
-
-\begin_layout Standard
-Definindo a Eq.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:flux-frac"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- em termos de uma função de fluxo fracionário,
+Definindo o fluxo fracionário como:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f_{j}=\frac{u_{j}}{u}
+f_{j}=\frac{u_{j}}{u_{t}}
 \]
 
 \end_inset
@@ -910,13 +765,42 @@ f_{j}=\frac{u_{j}}{u}
 \end_layout
 
 \begin_layout Standard
-As equações básicas governantes são as formas de conservação da água,
+onde 
+\begin_inset Formula $f_{j}$
+\end_inset
+
+é o fluxo fracionário, 
+\begin_inset Formula $u_{j}$
+\end_inset
+
+a velocidade da fase e 
+\begin_inset Formula $u$
+\end_inset
+
+=
+\begin_inset Formula $\stackrel[i]{Np}{\sum}u_{j}$
+\end_inset
+
+, podemos reescrever as equações básicas governantes em termos de fluxo
+ fracionário: - conservação de massa da água (Eq ????), conservação de massa
+ do óleo (Eq.
+ ????) e conservação de energia (Eq ?????).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+nao entendi essa parte
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial{}_{1}}{\partial t}+\frac{u}{\phi}\frac{\partial f_{1}}{\partial x}=0.\label{eq:flux-frac}
+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{1})}{\partial x}=0\rightarrow\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{t}f_{1})}{\partial x}=0\label{eq:flux-frac-agua}
 \end{equation}
 
 \end_inset
@@ -925,13 +809,41 @@ As equações básicas governantes são as formas de conservação da água,
 \end_layout
 
 \begin_layout Standard
-e conservação do óleo,
+sendo 
+\begin_inset Formula $\frac{\partial u}{\partial x}=0$
+\end_inset
+
+, pois 
+\begin_inset Formula $u$
+\end_inset
+
+ só varia com o tempo (
+\begin_inset Formula $u=u(t)$
+\end_inset
+
+), a equação ?? se torna:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial S_{2}}{\partial t}+\frac{u}{\phi}\frac{\partial f_{2}}{\partial x}=0.\label{eq:flux-frac-1}
+\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{u_{t}}{\phi}\frac{\partial(\rho_{1}f_{1})}{\partial x}=0.\label{eq:flux-frac-oleo}
+\end{equation}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Seguindo os mesmo passos para a conservação de massa para o componente óleo,
+ temos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial(\rho_{2}S_{2})}{\partial t}+\frac{u_{t}}{\phi}\frac{\partial(\rho_{2}f_{2})}{\partial x}=0.\label{eq:flux-frac-1}
 \end{equation}
 
 \end_inset
@@ -940,7 +852,38 @@ e conservação do óleo,
 \end_layout
 
 \begin_layout Standard
-e a conservação da energia
+Utilizando as equações 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac-agua"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:flux-frac-oleo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ para eliminar alguns termos da equação da conservação da energia (Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:energia"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) representada em termos de fluxo fracionário: 
 \end_layout
 
 \begin_layout Standard
@@ -960,7 +903,36 @@ e a conservação da energia
 \color none
 \begin_inset Formula 
 \[
-\frac{\partial T}{\partial t}\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]+\frac{\partial T}{\partial x}\left[u(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}\overrightarrow{f_{2}})\right]-\overset{\rightarrow}{\nabla}\cdotp\left(k_{T_{t}}\frac{\partial T}{\partial x}\right)=0
+\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}f_{2})\right]\frac{\partial T}{\partial x}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ou ainda,
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left[\phi\left(M_{t_{1}}S_{1}+M_{t_{2}}S_{2}\right)+(1-\phi)M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0
 \]
 
 \end_inset
@@ -970,63 +942,41 @@ e a conservação da energia
 
 \begin_layout Standard
 onde 
-\begin_inset Formula $u$
+\begin_inset Formula $M_{T_{j}}=\rho_{j}C_{pj}$
 \end_inset
 
-=
-\begin_inset Formula $\stackrel[i]{Np}{\sum}u_{j}$
+.
+\end_layout
+
+\begin_layout Standard
+Com isso, concluem-se 3 equações:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{u}{\phi}\frac{\partial(\rho_{1}f_{1})}{\partial x}=0$
 \end_inset
 
-.A velocidade 
-\begin_inset Formula $u$
+, conservação de massa do componente água;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{\partial(\rho_{2}S_{2})}{\partial t}+\frac{u}{\phi}\frac{\partial(\rho_{2}f_{2})}{\partial x}=0.$
 \end_inset
 
- é uma função da temperatura 
-\begin_inset Formula $u(T)$
+, conservação de massa do componente óleo;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left[\phi\left(M_{t_{1}}S_{1}+M_{t_{2}}S_{2}\right)+(1-\phi)M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0$
 \end_inset
 
- e 
-\begin_inset Formula $f_{j}$
-\end_inset
-
-é uma função da saturação 
-\begin_inset Formula $f(S)$
-\end_inset
-
-, que nos permite escrever a Eq.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:flux-frac"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- como,
+, conservação da energia.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{\partial S_{j}}{\partial t}+\frac{u(S,T)}{\phi}\frac{\partial f_{j}}{\partial x}=0
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pela Lei de Darcy( Eq.
- )
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-u_{wx}=k\frac{k_{rw}}{u_{w}}\frac{\partial P}{\partial x}
+f_{1}(S_{w},T)=\frac{\frac{k_{rw}}{u_{w}}}{\frac{k_{rw}}{u_{w}}+\frac{k_{ro}}{u_{o}}}
 \]
 
 \end_inset
@@ -1048,16 +998,19 @@ u_{w}(S_{w},T)=-k\frac{k_{rw}(S_{w})}{u_{w}(T)}\frac{\partial P}{\partial x}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-u_{o}(S_{o},T)=-k\frac{k_{ro}(S_{o})}{u_{o}(T)}\frac{\partial P}{\partial x}
+u_{o}(S_{w},T)=-k\frac{k_{ro}(S_{w})}{u_{o}(T)}\frac{\partial P}{\partial x}
 \]
 
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+so sabendo a saturação da agua (Sw) jaé suficiente pois sw+s0=1,
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $T^{1}$
 \end_inset
 
 
@@ -1066,7 +1019,7 @@ u_{o}(S_{o},T)=-k\frac{k_{ro}(S_{o})}{u_{o}(T)}\frac{\partial P}{\partial x}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f(S_{w},T)=\frac{\frac{k_{rw}}{u_{w}}}{\frac{k_{rw}}{u_{w}}+\frac{k_{ro}}{u_{o}}}
+S_{w}+S_{o}=1
 \]
 
 \end_inset

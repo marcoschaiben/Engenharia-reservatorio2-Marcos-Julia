@@ -756,7 +756,7 @@ Definindo o fluxo fracionário como:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f_{j}=\frac{u_{j}}{u}
+f_{j}=\frac{u_{j}}{u_{t}}
 \]
 
 \end_inset
@@ -800,7 +800,7 @@ nao entendi essa parte
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{1})}{\partial x}=0\rightarrow\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}uf_{1})}{\partial x}=0\label{eq:flux-frac-agua}
+\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{1})}{\partial x}=0\rightarrow\phi\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{\partial(\rho_{1}u_{t}f_{1})}{\partial x}=0\label{eq:flux-frac-agua}
 \end{equation}
 
 \end_inset
@@ -827,7 +827,7 @@ sendo
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{u}{\phi}\frac{\partial(\rho_{1}f_{1})}{\partial x}=0.\label{eq:flux-frac-oleo}
+\frac{\partial(\rho_{1}S_{1})}{\partial t}+\frac{u_{t}}{\phi}\frac{\partial(\rho_{1}f_{1})}{\partial x}=0.\label{eq:flux-frac-oleo}
 \end{equation}
 
 \end_inset
@@ -843,7 +843,7 @@ Seguindo os mesmo passos para a conservação de massa para o componente óleo,
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{\partial(\rho_{2}S_{2})}{\partial t}+\frac{u}{\phi}\frac{\partial(\rho_{2}f_{2})}{\partial x}=0.\label{eq:flux-frac-1}
+\frac{\partial(\rho_{2}S_{2})}{\partial t}+\frac{u_{t}}{\phi}\frac{\partial(\rho_{2}f_{2})}{\partial x}=0.\label{eq:flux-frac-1}
 \end{equation}
 
 \end_inset
@@ -903,7 +903,7 @@ noprefix "false"
 \color none
 \begin_inset Formula 
 \[
-\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]\frac{\partial T}{\partial t}+\left[u(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}f_{2})\right]\frac{\partial T}{\partial x}=0
+\left[\phi\ensuremath{\rho_{1}S_{1}C_{P1}+\phi\text{\ensuremath{\rho_{2}S_{2}C_{P2}+(1-\phi)\rho_{s}C_{ps}}}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(\rho_{1}C_{p1}f_{1}+\rho_{2}C_{p2}f_{2})\right]\frac{\partial T}{\partial x}=0
 \]
 
 \end_inset
@@ -932,7 +932,7 @@ ou ainda,
 \color none
 \begin_inset Formula 
 \[
-\left[M_{t_{1}}S_{1}+M_{t_{2}}S_{2}+\frac{(1-\phi)}{\phi}M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0
+\left[\phi\left(M_{t_{1}}S_{1}+M_{t_{2}}S_{2}\right)+(1-\phi)M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0
 \]
 
 \end_inset
@@ -942,7 +942,7 @@ ou ainda,
 
 \begin_layout Standard
 onde 
-\begin_inset Formula $M_{T_{j}}=\phi\rho_{j}C_{pj}$
+\begin_inset Formula $M_{T_{j}}=\rho_{j}C_{pj}$
 \end_inset
 
 .
@@ -967,7 +967,7 @@ Com isso, concluem-se 3 equações:
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $\left[M_{t_{1}}S_{1}+M_{t_{2}}S_{2}+\frac{(1-\phi)}{\phi}M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0$
+\begin_inset Formula $\left[\phi\left(M_{t_{1}}S_{1}+M_{t_{2}}S_{2}\right)+(1-\phi)M_{t_{s}}\right]\frac{\partial T}{\partial t}+\left[u_{t}(M_{t_{1}}f_{1}+M_{t_{2}}f_{2})\right]\frac{\partial T}{\partial x}=0$
 \end_inset
 
 , conservação da energia.
@@ -976,7 +976,7 @@ Com isso, concluem-se 3 equações:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f_{1}(S_{w},T)=\frac{\frac{k_{rw}}{u_{w}}}{\frac{k_{rw}}{u_{w}}+\frac{k_{ro}}{u_{o}}}
+f_{1}(S_{1},T)=\frac{\frac{k_{r1}}{u_{1}}}{\frac{k_{r_{1}}}{u_{1}}+\frac{k_{r_{2}}}{u_{_{2}}}}
 \]
 
 \end_inset
@@ -987,7 +987,7 @@ f_{1}(S_{w},T)=\frac{\frac{k_{rw}}{u_{w}}}{\frac{k_{rw}}{u_{w}}+\frac{k_{ro}}{u_
 \begin_layout Standard
 \begin_inset Formula 
 \[
-u_{w}(S_{w},T)=-k\frac{k_{rw}(S_{w})}{u_{w}(T)}\frac{\partial P}{\partial x}
+u_{1}(S_{1},T)=-k\frac{k_{r_{1}}(S_{1})}{u_{1}(T)}\frac{\partial P}{\partial x}
 \]
 
 \end_inset
@@ -998,7 +998,7 @@ u_{w}(S_{w},T)=-k\frac{k_{rw}(S_{w})}{u_{w}(T)}\frac{\partial P}{\partial x}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-u_{o}(S_{w},T)=-k\frac{k_{ro}(S_{w})}{u_{o}(T)}\frac{\partial P}{\partial x}
+u_{2}(S_{2},T)=-k\frac{k_{r_{2}}(S_{2})}{u_{2}(T)}\frac{\partial P}{\partial x}
 \]
 
 \end_inset
@@ -1019,7 +1019,7 @@ so sabendo a saturação da agua (Sw) jaé suficiente pois sw+s0=1,
 \begin_layout Standard
 \begin_inset Formula 
 \[
-S_{w}+S_{o}=1
+S_{2}+S_{1}=1
 \]
 
 \end_inset

@@ -1,0 +1,332 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Produção de Óleo não-convencional
+\end_layout
+
+\begin_layout Standard
+A indústria de produção e processamento de petróleo tem visto um aumento
+ no volume de óleos crus provenientes de fontes não convencionais, que são
+ economicamente mais difíceis de extrair devido a um ou mais desafios técnicos.
+ Exemplos de produção de fontes não convencionais incluem a produção de
+ petróleo leve de rocha contendo querogênio (ou seja, óleo de xisto), produção
+ de petróleo bruto de rocha composta por espaços de poros muito pequenos
+ (ou seja, rocha compacta) e a produção de óleos com alta viscosidade e
+ alta densidade.
+ O objetivo deste capítulo é fornecer uma visão geral da produção, transporte
+ e refino de óleos crus pesados.
+ 
+\end_layout
+
+\begin_layout Standard
+Os óleos crus pesados têm uma natureza química única que dá origem a uma
+ série de desafios técnicos.
+ A mais óbvia é a alta viscosidade dos óleos crus pesados, que frequentemente
+ requerem o desenvolvimento de novas técnicas para fazer o líquido viscoso
+ fluir mais facilmente através de rochas porosas e através de oleodutos.
+ No entanto, menos óbvios são os efeitos nas operações da unidade de poço
+ de alta viscosidade e densidade próxima da água, efeitos como a separação
+ de gás, areia e água do petróleo bruto.
+ Mais a jusante, a presença de concentrações mais altas de compostos altamente
+ aromáticos requer o uso de operações unitárias adicionais, ou seja, melhoradore
+s, para converter muito do petróleo bruto pesado em compostos de hidrocarbonetos
+ mais leves e mais valiosos.
+ A presença de concentrações mais altas de enxofre, nitrogênio e metais
+ pesados em óleos crus pesados também apresenta desafios de processamento
+ na remoção desses elementos dos produtos da refinaria(Clark et al, 2007).
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+(Clark, B., Graves, G.
+ W., Gurfinkel, M.
+ E., Peats, A.
+ W., & Lopez-de-Cardenas, J.
+ E.
+ (2007).
+ Heavy Oil, Extra Heavy Oil and Bitumen.
+ The National Petroleum Council (NPC)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Natureza dos óleos pesados
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+colocar como subseção, sumiu no meu lyx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O petróleo pesado são recursos do petróleo não convencionais que são caracteriza
+dos por altas viscosidades (ou seja, resistência ao fluxo) e altas densidades
+ em comparação com o óleo convencional.
+ Tem baixo teor de hidrogênio para proporções de carbono.
+ Em outras palavras, o óleo pesado é um resíduo formado a partir do óleo
+ leve que perdeu as moléculas menores deixando para trás as pesadas (Clark,
+ Graves, Gurfinkel, Peats, & Lopez-de-Cardenas, 2007).
+\end_layout
+
+\begin_layout Standard
+Estas formas de compostos de hidrocarbonetos são caracterizadas por moléculas
+ longas e muito complexas.
+ As longas moléculas de óleo pesado conferem alto atrito interno, resultando
+ em alta viscosidade.
+ A maioria dos depósitos de óleo pesado são mais rasos.
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename C:/Users/Julia Rangel/Desktop/UENF/RESERVATÓRIO/Imagens/oleo_pesado.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Óleo-Pesado-(Fonte:"
+
+\end_inset
+
+Óleo Pesado (Fonte: Arab Oil)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://www.arab-oil-naturalgas.com/what-heavy-oil-tar-and-bitumen-mean/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Embora categorizações complexas estejam em voga, "óleos pesados" podem ser
+ definidos simplesmente em termos de suas propriedades de fluxo no reservatório,
+ por exemplo, uma viscosidade de 100-cp ou maior com grau API entre 10º
+ e 20º(Briggs et al, 2013).
+ Uma outra definição, segundo Meyer & de Witt (1990), o óleo pesado é ligeiramen
+te menos denso que a água com densidade API entre 10º e 22,3º.
+ Embora este seja a mais comum definição reconhecida, não há definições
+ precisas universalmente aceitas.
+\end_layout
+
+\begin_layout Standard
+O World Petroleum Congress (WPC) divide o petróleo bruto em cinco categorias:
+ petróleo leve, petróleo médio, petróleo pesado, petróleo extrapesado e
+ betume, conforme mostrado na Figura.
+ O óleo pesado é o óleo cuja viscosidade livre de gás está entre 100 mPas
+ e 10.000 mPa.s na temperatura do reservatório e é ligeiramente menos denso
+ que a água, com uma densidade API entre 10º e 22,3º.
+ O Óleo extrapesado é o óleo que tem a mesma faixa de viscosidade livre
+ de gás que o óleo pesado, mas é mais pesado que a água, com densidade API
+ inferior a 10 API.
+ Betume é óleo cuja viscosidade livre de gás é superior a 10.000 mPas na
+ temperatura do reservatório e é mais pesado que a água, com uma densidade
+ API inferior a 10 API.
+\end_layout
+
+\begin_layout Standard
+
+\lang brazilian
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang brazilian
+\begin_inset Graphics
+	filename C:/Users/Julia Rangel/Desktop/UENF/RESERVATÓRIO/Imagens/tabela_classificacao.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang brazilian
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tabela_classificacao"
+
+\end_inset
+
+Adaptado (Clark et al, 2007).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O óleo pesado pode fluir em algum reservatório em temperaturas de fundo
+ de poço e / ou com solução de gás in situ, mas na superfície, é um líquido
+ preto, espesso e pegajoso (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Óleo-Pesado-(Fonte:"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@article{article, author = {Briggs, Peter and Baron, P.R.
+ and Fulleylove, Richard and Wright, Mervyn}, year = {2013}, month = {04},
+ pages = {206-214}, title = {Development of Heavy-Oil Reservoirs}, volume
+ = {40}, journal = {Journal of Petroleum Technology}, doi = {10.2118/15748-PA}
+ }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

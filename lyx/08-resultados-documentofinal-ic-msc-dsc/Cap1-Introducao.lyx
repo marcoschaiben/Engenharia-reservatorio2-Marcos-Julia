@@ -134,9 +134,9 @@ name "cha:Introdução"
 \begin_layout Standard
 Durante a produção do petróleo existente nos reservatórios, é possível recuperar
 , na prática, apenas uma fração.
- A maior parte permanece dentro da jazida devido à complexidade dos reservatório
-s e aos mecanismos ainda pouco eficientes de recuperação do petróleo, aliados
- a fatores econômicos.
+ Devido à complexidade dos reservatórios e algumas limitações dos mecanismos
+ de recuperação do petróleo, aliados a fatores econômicos, a maior parte
+ deste permanece dentro da jazida.
  Entretanto, é inegável que o Brasil pode ir além, investindo em novas tecnologi
 as e na ampliação dos métodos de recuperação, visto que 1% a mais no fator
  de recuperação do Brasil gera potencialmente US$ 18 bilhões em novos investimen
@@ -151,8 +151,8 @@ Existem vários métodos de recuperação avançada de petróleo (EOR), como os
 \begin_inset Formula $CO_{2}$
 \end_inset
 
- tem ganhado destaque, em parte devido à possibilidade de sequestro, diminuindo
- assim o teor dos gases de efeito estufa na atmosfera.
+ tem ganhado destaque, devido à possibilidade de sequestro, diminuindo o
+ teor dos gases de efeito estufa na atmosfera.
  Embora o 
 \begin_inset Formula $CO_{2}$
 \end_inset
@@ -160,7 +160,7 @@ Existem vários métodos de recuperação avançada de petróleo (EOR), como os
  apresente uma versatilidade frente a uma ampla gama de reservatórios, sendo
  aplicável a óleos leves e médios leves (> 30 ° API) em reservatórios rasos
  e em baixas temperaturas, quando se trata de óleos pesados, os métodos
- térmicos são os ideias e os mais utilizados.
+ térmicos ganham destaque e são os mais utilizados.
 \end_layout
 
 \begin_layout Standard
@@ -171,36 +171,42 @@ s tem diminuído constantemente nas últimas décadas.
  Portanto, o aumento dos fatores de recuperação (FR) de campos maduros sob
  produção primária e secundária será crítica para atender à crescente demanda
  de energia nos próximos anos (VLADMIR; MANRIQUE, 2010).
- 
-\end_layout
-
-\begin_layout Standard
-As reservas totais de petróleo bruto conhecidas são de aproximadamente 9-11
- trilhões de barris (bbls) no mundo, entre os quais mais de 2/3 são de petróleo
- pesado e betume.
+ As reservas totais de petróleo bruto conhecidas são de aproximadamente
+ 9-11 trilhões de barris (bbls) no mundo, entre os quais mais de 2/3 são
+ de petróleo pesado e betume.
  O desenvolvimento efetivo desses recursos terão uma influência importante
- no suprimento mundial de energia (DONGA et al., 2019).
- O que mostra a grande importância dos métodos térmicos para recuperação
- avançada.
+ no suprimento mundial de energia (DONGA et al., 2019), que mostra a grande
+ importância dos métodos térmicos para recuperação avançada (SILVASHI M.,
+ 2017).
 \end_layout
 
 \begin_layout Standard
-Para recuperar o petróleo pesado de forma eficaz, reduzir sua viscosidade
- (
+Métodos EOR térmicos têm sido amplamente empregados para melhorar a recuperação
+ de óleo pesado e são frequentemente usados de forma eficaz nesses reservatórios.
+ Esses métodos visam aumentar a energia interna do petróleo bruto por injeção
+ de calor (por exemplo, injeção de vapor quente) ou geração de calor (por
+ exemplo, combustão de petróleo) dentro do reservatório para reduzir a viscosida
+de (
 \begin_inset Formula $\mu_{o}$
 \end_inset
 
-) e melhorar sua mobilidade (
+) do óleo pesado e aumentar sua mobilidade (
 \begin_inset Formula $k_{o}/\mu_{o}$
 \end_inset
 
-) são as principais prioridades.
- Considerando a sensibilidade do petróleo à temperatura, os métodos térmicos
+) (SILVASHI M., 2017).
+ A temperatura de injeção de água, por exemplo, pode desempenhar um importante
+ papel na recuperação geral de petróleo, especialmente em rochas de arenito
+ em que a permeabilidade relativa é uma função da temperatura e da saturação.
+\end_layout
+
+\begin_layout Standard
+Considerando a sensibilidade do petróleo à temperatura, os métodos térmicos
  vêm sendo utilizados desde meados do século XX, mais precisamente, em 1966
  com um pequeno projeto piloto nas operações de Trintopec, no campo de Palo
  Seco em Trindade e Tobago.
  Esse projeto se mostrou eficiente com 55% da produção nas terras de Trintopec
- com o uso da injeção de vapor .
+ com o uso da injeção de vapor.
  Os resultados foram tão encorajadores que estimularam um crescimento sem
  precedentes neste mecanismo de recuperação (KHAN et al.,1992).
  Até agora, ainda é o principal método de exploração de petróleo pesado
@@ -208,10 +214,8 @@ Para recuperar o petróleo pesado de forma eficaz, reduzir sua viscosidade
 \end_layout
 
 \begin_layout Standard
-Tecnologias sofisticadas foram necessárias para desenvolver economicamente
- os complexos e variados campos de petróleo.
- Várias tecnologias existentes, como injeção de água quente, injeção de
- vapor, vaporização cíclica (CSS) e processos de combustão 
+Várias tecnologias existentes, como injeção de água quente, injeção de vapor,
+ vaporização cíclica (CSS) e processos de combustão 
 \begin_inset Quotes eld
 \end_inset
 
@@ -221,27 +225,35 @@ in situ
 
 , foram aplicadas com sucesso em alguns países, como por exemplo, na Venezuela
  e na Califórnia, onde detém mais de 90% do óleo pesado e do betume do mundo.
- Mais recentemente, os avanços feitos nas tecnologias de perfuração direcional
+ Porém, tecnologias mais sofisticadas foram necessárias para desenvolver
+ economicamente os complexos e variados campos de petróleo.
+ Por exemplo, em um projeto de injeção de água quente, a água quente é injetada
+ no reservatório por meio de alguns poços de injeção para mover as quantidades
+ de óleo aprisionadas em direção aos poços de produção.
+ O desempenho deste processo depende fortemente do volume varrido do reservatóri
+o pelo fluido injetado.
+ A heterogeneidade do reservatório, a densidade do óleo e da água injetada
+ em linha com os cenários de injeção e produção podem afetar substancialmente
+ a eficiência de varredura do projeto EOR (SILVASHI M., 2017).
+ 
+\end_layout
+
+\begin_layout Standard
+Mais recentemente, os avanços feitos nas tecnologias de perfuração direcional
  e medição durante a perfuração (MWD) facilitaram o desenvolvimento de novas
  tecnologias, como drenagem por gravidade assistida por vapor (SAGD), expansão
- de SAGD de solvente (ES-SAGD) e extração de vapor de solvente (VAPEX) que
- melhoraram significativamente o contato com o reservatório do poço, as
- eficiências de varredura, as taxas de óleo produzido e reduziram os custos
- de produção (NARS, 2005).
+ de SAGD de solvente (ES-SAGD) e extração de vapor de solvente (VAPEX),
+ que melhoraram significativamente o contato com o reservatório do poço,
+ as eficiências de varredura, as taxas de óleo produzido e reduziram os
+ custos de produção (NARS, 2005).
+ 
 \end_layout
 
 \begin_layout Standard
 Nesse sentido, o objetivo do trabalho é apresentar o método térmico de EOR,
  o histórico de seu desenvolvimento, tecnologias e processos variados de
- recuperação térmica, bem como suas formulações matemáticas - equação 
-\begin_inset Quotes eld
-\end_inset
-
-Steamfloding
-\begin_inset Quotes erd
-\end_inset
-
- e equação de injeção de água quente.
+ recuperação térmica, bem como suas formulações matemáticas para o processo
+ de injeção de água quente (...).
 \end_layout
 
 \end_body

@@ -337,17 +337,6 @@ filename "Cap-Nomenclatura.lyx"
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap2-Historico.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
 filename "Cap1-Introducao.lyx"
 
 \end_inset
@@ -391,7 +380,7 @@ o que já foi feito, e crítica aos trabalhos existentes destacando a necessidad
 \align block
 \begin_inset CommandInset include
 LatexCommand include
-filename "Cap3-RevisaoDeModelos.lyx"
+filename "Cap4-Metodologia.lyx"
 
 \end_inset
 
